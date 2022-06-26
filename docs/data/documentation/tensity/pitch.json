@@ -1,0 +1,1201 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents a musical pitch, which consists of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and an octave.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity5PitchV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Pitch"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Pitch"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "Pitch"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Pitch"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/SL",
+        "doc:\/\/com.stephenbensley.Tensity\/Se",
+        "doc:\/\/com.stephenbensley.Tensity\/SE",
+        "doc:\/\/com.stephenbensley.Tensity\/SQ",
+        "doc:\/\/com.stephenbensley.Tensity\/SH",
+        "doc:\/\/com.stephenbensley.Tensity\/s12IdentifiableP",
+        "doc:\/\/com.stephenbensley.Tensity\/s8SendableP",
+        "doc:\/\/com.stephenbensley.Tensity\/Sx"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray"
+      ],
+      "title" : "View Model"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/init(_:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/init(from:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/init(id:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/description",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/frequency",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/id-4zbdu",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/octave",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/pitchClass"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/advanced(by:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/distance(to:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/hash(into:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4Freq",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/notesPerOctave",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/semitoneMultiplier"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Comparable-Implementations",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Equatable-Implementations",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Identifiable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/pitch"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/SE": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/SH": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/SL": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/SL",
+  "title" : "Swift.Comparable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/SQ": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/Se": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/Sx": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/Sx",
+  "title" : "Swift.Strideable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar": {
+  "abstract" : [
+    {
+      "text" : "This is the main entry point into the app model. It represents the guitar whose string tension is to be calculated.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Guitar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Guitar"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Guitar",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ObservedArray": {
+  "abstract" : [
+    {
+      "text" : "Wraps an array of ObservableObjects to provide a consolidated change notification when any of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the objects has changed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ObservedArray"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ObservedArray"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ObservedArray",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/observedarray"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch": {
+  "abstract" : [
+    {
+      "text" : "Represents a musical pitch, which consists of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and an octave.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Pitch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Pitch"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Pitch",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : " Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/-implementations"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/Comparable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Comparable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Comparable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/comparable-implementations"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/equatable-implementations"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/Identifiable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Identifiable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Identifiable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/identifiable-implementations"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/a4": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "a4"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity5PitchV",
+      "text" : "Pitch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "a4",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/a4"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/a4Freq": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "a4Freq"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4Freq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "a4Freq",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/a4freq"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/advanced(by:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "advanced"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "by"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity5PitchV",
+      "text" : "Pitch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/advanced(by:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "advanced(by:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/advanced(by:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/description": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/description"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/distance(to:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "distance"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "to"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity5PitchV",
+      "text" : "Pitch"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/distance(to:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "distance(to:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/distance(to:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/frequency": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "frequency"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/frequency",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "frequency",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/frequency"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/hash(into:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6HasherV",
+      "text" : "Hasher"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/hash(into:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash(into:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/hash(into:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/id-4zbdu": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/id-4zbdu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/id-4zbdu"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/init(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10PitchClassO",
+      "text" : "PitchClass"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/init(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/init(_:_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/init(from:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/init(id:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/init(id:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(id:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/init(id:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/notesPerOctave": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "notesPerOctave"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/notesPerOctave",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "notesPerOctave",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/notesperoctave"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/octave": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "octave"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/octave",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "octave",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/octave"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/pitchClass": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pitchClass"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10PitchClassO",
+      "text" : "PitchClass"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/pitchClass",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pitchClass",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/pitchclass"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/semitoneMultiplier": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "semitoneMultiplier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/semitoneMultiplier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "semitoneMultiplier",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/semitonemultiplier"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/PitchClass": {
+  "abstract" : [
+    {
+      "text" : "Represents the twelve notes in an octave.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PitchClass"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PitchClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PitchClass",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitchclass"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringCatalog": {
+  "abstract" : [
+    {
+      "text" : "Wraps ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " to provide useful and efficient query functions.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringCatalog"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringCatalog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringCatalog",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringcatalog"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
+  "abstract" : [
+    {
+      "text" : "The set of strings from which the user can choose.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringChoices"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringChoices"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringChoices",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoices"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData": {
+  "abstract" : [
+    {
+      "text" : "The  guitar string tension specifications that are loaded from the bundled JSON during app initialization.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringData",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringdata"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
+  "abstract" : [
+    {
+      "text" : "Models a guitar string that has been strung and tuned.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TunedString",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/tunedstring"
+},
+"doc://com.stephenbensley.Tensity/s12IdentifiableP": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/s8SendableP": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

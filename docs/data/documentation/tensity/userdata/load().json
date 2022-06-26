@@ -1,0 +1,220 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/UserData"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/UserData\/load()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity8UserDataV4loadACSgyFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "load"
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> `Self`"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "load()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "load"
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> `Self`"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/userdata\/load()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/UserData": {
+  "abstract" : [
+    {
+      "text" : "User settings that are persisted across app invocations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UserData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/UserData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UserData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserData",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/userdata"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/UserData/load()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "load"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> `Self`"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/UserData\/load()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "load()",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/userdata\/load()"
+}
+}
+}

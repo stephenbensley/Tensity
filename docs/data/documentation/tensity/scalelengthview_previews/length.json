@@ -1,0 +1,220 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView_Previews"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView_Previews\/length"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity24ScaleLengthView_PreviewsV6lengthSdvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "length"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "length"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "length"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/scalelengthview_previews\/length"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView_Previews": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ScaleLengthView_Previews"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView_Previews",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ScaleLengthView_Previews"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ScaleLengthView_Previews",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/scalelengthview_previews"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView_Previews/length": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "length"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView_Previews\/length",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "length",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/scalelengthview_previews\/length"
+}
+}
+}

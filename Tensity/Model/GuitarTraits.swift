@@ -1,0 +1,348 @@
+//
+// Copyright 2022 Stephen E. Bensley
+//
+// This file is licensed under the MIT License. You may obtain a copy of the
+// license at https://github.com/stephenbensley/Tensity/blob/main/LICENSE.
+//
+
+import Foundation
+
+/// A  protocol that exposes the static characteristics of a ``GuitarType``.
+protocol GuitarTraits {
+    var defaultStringCount: Int { get }
+    var validStringCounts: [Int] { get }
+
+    func stringsPerCourse(forCount stringCount: Int) -> Int
+
+    var defaultScaleLength: Double { get }
+    var validScaleLengths: ClosedRange<Double> { get }
+
+    var defaultStringType: String { get }
+
+    func defaultPitches(forCount stringCount: Int) -> [Pitch]
+    var validPitches: ClosedRange<Pitch> { get }
+
+    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString]
+}
+
+/// The ``GuitarTraits`` for an electric guitar.
+class ElectricGuitarTraits: GuitarTraits {
+    var defaultStringCount: Int {
+        6
+    }
+
+    var validStringCounts: [Int] {
+        [4, 6, 7, 12]
+    }
+
+    func stringsPerCourse(forCount stringCount: Int) -> Int {
+        (stringCount == 12) ? 2 : 1
+    }
+
+    var defaultScaleLength: Double {
+        25.5
+    }
+
+    var validScaleLengths: ClosedRange<Double> {
+        20.0...30.0
+    }
+
+    var defaultStringType: String {
+        return "NW"
+    }
+
+    func defaultPitches(forCount stringCount: Int) -> [Pitch] {
+        switch stringCount {
+        case 4:
+            return [
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.D, 3)]
+        case 6:
+            return [
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.D, 3),
+                Pitch(.A, 2),
+                Pitch(.E, 2)]
+        case 7:
+            return [
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.D, 3),
+                Pitch(.A, 2),
+                Pitch(.E, 2),
+                Pitch(.B, 1)]
+       case 12:
+            return [
+                Pitch(.E, 4),
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.G, 4),
+                Pitch(.D, 3),
+                Pitch(.D, 4),
+                Pitch(.A, 2),
+                Pitch(.A, 3),
+                Pitch(.E, 2),
+                Pitch(.E, 3)]
+        default:
+            assertionFailure("Invalid string count for electric guitar.")
+            // Middle C seems as good a default as any.
+            return Array(repeating: Pitch(.C, 4), count: stringCount)
+        }
+    }
+
+    var validPitches: ClosedRange<Pitch> {
+        Pitch(.A, 1)...Pitch(.A, 4)
+    }
+
+    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString] {
+        switch stringCount {
+        case 4:
+            return [
+                GuitarString(0.011),
+                GuitarString(0.015),
+                GuitarString(0.019),
+                GuitarString(0.028, wound: true)
+            ]
+        case 6:
+            return [
+                GuitarString(0.010),
+                GuitarString(0.013),
+                GuitarString(0.017),
+                GuitarString(0.026, wound: true),
+                GuitarString(0.036, wound: true),
+                GuitarString(0.046, wound: true)
+            ]
+        case 7:
+            return [
+                GuitarString(0.010),
+                GuitarString(0.013),
+                GuitarString(0.017),
+                GuitarString(0.026, wound: true),
+                GuitarString(0.036, wound: true),
+                GuitarString(0.046, wound: true),
+                GuitarString(0.059, wound: true)
+            ]
+        case 12:
+            return [
+                GuitarString(0.010),
+                GuitarString(0.010),
+                GuitarString(0.013),
+                GuitarString(0.013),
+                GuitarString(0.017),
+                GuitarString(0.008),
+                GuitarString(0.026, wound: true),
+                GuitarString(0.012),
+                GuitarString(0.036, wound: true),
+                GuitarString(0.018),
+                GuitarString(0.046, wound: true),
+                GuitarString(0.026, wound: true)
+            ]
+        default:
+            assertionFailure("Invalid string count for electric guitar.")
+            return Array(repeating: GuitarString(0.010), count: stringCount)
+        }
+    }
+}
+
+/// The ``GuitarTraits`` for an acoustic guitar.
+class AcousticGuitarTraits: GuitarTraits {
+    var defaultStringCount: Int {
+        6
+    }
+
+    var validStringCounts: [Int] {
+        [4, 6, 12]
+    }
+
+    func stringsPerCourse(forCount stringCount: Int) -> Int {
+        (stringCount == 12) ? 2 : 1
+    }
+
+    var defaultScaleLength: Double {
+        25.5
+    }
+
+    var validScaleLengths: ClosedRange<Double> {
+        20.0...30.0
+    }
+
+    var defaultStringType: String {
+        return "PB"
+    }
+
+    func defaultPitches(forCount stringCount: Int) -> [Pitch] {
+        switch stringCount {
+        case 4:
+            return [
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.D, 3)]
+        case 6:
+            return [
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.D, 3),
+                Pitch(.A, 2),
+                Pitch(.E, 2)]
+        case 12:
+            return [
+                Pitch(.E, 4),
+                Pitch(.E, 4),
+                Pitch(.B, 3),
+                Pitch(.B, 3),
+                Pitch(.G, 3),
+                Pitch(.G, 4),
+                Pitch(.D, 3),
+                Pitch(.D, 4),
+                Pitch(.A, 2),
+                Pitch(.A, 3),
+                Pitch(.E, 2),
+                Pitch(.E, 3)]
+        default:
+            assertionFailure("Invalid string count for acoustic guitar.")
+            // Middle C seems as good a default as any.
+            return Array(repeating: Pitch(.C, 4), count: stringCount)
+        }
+    }
+
+    var validPitches: ClosedRange<Pitch> {
+        Pitch(.A, 1)...Pitch(.A, 4)
+    }
+
+    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString] {
+        switch stringCount {
+        case 4:
+            return [
+                GuitarString(0.013),
+                GuitarString(0.017),
+                GuitarString(0.024, wound: true),
+                GuitarString(0.032, wound: true)
+            ]
+        case 6:
+            return [
+                GuitarString(0.012),
+                GuitarString(0.016),
+                GuitarString(0.024, wound: true),
+                GuitarString(0.032, wound: true),
+                GuitarString(0.042, wound: true),
+                GuitarString(0.053, wound: true)
+            ]
+        case 12:
+            return [
+                GuitarString(0.010),
+                GuitarString(0.010),
+                GuitarString(0.014),
+                GuitarString(0.014),
+                GuitarString(0.023),
+                GuitarString(0.008),
+                GuitarString(0.030, wound: true),
+                GuitarString(0.012),
+                GuitarString(0.039, wound: true),
+                GuitarString(0.018),
+                GuitarString(0.047, wound: true),
+                GuitarString(0.027, wound: true)
+            ]
+        default:
+            assertionFailure("Invalid string count for acoustic guitar.")
+            return Array(repeating: GuitarString(0.012), count: stringCount)
+        }
+    }
+}
+
+/// The ``GuitarTraits`` for a bass guitar.
+class BassGuitarTraits: GuitarTraits {
+    var defaultStringCount: Int {
+        4
+    }
+
+    var validStringCounts: [Int] {
+        [4, 5]
+    }
+
+    func stringsPerCourse(forCount stringCount: Int) -> Int {
+        1
+    }
+
+    var defaultScaleLength: Double {
+        34.0
+    }
+
+    var validScaleLengths: ClosedRange<Double> {
+        30.0...40.0
+    }
+
+    var defaultStringType: String {
+        return "XLB"
+    }
+
+    func defaultPitches(forCount stringCount: Int) -> [Pitch] {
+        switch stringCount {
+        case 4:
+            return [
+                Pitch(.G, 2),
+                Pitch(.D, 2),
+                Pitch(.A, 1),
+                Pitch(.E, 1)]
+        case 5:
+            return [
+                Pitch(.G, 2),
+                Pitch(.D, 2),
+                Pitch(.A, 1),
+                Pitch(.E, 1),
+                Pitch(.B, 0)]
+        default:
+            assertionFailure("Invalid string count for electric guitar.")
+            // Middle C seems as good a default as any.
+            return Array(repeating: Pitch(.C, 4), count: stringCount)
+        }
+    }
+
+    var validPitches: ClosedRange<Pitch> {
+        Pitch(.A, 0)...Pitch(.A, 3)
+    }
+
+    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString] {
+        switch stringCount {
+        case 4:
+            return [
+                GuitarString(0.045, wound: true),
+                GuitarString(0.065, wound: true),
+                GuitarString(0.085, wound: true),
+                GuitarString(0.105, wound: true)
+            ]
+        case 5:
+            return [
+                GuitarString(0.045, wound: true),
+                GuitarString(0.065, wound: true),
+                GuitarString(0.085, wound: true),
+                GuitarString(0.105, wound: true),
+                GuitarString(0.135, wound: true)
+            ]
+        default:
+            assertionFailure("Invalid string count for electric guitar.")
+            return Array(repeating: GuitarString(0.010), count: stringCount)
+        }
+    }
+}
+
+extension GuitarType {
+    var traits: GuitarTraits {
+        switch self {
+        case .electric:
+            return ElectricGuitarTraits()
+        case .acoustic:
+            return AcousticGuitarTraits()
+        case .bass:
+            return BassGuitarTraits()
+        }
+    }
+}

@@ -1,0 +1,254 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/string"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity11TunedStringC6stringAA06GuitarC0Cvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "string"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7Tensity12GuitarStringC",
+        "text" : "GuitarString"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "string"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "string"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7Tensity12GuitarStringC",
+              "text" : "GuitarString"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/tunedstring\/string"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
+  "abstract" : [
+    {
+      "text" : "A guitar string being modeled.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GuitarString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GuitarString"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GuitarString",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitarstring"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
+  "abstract" : [
+    {
+      "text" : "Models a guitar string that has been strung and tuned.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TunedString",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/tunedstring"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/string": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
+      "text" : "GuitarString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/string",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/tunedstring\/string"
+}
+}
+}

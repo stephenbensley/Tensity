@@ -1,0 +1,363 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Comparable.>=(_:_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Comparable-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/_=(_:_:)-5bjyi"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Swift",
+    "externalID" : "s:SLsE2geoiySbx_xtFZ::SYNTHESIZED::s:7Tensity5PitchV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : ">="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Operator",
+    "symbolKind" : "op",
+    "title" : ">=(_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : ">="
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "lhs"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "rhs"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/pitch\/_=(_:_:)-5bjyi"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch": {
+  "abstract" : [
+    {
+      "text" : "Represents a musical pitch, which consists of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and an octave.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Pitch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Pitch"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Pitch",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/Comparable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Comparable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Comparable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/comparable-implementations"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/_=(_:_:)-5bjyi": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : ">="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/_=(_:_:)-5bjyi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : ">=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch\/_=(_:_:)-5bjyi"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/PitchClass": {
+  "abstract" : [
+    {
+      "text" : "Represents the twelve notes in an octave.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PitchClass"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PitchClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PitchClass",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitchclass"
+}
+}
+}

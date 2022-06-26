@@ -1,0 +1,959 @@
+{
+  "abstract" : [
+    {
+      "text" : "This is the main entry point into the app model. It represents the guitar whose string tension is to be calculated.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity6GuitarC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Guitar"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Guitar"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "Guitar"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Guitar"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/7Combine16ObservableObjectP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray"
+      ],
+      "title" : "View Model"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/guitarType",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/scaleLength",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/stringCount",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/stringType",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/tunedStrings",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validGuitarTypes",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validPitches",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validScaleLengths",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validStringCounts",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validStringTypes",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validStrings"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/save()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/ObservableObject-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/guitar"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar": {
+  "abstract" : [
+    {
+      "text" : "This is the main entry point into the app model. It represents the guitar whose string tension is to be calculated.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Guitar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Guitar"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Guitar",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/ObservableObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/ObservableObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ObservableObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/observableobject-implementations"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/guitarType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "guitarType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10GuitarTypeO",
+      "text" : "GuitarType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/guitarType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "guitarType",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/guitartype"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/init()"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/save()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "save"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/save()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "save()",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/save()"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/scaleLength": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scaleLength"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/scaleLength",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scaleLength",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/scalelength"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/stringCount": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stringCount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/stringCount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stringCount",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/stringcount"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/stringType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stringType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10StringTypeC",
+      "text" : "StringType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/stringType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stringType",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/stringtype"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/tunedStrings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tunedStrings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity11TunedStringC",
+      "text" : "TunedString"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/tunedStrings",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tunedStrings",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/tunedstrings"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/validGuitarTypes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validGuitarTypes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10GuitarTypeO",
+      "text" : "GuitarType"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validGuitarTypes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validGuitarTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/validguitartypes"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/validPitches": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validPitches"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SN",
+      "text" : "ClosedRange"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity5PitchV",
+      "text" : "Pitch"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validPitches",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validPitches",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/validpitches"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/validScaleLengths": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validScaleLengths"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SN",
+      "text" : "ClosedRange"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validScaleLengths",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validScaleLengths",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/validscalelengths"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/validStringCounts": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validStringCounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validStringCounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validStringCounts",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/validstringcounts"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/validStringTypes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validStringTypes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10StringTypeC",
+      "text" : "StringType"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validStringTypes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validStringTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/validstringtypes"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar/validStrings": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validStrings"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity13StringChoicesC",
+      "text" : "StringChoices"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar\/validStrings",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validStrings",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitar\/validstrings"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ObservedArray": {
+  "abstract" : [
+    {
+      "text" : "Wraps an array of ObservableObjects to provide a consolidated change notification when any of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the objects has changed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ObservedArray"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ObservedArray"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ObservedArray",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/observedarray"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch": {
+  "abstract" : [
+    {
+      "text" : "Represents a musical pitch, which consists of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and an octave.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Pitch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Pitch"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Pitch",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitch"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/PitchClass": {
+  "abstract" : [
+    {
+      "text" : "Represents the twelve notes in an octave.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PitchClass"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PitchClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PitchClass",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pitchclass"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringCatalog": {
+  "abstract" : [
+    {
+      "text" : "Wraps ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " to provide useful and efficient query functions.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringCatalog"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringCatalog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringCatalog",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringcatalog"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
+  "abstract" : [
+    {
+      "text" : "The set of strings from which the user can choose.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringChoices"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringChoices"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringChoices",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoices"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData": {
+  "abstract" : [
+    {
+      "text" : "The  guitar string tension specifications that are loaded from the bundled JSON during app initialization.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringData",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringdata"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
+  "abstract" : [
+    {
+      "text" : "Models a guitar string that has been strung and tuned.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TunedString",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/tunedstring"
+}
+}
+}

@@ -1,0 +1,112 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "Article",
+    "title" : "Common Tasks"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Design-Walkthrough",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Future-Work"
+      ],
+      "title" : "Getting Started"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/common-tasks"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Design-Walkthrough": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Design-Walkthrough",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Design Walkthrough",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/design-walkthrough"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Future-Work": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Future-Work",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Future Work",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/future-work"
+}
+}
+}

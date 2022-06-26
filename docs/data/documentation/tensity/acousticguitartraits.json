@@ -1,0 +1,797 @@
+{
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " for an acoustic guitar.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity20AcousticGuitarTraitsC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AcousticGuitarTraits"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AcousticGuitarTraits"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "AcousticGuitarTraits"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AcousticGuitarTraits"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ElectricGuitarTraits",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/BassGuitarTraits"
+      ],
+      "title" : "Instrument Definition"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultScaleLength",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultStringCount",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultStringType",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/validPitches",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/validScaleLengths",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/validStringCounts"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultPitches(forCount:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultStringGauges(forCount:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/stringsPerCourse(forCount:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/acousticguitartraits"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " for an acoustic guitar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AcousticGuitarTraits"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AcousticGuitarTraits"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AcousticGuitarTraits",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/defaultPitches(forCount:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultPitches"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forCount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity5PitchV",
+      "text" : "Pitch"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultPitches(forCount:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultPitches(forCount:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/defaultpitches(forcount:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/defaultScaleLength": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultScaleLength"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultScaleLength",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultScaleLength",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/defaultscalelength"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/defaultStringCount": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultStringCount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultStringCount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultStringCount",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/defaultstringcount"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/defaultStringGauges(forCount:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultStringGauges"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forCount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
+      "text" : "GuitarString"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultStringGauges(forCount:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultStringGauges(forCount:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/defaultstringgauges(forcount:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/defaultStringType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultStringType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/defaultStringType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultStringType",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/defaultstringtype"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/init()"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/stringsPerCourse(forCount:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stringsPerCourse"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forCount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/stringsPerCourse(forCount:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stringsPerCourse(forCount:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/stringspercourse(forcount:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/validPitches": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validPitches"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SN",
+      "text" : "ClosedRange"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity5PitchV",
+      "text" : "Pitch"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/validPitches",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validPitches",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/validpitches"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/validScaleLengths": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validScaleLengths"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SN",
+      "text" : "ClosedRange"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/validScaleLengths",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validScaleLengths",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/validscalelengths"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AcousticGuitarTraits/validStringCounts": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validStringCounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AcousticGuitarTraits\/validStringCounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validStringCounts",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/acousticguitartraits\/validstringcounts"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/BassGuitarTraits": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " for a bass guitar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BassGuitarTraits"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/BassGuitarTraits",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BassGuitarTraits"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BassGuitarTraits",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/bassguitartraits"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ElectricGuitarTraits": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " for an electric guitar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ElectricGuitarTraits"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ElectricGuitarTraits",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ElectricGuitarTraits"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ElectricGuitarTraits",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/electricguitartraits"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarTraits": {
+  "abstract" : [
+    {
+      "text" : "A  protocol that exposes the static characteristics of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarType",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GuitarTraits"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarTraits",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GuitarTraits"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GuitarTraits",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitartraits"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarType": {
+  "abstract" : [
+    {
+      "text" : "The type of guitar being modeled.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GuitarType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GuitarType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GuitarType",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/guitartype"
+}
+}
+}

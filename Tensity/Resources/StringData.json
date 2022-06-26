@@ -1,0 +1,1678 @@
+{
+    "stringTypes": [
+        {
+            "id": "PL",
+            "description": "Plain Steel",
+            "strings": [
+                {
+                    "id": "PL007",
+                    "unitWeight": 0.00001085,
+                    "gauge": 0.007,
+                    "wound": false
+                },
+                {
+                    "id": "PL008",
+                    "unitWeight": 0.00001418,
+                    "gauge": 0.008,
+                    "wound": false
+                },
+                {
+                    "id": "PL0085",
+                    "unitWeight": 0.00001601,
+                    "gauge": 0.0085,
+                    "wound": false
+                },
+                {
+                    "id": "PL009",
+                    "unitWeight": 0.00001794,
+                    "gauge": 0.009,
+                    "wound": false
+                },
+                {
+                    "id": "PL0095",
+                    "unitWeight": 0.00001999,
+                    "gauge": 0.0095,
+                    "wound": false
+                },
+                {
+                    "id": "PL010",
+                    "unitWeight": 0.00002215,
+                    "gauge": 0.01,
+                    "wound": false
+                },
+                {
+                    "id": "PL0105",
+                    "unitWeight": 0.00002442,
+                    "gauge": 0.0105,
+                    "wound": false
+                },
+                {
+                    "id": "PL011",
+                    "unitWeight": 0.0000268,
+                    "gauge": 0.011,
+                    "wound": false
+                },
+                {
+                    "id": "PL0115",
+                    "unitWeight": 0.0000293,
+                    "gauge": 0.0115,
+                    "wound": false
+                },
+                {
+                    "id": "PL012",
+                    "unitWeight": 0.0000319,
+                    "gauge": 0.012,
+                    "wound": false
+                },
+                {
+                    "id": "PL013",
+                    "unitWeight": 0.00003744,
+                    "gauge": 0.013,
+                    "wound": false
+                },
+                {
+                    "id": "PL0135",
+                    "unitWeight": 0.00004037,
+                    "gauge": 0.0135,
+                    "wound": false
+                },
+                {
+                    "id": "PL014",
+                    "unitWeight": 0.00004342,
+                    "gauge": 0.014,
+                    "wound": false
+                },
+                {
+                    "id": "PL015",
+                    "unitWeight": 0.00004984,
+                    "gauge": 0.015,
+                    "wound": false
+                },
+                {
+                    "id": "PL016",
+                    "unitWeight": 0.00005671,
+                    "gauge": 0.016,
+                    "wound": false
+                },
+                {
+                    "id": "PL017",
+                    "unitWeight": 0.00006402,
+                    "gauge": 0.017,
+                    "wound": false
+                },
+                {
+                    "id": "PL018",
+                    "unitWeight": 0.00007177,
+                    "gauge": 0.018,
+                    "wound": false
+                },
+                {
+                    "id": "PL019",
+                    "unitWeight": 0.00007997,
+                    "gauge": 0.019,
+                    "wound": false
+                },
+                {
+                    "id": "PL020",
+                    "unitWeight": 0.00008861,
+                    "gauge": 0.02,
+                    "wound": false
+                },
+                {
+                    "id": "PL022",
+                    "unitWeight": 0.00010722,
+                    "gauge": 0.022,
+                    "wound": false
+                },
+                {
+                    "id": "PL024",
+                    "unitWeight": 0.0001276,
+                    "gauge": 0.024,
+                    "wound": false
+                },
+                {
+                    "id": "PL026",
+                    "unitWeight": 0.00014975,
+                    "gauge": 0.026,
+                    "wound": false
+                }
+            ]
+        },
+        {
+            "id": "NW",
+            "description": "Nickel-Plated",
+            "forGuitarType": 0,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "NW017",
+                    "unitWeight": 0.00005524,
+                    "gauge": 0.017,
+                    "wound": true
+                },
+                {
+                    "id": "NW018",
+                    "unitWeight": 0.00006215,
+                    "gauge": 0.018,
+                    "wound": true
+                },
+                {
+                    "id": "NW019",
+                    "unitWeight": 0.00006947,
+                    "gauge": 0.019,
+                    "wound": true
+                },
+                {
+                    "id": "NW020",
+                    "unitWeight": 0.00007495,
+                    "gauge": 0.02,
+                    "wound": true
+                },
+                {
+                    "id": "NW021",
+                    "unitWeight": 0.00008293,
+                    "gauge": 0.021,
+                    "wound": true
+                },
+                {
+                    "id": "NW022",
+                    "unitWeight": 0.00009184,
+                    "gauge": 0.022,
+                    "wound": true
+                },
+                {
+                    "id": "NW024",
+                    "unitWeight": 0.00010857,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "NW025",
+                    "unitWeight": 0.000117478,
+                    "gauge": 0.025,
+                    "wound": true
+                },
+                {
+                    "id": "NW026",
+                    "unitWeight": 0.00012671,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "NW028",
+                    "unitWeight": 0.00014666,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "NW030",
+                    "unitWeight": 0.00017236,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "NW032",
+                    "unitWeight": 0.00019347,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "NW034",
+                    "unitWeight": 0.0002159,
+                    "gauge": 0.034,
+                    "wound": true
+                },
+                {
+                    "id": "NW036",
+                    "unitWeight": 0.00023694,
+                    "gauge": 0.036,
+                    "wound": true
+                },
+                {
+                    "id": "NW037",
+                    "unitWeight": 0.00025062,
+                    "gauge": 0.037,
+                    "wound": true
+                },
+                {
+                    "id": "NW038",
+                    "unitWeight": 0.00026471,
+                    "gauge": 0.038,
+                    "wound": true
+                },
+                {
+                    "id": "NW039",
+                    "unitWeight": 0.00027932,
+                    "gauge": 0.039,
+                    "wound": true
+                },
+                {
+                    "id": "NW040",
+                    "unitWeight": 0.0002933,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "NW042",
+                    "unitWeight": 0.00032279,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "NW044",
+                    "unitWeight": 0.00035182,
+                    "gauge": 0.044,
+                    "wound": true
+                },
+                {
+                    "id": "NW046",
+                    "unitWeight": 0.00038216,
+                    "gauge": 0.046,
+                    "wound": true
+                },
+                {
+                    "id": "NW048",
+                    "unitWeight": 0.00041382,
+                    "gauge": 0.048,
+                    "wound": true
+                },
+                {
+                    "id": "NW049",
+                    "unitWeight": 0.00043014,
+                    "gauge": 0.049,
+                    "wound": true
+                },
+                {
+                    "id": "NW050",
+                    "unitWeight": 0.00044634,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "NW052",
+                    "unitWeight": 0.00048109,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "NW054",
+                    "unitWeight": 0.00053838,
+                    "gauge": 0.054,
+                    "wound": true
+                },
+                {
+                    "id": "NW056",
+                    "unitWeight": 0.00057598,
+                    "gauge": 0.056,
+                    "wound": true
+                },
+                {
+                    "id": "NW059",
+                    "unitWeight": 0.00064191,
+                    "gauge": 0.059,
+                    "wound": true
+                },
+                {
+                    "id": "NW060",
+                    "unitWeight": 0.00066542,
+                    "gauge": 0.06,
+                    "wound": true
+                },
+                {
+                    "id": "NW062",
+                    "unitWeight": 0.00070697,
+                    "gauge": 0.062,
+                    "wound": true
+                },
+                {
+                    "id": "NW064",
+                    "unitWeight": 0.00074984,
+                    "gauge": 0.064,
+                    "wound": true
+                },
+                {
+                    "id": "NW066",
+                    "unitWeight": 0.00079889,
+                    "gauge": 0.066,
+                    "wound": true
+                },
+                {
+                    "id": "NW068",
+                    "unitWeight": 0.00084614,
+                    "gauge": 0.068,
+                    "wound": true
+                },
+                {
+                    "id": "NW070",
+                    "unitWeight": 0.00089304,
+                    "gauge": 0.07,
+                    "wound": true
+                },
+                {
+                    "id": "NW072",
+                    "unitWeight": 0.00094124,
+                    "gauge": 0.072,
+                    "wound": true
+                },
+                {
+                    "id": "NW074",
+                    "unitWeight": 0.00098869,
+                    "gauge": 0.074,
+                    "wound": true
+                },
+                {
+                    "id": "NW080",
+                    "unitWeight": 0.00115011,
+                    "gauge": 0.08,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "XSG",
+            "description": "Stainless Steel",
+            "forGuitarType": 0,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "XSG018",
+                    "unitWeight": 0.00006588,
+                    "gauge": 0.018,
+                    "wound": true
+                },
+                {
+                    "id": "XSG020",
+                    "unitWeight": 0.00007919,
+                    "gauge": 0.02,
+                    "wound": true
+                },
+                {
+                    "id": "XSG021",
+                    "unitWeight": 0.00008774,
+                    "gauge": 0.021,
+                    "wound": true
+                },
+                {
+                    "id": "XSG022",
+                    "unitWeight": 0.00009731,
+                    "gauge": 0.022,
+                    "wound": true
+                },
+                {
+                    "id": "XSG024",
+                    "unitWeight": 0.00011501,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "XSG026",
+                    "unitWeight": 0.00013419,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "XSG028",
+                    "unitWeight": 0.00015493,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "XSG030",
+                    "unitWeight": 0.00018203,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "XSG032",
+                    "unitWeight": 0.00020398,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "XSG034",
+                    "unitWeight": 0.00022729,
+                    "gauge": 0.034,
+                    "wound": true
+                },
+                {
+                    "id": "XSG036",
+                    "unitWeight": 0.00025198,
+                    "gauge": 0.036,
+                    "wound": true
+                },
+                {
+                    "id": "XSG038",
+                    "unitWeight": 0.00027804,
+                    "gauge": 0.038,
+                    "wound": true
+                },
+                {
+                    "id": "XSG040",
+                    "unitWeight": 0.00031044,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "XSG042",
+                    "unitWeight": 0.00033924,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "XSG046",
+                    "unitWeight": 0.00040096,
+                    "gauge": 0.046,
+                    "wound": true
+                },
+                {
+                    "id": "XSG048",
+                    "unitWeight": 0.00043387,
+                    "gauge": 0.048,
+                    "wound": true
+                },
+                {
+                    "id": "XSG050",
+                    "unitWeight": 0.00046816,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "XSG052",
+                    "unitWeight": 0.00050382,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "XSG054",
+                    "unitWeight": 0.00056388,
+                    "gauge": 0.054,
+                    "wound": true
+                },
+                {
+                    "id": "XSG056",
+                    "unitWeight": 0.00060297,
+                    "gauge": 0.056,
+                    "wound": true
+                },
+                {
+                    "id": "XSG070",
+                    "unitWeight": 0.00092592,
+                    "gauge": 0.07,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "HRG",
+            "description": "Half Round",
+            "forGuitarType": 0,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "HRG022",
+                    "unitWeight": 0.00011271,
+                    "gauge": 0.022,
+                    "wound": true
+                },
+                {
+                    "id": "HRG024",
+                    "unitWeight": 0.00012857,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "HRG026",
+                    "unitWeight": 0.0001475,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "HRG030",
+                    "unitWeight": 0.0001897,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "HRG032",
+                    "unitWeight": 0.000211,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "HRG036",
+                    "unitWeight": 0.0002565,
+                    "gauge": 0.036,
+                    "wound": true
+                },
+                {
+                    "id": "HRG039",
+                    "unitWeight": 0.000297,
+                    "gauge": 0.039,
+                    "wound": true
+                },
+                {
+                    "id": "HRG042",
+                    "unitWeight": 0.000334,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "HRG046",
+                    "unitWeight": 0.0003981,
+                    "gauge": 0.046,
+                    "wound": true
+                },
+                {
+                    "id": "HRG052",
+                    "unitWeight": 0.000495,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "HRG056",
+                    "unitWeight": 0.000567,
+                    "gauge": 0.056,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "CG",
+            "description": "Flatwound",
+            "forGuitarType": 0,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "CG020",
+                    "unitWeight": 0.00007812,
+                    "gauge": 0.02,
+                    "wound": true
+                },
+                {
+                    "id": "CG022",
+                    "unitWeight": 0.00009784,
+                    "gauge": 0.022,
+                    "wound": true
+                },
+                {
+                    "id": "CG024",
+                    "unitWeight": 0.00011601,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "CG026",
+                    "unitWeight": 0.00013574,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "CG028",
+                    "unitWeight": 0.00014683,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "CG030",
+                    "unitWeight": 0.00016958,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "CG032",
+                    "unitWeight": 0.00019233,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "CG035",
+                    "unitWeight": 0.00024197,
+                    "gauge": 0.035,
+                    "wound": true
+                },
+                {
+                    "id": "CG038",
+                    "unitWeight": 0.0002652,
+                    "gauge": 0.038,
+                    "wound": true
+                },
+                {
+                    "id": "CG040",
+                    "unitWeight": 0.00031676,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "CG042",
+                    "unitWeight": 0.00034377,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "CG045",
+                    "unitWeight": 0.00040393,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "CG048",
+                    "unitWeight": 0.00043541,
+                    "gauge": 0.048,
+                    "wound": true
+                },
+                {
+                    "id": "CG050",
+                    "unitWeight": 0.00047042,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "CG052",
+                    "unitWeight": 0.00049667,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "CG056",
+                    "unitWeight": 0.00059075,
+                    "gauge": 0.056,
+                    "wound": true
+                },
+                {
+                    "id": "CG065",
+                    "unitWeight": 0.00089364,
+                    "gauge": 0.065,
+                    "wound": true
+                },
+                {
+                    "id": "CG075",
+                    "unitWeight": 0.00118976,
+                    "gauge": 0.075,
+                    "wound": true
+                },
+                {
+                    "id": "CG080",
+                    "unitWeight": 0.00135368,
+                    "gauge": 0.08,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "PB",
+            "description": "Phosphor Bronze",
+            "forGuitarType": 1,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "PB017",
+                    "unitWeight": 0.00005867,
+                    "gauge": 0.017,
+                    "wound": true
+                },
+                {
+                    "id": "PB020",
+                    "unitWeight": 0.00008106,
+                    "gauge": 0.02,
+                    "wound": true
+                },
+                {
+                    "id": "PB021",
+                    "unitWeight": 0.00008944,
+                    "gauge": 0.021,
+                    "wound": true
+                },
+                {
+                    "id": "PB022",
+                    "unitWeight": 0.00009876,
+                    "gauge": 0.022,
+                    "wound": true
+                },
+                {
+                    "id": "PB023",
+                    "unitWeight": 0.00010801,
+                    "gauge": 0.023,
+                    "wound": true
+                },
+                {
+                    "id": "PB024",
+                    "unitWeight": 0.00011682,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "PB025",
+                    "unitWeight": 0.00012686,
+                    "gauge": 0.025,
+                    "wound": true
+                },
+                {
+                    "id": "PB026",
+                    "unitWeight": 0.0001364,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "PB027",
+                    "unitWeight": 0.00014834,
+                    "gauge": 0.027,
+                    "wound": true
+                },
+                {
+                    "id": "PB028",
+                    "unitWeight": 0.00016072,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "PB029",
+                    "unitWeight": 0.00017381,
+                    "gauge": 0.029,
+                    "wound": true
+                },
+                {
+                    "id": "PB030",
+                    "unitWeight": 0.0001866,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "PB032",
+                    "unitWeight": 0.00021018,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "PB034",
+                    "unitWeight": 0.00023887,
+                    "gauge": 0.034,
+                    "wound": true
+                },
+                {
+                    "id": "PB035",
+                    "unitWeight": 0.00025365,
+                    "gauge": 0.035,
+                    "wound": true
+                },
+                {
+                    "id": "PB036",
+                    "unitWeight": 0.0002683,
+                    "gauge": 0.036,
+                    "wound": true
+                },
+                {
+                    "id": "PB039",
+                    "unitWeight": 0.00031125,
+                    "gauge": 0.039,
+                    "wound": true
+                },
+                {
+                    "id": "PB042",
+                    "unitWeight": 0.00036722,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "PB045",
+                    "unitWeight": 0.00041751,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "PB047",
+                    "unitWeight": 0.00045289,
+                    "gauge": 0.047,
+                    "wound": true
+                },
+                {
+                    "id": "PB049",
+                    "unitWeight": 0.00049151,
+                    "gauge": 0.049,
+                    "wound": true
+                },
+                {
+                    "id": "PB052",
+                    "unitWeight": 0.00055223,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "PB053",
+                    "unitWeight": 0.00056962,
+                    "gauge": 0.053,
+                    "wound": true
+                },
+                {
+                    "id": "PB054",
+                    "unitWeight": 0.00059195,
+                    "gauge": 0.054,
+                    "wound": true
+                },
+                {
+                    "id": "PB056",
+                    "unitWeight": 0.00063477,
+                    "gauge": 0.056,
+                    "wound": true
+                },
+                {
+                    "id": "PB059",
+                    "unitWeight": 0.00070535,
+                    "gauge": 0.059,
+                    "wound": true
+                },
+                {
+                    "id": "PB060",
+                    "unitWeight": 0.00073039,
+                    "gauge": 0.06,
+                    "wound": true
+                },
+                {
+                    "id": "PB062",
+                    "unitWeight": 0.00077682,
+                    "gauge": 0.062,
+                    "wound": true
+                },
+                {
+                    "id": "PB064",
+                    "unitWeight": 0.0008278,
+                    "gauge": 0.064,
+                    "wound": true
+                },
+                {
+                    "id": "PB066",
+                    "unitWeight": 0.00087718,
+                    "gauge": 0.066,
+                    "wound": true
+                },
+                {
+                    "id": "PB070",
+                    "unitWeight": 0.00096833,
+                    "gauge": 0.07,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "FT",
+            "description": "Flat Top",
+            "forGuitarType": 1,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "FT023",
+                    "unitWeight": 0.00012568,
+                    "gauge": 0.023,
+                    "wound": true
+                },
+                {
+                    "id": "FT024",
+                    "unitWeight": 0.00013651,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "FT026",
+                    "unitWeight": 0.00015894,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "FT028",
+                    "unitWeight": 0.00017209,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "FT030",
+                    "unitWeight": 0.00019785,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "FT032",
+                    "unitWeight": 0.00023852,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "FT035",
+                    "unitWeight": 0.00027781,
+                    "gauge": 0.035,
+                    "wound": true
+                },
+                {
+                    "id": "FT036",
+                    "unitWeight": 0.00029273,
+                    "gauge": 0.036,
+                    "wound": true
+                },
+                {
+                    "id": "FT039",
+                    "unitWeight": 0.00032904,
+                    "gauge": 0.039,
+                    "wound": true
+                },
+                {
+                    "id": "FT042",
+                    "unitWeight": 0.00036219,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "FT044",
+                    "unitWeight": 0.00041047,
+                    "gauge": 0.044,
+                    "wound": true
+                },
+                {
+                    "id": "FT045",
+                    "unitWeight": 0.00042603,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "FT047",
+                    "unitWeight": 0.00046166,
+                    "gauge": 0.047,
+                    "wound": true
+                },
+                {
+                    "id": "FT053",
+                    "unitWeight": 0.00055793,
+                    "gauge": 0.053,
+                    "wound": true
+                },
+                {
+                    "id": "FT056",
+                    "unitWeight": 0.00064108,
+                    "gauge": 0.056,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "BW",
+            "description": "80/20 Bronze",
+            "forGuitarType": 1,
+            "includes": "PL",
+            "strings": [
+                {
+                    "id": "BW020",
+                    "unitWeight": 0.00007862,
+                    "gauge": 0.02,
+                    "wound": true
+                },
+                {
+                    "id": "BW021",
+                    "unitWeight": 0.00008684,
+                    "gauge": 0.021,
+                    "wound": true
+                },
+                {
+                    "id": "BW022",
+                    "unitWeight": 0.000096,
+                    "gauge": 0.022,
+                    "wound": true
+                },
+                {
+                    "id": "BW023",
+                    "unitWeight": 0.00010509,
+                    "gauge": 0.023,
+                    "wound": true
+                },
+                {
+                    "id": "BW024",
+                    "unitWeight": 0.00011353,
+                    "gauge": 0.024,
+                    "wound": true
+                },
+                {
+                    "id": "BW025",
+                    "unitWeight": 0.00012339,
+                    "gauge": 0.025,
+                    "wound": true
+                },
+                {
+                    "id": "BW026",
+                    "unitWeight": 0.00013253,
+                    "gauge": 0.026,
+                    "wound": true
+                },
+                {
+                    "id": "BW027",
+                    "unitWeight": 0.00014397,
+                    "gauge": 0.027,
+                    "wound": true
+                },
+                {
+                    "id": "BW029",
+                    "unitWeight": 0.00016838,
+                    "gauge": 0.029,
+                    "wound": true
+                },
+                {
+                    "id": "BW030",
+                    "unitWeight": 0.00018092,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "BW032",
+                    "unitWeight": 0.00020352,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "BW034",
+                    "unitWeight": 0.00022752,
+                    "gauge": 0.034,
+                    "wound": true
+                },
+                {
+                    "id": "BW035",
+                    "unitWeight": 0.00024006,
+                    "gauge": 0.035,
+                    "wound": true
+                },
+                {
+                    "id": "BW036",
+                    "unitWeight": 0.00025417,
+                    "gauge": 0.036,
+                    "wound": true
+                },
+                {
+                    "id": "BW039",
+                    "unitWeight": 0.00030063,
+                    "gauge": 0.039,
+                    "wound": true
+                },
+                {
+                    "id": "BW042",
+                    "unitWeight": 0.00034808,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "BW045",
+                    "unitWeight": 0.00040245,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "BW047",
+                    "unitWeight": 0.00043634,
+                    "gauge": 0.047,
+                    "wound": true
+                },
+                {
+                    "id": "BW049",
+                    "unitWeight": 0.00047368,
+                    "gauge": 0.049,
+                    "wound": true
+                },
+                {
+                    "id": "BW052",
+                    "unitWeight": 0.00053224,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "BW053",
+                    "unitWeight": 0.00054852,
+                    "gauge": 0.053,
+                    "wound": true
+                },
+                {
+                    "id": "BW056",
+                    "unitWeight": 0.00061132,
+                    "gauge": 0.056,
+                    "wound": true
+                },
+                {
+                    "id": "BW059",
+                    "unitWeight": 0.00068005,
+                    "gauge": 0.059,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "XLB",
+            "description": "Nickel-Plated",
+            "forGuitarType": 2,
+            "strings": [
+                {
+                    "id": "XLB018P",
+                    "unitWeight": 0.00007265,
+                    "gauge": 0.018,
+                    "wound": false
+                },
+                {
+                    "id": "XLB020P",
+                    "unitWeight": 0.00009093,
+                    "gauge": 0.02,
+                    "wound": false
+                },
+                {
+                    "id": "XLB028W",
+                    "unitWeight": 0.00015433,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "XLB042",
+                    "unitWeight": 0.00032252,
+                    "gauge": 0.042,
+                    "wound": true
+                },
+                {
+                    "id": "XLB052",
+                    "unitWeight": 0.00051322,
+                    "gauge": 0.052,
+                    "wound": true
+                },
+                {
+                    "id": "XLB032",
+                    "unitWeight": 0.00019,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "XLB035",
+                    "unitWeight": 0.00022362,
+                    "gauge": 0.035,
+                    "wound": true
+                },
+                {
+                    "id": "XLB040",
+                    "unitWeight": 0.00029322,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "XLB045",
+                    "unitWeight": 0.0003724,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "XLB050",
+                    "unitWeight": 0.00046463,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "XLB055",
+                    "unitWeight": 0.00054816,
+                    "gauge": 0.055,
+                    "wound": true
+                },
+                {
+                    "id": "XLB060",
+                    "unitWeight": 0.0006654,
+                    "gauge": 0.06,
+                    "wound": true
+                },
+                {
+                    "id": "XLB065",
+                    "unitWeight": 0.00079569,
+                    "gauge": 0.065,
+                    "wound": true
+                },
+                {
+                    "id": "XLB070",
+                    "unitWeight": 0.00093218,
+                    "gauge": 0.07,
+                    "wound": true
+                },
+                {
+                    "id": "XLB075",
+                    "unitWeight": 0.00104973,
+                    "gauge": 0.075,
+                    "wound": true
+                },
+                {
+                    "id": "XLB080",
+                    "unitWeight": 0.00116023,
+                    "gauge": 0.08,
+                    "wound": true
+                },
+                {
+                    "id": "XLB085",
+                    "unitWeight": 0.00133702,
+                    "gauge": 0.085,
+                    "wound": true
+                },
+                {
+                    "id": "XLB090",
+                    "unitWeight": 0.00150277,
+                    "gauge": 0.09,
+                    "wound": true
+                },
+                {
+                    "id": "XLB095",
+                    "unitWeight": 0.00169349,
+                    "gauge": 0.095,
+                    "wound": true
+                },
+                {
+                    "id": "XLB100",
+                    "unitWeight": 0.00179687,
+                    "gauge": 0.1,
+                    "wound": true
+                },
+                {
+                    "id": "XLB105",
+                    "unitWeight": 0.00198395,
+                    "gauge": 0.105,
+                    "wound": true
+                },
+                {
+                    "id": "XLB110",
+                    "unitWeight": 0.0022744,
+                    "gauge": 0.11,
+                    "wound": true
+                },
+                {
+                    "id": "XLB120",
+                    "unitWeight": 0.0025028,
+                    "gauge": 0.12,
+                    "wound": true
+                },
+                {
+                    "id": "XLB125",
+                    "unitWeight": 0.0027481,
+                    "gauge": 0.125,
+                    "wound": true
+                },
+                {
+                    "id": "XLB130",
+                    "unitWeight": 0.00301941,
+                    "gauge": 0.13,
+                    "wound": true
+                },
+                {
+                    "id": "XLB135",
+                    "unitWeight": 0.00315944,
+                    "gauge": 0.135,
+                    "wound": true
+                },
+                {
+                    "id": "XLB145",
+                    "unitWeight": 0.00363204,
+                    "gauge": 0.145,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "NHR",
+            "description": "Half Round",
+            "forGuitarType": 2,
+            "strings": [
+                {
+                    "id": "NHR030",
+                    "unitWeight": 0.00019977,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "NHR040",
+                    "unitWeight": 0.00031672,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "NHR045",
+                    "unitWeight": 0.00039328,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "NHR050",
+                    "unitWeight": 0.00046898,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "NHR055",
+                    "unitWeight": 0.00058122,
+                    "gauge": 0.055,
+                    "wound": true
+                },
+                {
+                    "id": "NHR060",
+                    "unitWeight": 0.00070573,
+                    "gauge": 0.06,
+                    "wound": true
+                },
+                {
+                    "id": "NHR065",
+                    "unitWeight": 0.000805,
+                    "gauge": 0.065,
+                    "wound": true
+                },
+                {
+                    "id": "NHR070",
+                    "unitWeight": 0.00096476,
+                    "gauge": 0.07,
+                    "wound": true
+                },
+                {
+                    "id": "NHR075",
+                    "unitWeight": 0.00103455,
+                    "gauge": 0.075,
+                    "wound": true
+                },
+                {
+                    "id": "NHR080",
+                    "unitWeight": 0.00118785,
+                    "gauge": 0.08,
+                    "wound": true
+                },
+                {
+                    "id": "NHR085",
+                    "unitWeight": 0.00138122,
+                    "gauge": 0.085,
+                    "wound": true
+                },
+                {
+                    "id": "NHR090",
+                    "unitWeight": 0.00140885,
+                    "gauge": 0.09,
+                    "wound": true
+                },
+                {
+                    "id": "NHR095",
+                    "unitWeight": 0.00166888,
+                    "gauge": 0.095,
+                    "wound": true
+                },
+                {
+                    "id": "NHR100",
+                    "unitWeight": 0.00185103,
+                    "gauge": 0.1,
+                    "wound": true
+                },
+                {
+                    "id": "NHR105",
+                    "unitWeight": 0.00205287,
+                    "gauge": 0.105,
+                    "wound": true
+                },
+                {
+                    "id": "NHR110",
+                    "unitWeight": 0.00220548,
+                    "gauge": 0.11,
+                    "wound": true
+                },
+                {
+                    "id": "NHR130",
+                    "unitWeight": 0.00301941,
+                    "gauge": 0.13,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "CB",
+            "description": "Flatwound",
+            "forGuitarType": 2,
+            "strings": [
+                {
+                    "id": "CB032",
+                    "unitWeight": 0.00020938,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "CB040",
+                    "unitWeight": 0.00032716,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "CB045",
+                    "unitWeight": 0.00039763,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "CB050",
+                    "unitWeight": 0.00047855,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "CB055",
+                    "unitWeight": 0.00056769,
+                    "gauge": 0.055,
+                    "wound": true
+                },
+                {
+                    "id": "CB060",
+                    "unitWeight": 0.00070108,
+                    "gauge": 0.06,
+                    "wound": true
+                },
+                {
+                    "id": "CB065",
+                    "unitWeight": 0.00080655,
+                    "gauge": 0.065,
+                    "wound": true
+                },
+                {
+                    "id": "CB070",
+                    "unitWeight": 0.00093374,
+                    "gauge": 0.07,
+                    "wound": true
+                },
+                {
+                    "id": "CB075",
+                    "unitWeight": 0.00100553,
+                    "gauge": 0.075,
+                    "wound": true
+                },
+                {
+                    "id": "CB080",
+                    "unitWeight": 0.00120719,
+                    "gauge": 0.08,
+                    "wound": true
+                },
+                {
+                    "id": "CB085",
+                    "unitWeight": 0.00138675,
+                    "gauge": 0.085,
+                    "wound": true
+                },
+                {
+                    "id": "CB090",
+                    "unitWeight": 0.00148896,
+                    "gauge": 0.09,
+                    "wound": true
+                },
+                {
+                    "id": "CB095",
+                    "unitWeight": 0.00173288,
+                    "gauge": 0.095,
+                    "wound": true
+                },
+                {
+                    "id": "CB100",
+                    "unitWeight": 0.00189041,
+                    "gauge": 0.1,
+                    "wound": true
+                },
+                {
+                    "id": "CB105",
+                    "unitWeight": 0.00204302,
+                    "gauge": 0.105,
+                    "wound": true
+                },
+                {
+                    "id": "CB110",
+                    "unitWeight": 0.00226455,
+                    "gauge": 0.11,
+                    "wound": true
+                },
+                {
+                    "id": "CB132",
+                    "unitWeight": 0.00314193,
+                    "gauge": 0.132,
+                    "wound": true
+                }
+            ]
+        },
+        {
+            "id": "PSB",
+            "description": "Stainless Steel",
+            "forGuitarType": 2,
+            "strings": [
+                {
+                    "id": "PSB028W",
+                    "unitWeight": 0.00015669,
+                    "gauge": 0.028,
+                    "wound": true
+                },
+                {
+                    "id": "PSB030",
+                    "unitWeight": 0.00017987,
+                    "gauge": 0.03,
+                    "wound": true
+                },
+                {
+                    "id": "PSB032",
+                    "unitWeight": 0.00020465,
+                    "gauge": 0.032,
+                    "wound": true
+                },
+                {
+                    "id": "PSB035",
+                    "unitWeight": 0.00023499,
+                    "gauge": 0.035,
+                    "wound": true
+                },
+                {
+                    "id": "PSB040",
+                    "unitWeight": 0.00029409,
+                    "gauge": 0.04,
+                    "wound": true
+                },
+                {
+                    "id": "PSB045",
+                    "unitWeight": 0.00036457,
+                    "gauge": 0.045,
+                    "wound": true
+                },
+                {
+                    "id": "PSB050",
+                    "unitWeight": 0.00042635,
+                    "gauge": 0.05,
+                    "wound": true
+                },
+                {
+                    "id": "PSB055",
+                    "unitWeight": 0.00058296,
+                    "gauge": 0.055,
+                    "wound": true
+                },
+                {
+                    "id": "PSB060",
+                    "unitWeight": 0.00067781,
+                    "gauge": 0.06,
+                    "wound": true
+                },
+                {
+                    "id": "PSB065",
+                    "unitWeight": 0.00073365,
+                    "gauge": 0.065,
+                    "wound": true
+                },
+                {
+                    "id": "PSB070",
+                    "unitWeight": 0.00087014,
+                    "gauge": 0.07,
+                    "wound": true
+                },
+                {
+                    "id": "PSB075",
+                    "unitWeight": 0.00095857,
+                    "gauge": 0.075,
+                    "wound": true
+                },
+                {
+                    "id": "PSB080",
+                    "unitWeight": 0.00111879,
+                    "gauge": 0.08,
+                    "wound": true
+                },
+                {
+                    "id": "PSB085",
+                    "unitWeight": 0.00124034,
+                    "gauge": 0.085,
+                    "wound": true
+                },
+                {
+                    "id": "PSB090",
+                    "unitWeight": 0.00151382,
+                    "gauge": 0.09,
+                    "wound": true
+                },
+                {
+                    "id": "PSB095",
+                    "unitWeight": 0.0015655,
+                    "gauge": 0.095,
+                    "wound": true
+                },
+                {
+                    "id": "PSB100",
+                    "unitWeight": 0.00169349,
+                    "gauge": 0.1,
+                    "wound": true
+                },
+                {
+                    "id": "PSB105",
+                    "unitWeight": 0.00183626,
+                    "gauge": 0.105,
+                    "wound": true
+                },
+                {
+                    "id": "PSB110",
+                    "unitWeight": 0.00218579,
+                    "gauge": 0.11,
+                    "wound": true
+                },
+                {
+                    "id": "PSB120",
+                    "unitWeight": 0.00251453,
+                    "gauge": 0.12,
+                    "wound": true
+                },
+                {
+                    "id": "PSB125",
+                    "unitWeight": 0.00263432,
+                    "gauge": 0.125,
+                    "wound": true
+                },
+                {
+                    "id": "PSB130",
+                    "unitWeight": 0.00277435,
+                    "gauge": 0.13,
+                    "wound": true
+                },
+                {
+                    "id": "PSB135",
+                    "unitWeight": 0.00291458,
+                    "gauge": 0.135,
+                    "wound": true
+                },
+                {
+                    "id": "PSB145",
+                    "unitWeight": 0.00327321,
+                    "gauge": 0.145,
+                    "wound": true
+                }
+            ]
+        }
+    ]
+}

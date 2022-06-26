@@ -1,0 +1,855 @@
+{
+  "abstract" : [
+    {
+      "text" : "Defines the characteristics of each column in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7Tensity19StringTensionColumnV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StringTensionColumn"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Tensity"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "StringTensionColumn"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "StringTensionColumn"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "StringTensionColumn"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TensityApp",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ContentView",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfView",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ShareSheetView"
+      ],
+      "title" : "View"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/courseWidth",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/gaugeWidth",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/noteWidth",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/tensionWidth"
+      ],
+      "title" : "Type Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tensity\/stringtensioncolumn"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity": {
+  "abstract" : [
+    {
+      "text" : "This is my summary.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Tensity",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView": {
+  "abstract" : [
+    {
+      "text" : "Displays the About page.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AboutView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AboutView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AboutView",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/aboutview"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ContentView": {
+  "abstract" : [
+    {
+      "text" : "The main view for the Tensity app.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/contentview"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/NavPicker": {
+  "abstract" : [
+    {
+      "text" : "A picker that displays a navigation link to a list of options, which are shown in a new sheet on the navigation stack.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NavPicker"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NavPicker"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NavPicker",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/navpicker"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/PdfReader": {
+  "abstract" : [
+    {
+      "text" : "Allows the user to read and share a PDF.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PdfReader"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PdfReader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PdfReader",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pdfreader"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/PdfView": {
+  "abstract" : [
+    {
+      "text" : "Wrapper around UIKit’s PDFView",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PdfView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PdfView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PdfView",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/pdfview"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView": {
+  "abstract" : [
+    {
+      "text" : "Allows the user to edit the guitar’s scale length.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ScaleLengthView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ScaleLengthView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ScaleLengthView",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/scalelengthview"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ShareSheetView": {
+  "abstract" : [
+    {
+      "text" : "Wraps UIKit’s UIActivityViewController to display a share sheet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ShareSheetView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ShareSheetView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ShareSheetView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ShareSheetView",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/sharesheetview"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionColumn": {
+  "abstract" : [
+    {
+      "text" : "Defines the characteristics of each column in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringTensionColumn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringTensionColumn"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringTensionColumn",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensioncolumn"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionColumn/courseWidth": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "courseWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/courseWidth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "courseWidth",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensioncolumn\/coursewidth"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionColumn/gaugeWidth": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gaugeWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/gaugeWidth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gaugeWidth",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensioncolumn\/gaugewidth"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionColumn/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensioncolumn\/init()"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionColumn/noteWidth": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noteWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/noteWidth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "noteWidth",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensioncolumn\/notewidth"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionColumn/tensionWidth": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tensionWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionColumn\/tensionWidth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tensionWidth",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensioncolumn\/tensionwidth"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow": {
+  "abstract" : [
+    {
+      "text" : "Presents the information for a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringTensionRow"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringTensionRow"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringTensionRow",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensionrow"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable": {
+  "abstract" : [
+    {
+      "text" : "Displays the table of guitar strings, consisting of a header, a row for each ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", and summary row with",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringTensionTable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringTensionTable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringTensionTable",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtensiontable"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TensityApp": {
+  "abstract" : [
+    {
+      "text" : "The main entry point for the Tensity app.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TensityApp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TensityApp",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TensityApp"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TensityApp",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/tensityapp"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TotalTensionText": {
+  "abstract" : [
+    {
+      "text" : "Computes and displays the total tension of all the strings in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TotalTensionText"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TotalTensionText"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TotalTensionText",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/totaltensiontext"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
+  "abstract" : [
+    {
+      "text" : "Models a guitar string that has been strung and tuned.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TunedString"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TunedString",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/tunedstring"
+},
+"doc://com.stephenbensley.Tensity/s8SendableP": {
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}
