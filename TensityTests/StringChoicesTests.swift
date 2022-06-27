@@ -9,24 +9,24 @@ import XCTest
 @testable import Tensity
 
 class StringChoicesTests: XCTestCase {
-    static var stringCatalog: StringCatalog? = nil
+    static var stringData: StringData? = nil
 
     override class func setUp() {
-        stringCatalog = StringCatalog()
+        stringData = StringData.load()
     }
 
     override class func tearDown() {
-        stringCatalog = nil
+        stringData = nil
     }
 
     func testNoDuplicateStringDescriptions() throws {
-        guard let stringCatalog = Self.stringCatalog else {
+        guard let stringData = Self.stringData else {
             return
         }
 
         for guitarType in GuitarType.allCases {
-            for stringType in stringCatalog.validStringTypes(guitarType) {
-                let choices = StringChoices(forType: stringType, catalog: stringCatalog)
+            for stringType in stringData.validStringTypes(guitarType) {
+                let choices = StringChoices(forType: stringType, data: stringData)
                 var seen = Set<String>()
                 for choice in choices {
                     XCTAssert(!seen.contains(choice.description), "Duplicate string description for \(stringType.id): \(choice.description)")
@@ -37,11 +37,11 @@ class StringChoicesTests: XCTestCase {
     }
 
     func testFindClosestMatch() throws {
-        guard let stringCatalog = Self.stringCatalog else {
+        guard let stringData = Self.stringData else {
             return
         }
-        let type = stringCatalog.findStringType(id: "NW")
-        let choices = StringChoices(forType: type, catalog: stringCatalog)
+        let type = stringData.findStringType(id: "NW")
+        let choices = StringChoices(forType: type, data: stringData)
 
         var match = choices.findClosestMatch(to: GuitarString(0.020, wound: true))
         XCTAssertEqual(match.id, "NW020", "Didn't find exact match.")

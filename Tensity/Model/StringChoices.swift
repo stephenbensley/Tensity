@@ -13,14 +13,18 @@ import Foundation
 class StringChoices:  RandomAccessCollection {
     private var choices: [GuitarString] = []
 
-    init(forType: StringType, catalog: StringCatalog) {
+    init(forType: StringType, data: StringData) {
         if let includes = forType.includes {
-            let includedType = catalog.findStringType(id: includes)
+            let includedType = data.findStringType(id: includes)
             choices += includedType.strings
         }
         choices += forType.strings
 
         choices.sort()
+    }
+
+    func find(_ stringId: String) -> GuitarString? {
+        choices.first { $0.id == stringId }
     }
 
     func findClosestMatch(to gauge: GuitarString) -> GuitarString {
