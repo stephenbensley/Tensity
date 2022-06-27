@@ -125,7 +125,6 @@
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray"
@@ -814,49 +813,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitchclass\/names"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringCatalog": {
-  "abstract" : [
-    {
-      "text" : "Wraps ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
-      "isActive" : true,
-      "type" : "reference"
-    },
-    {
-      "text" : " to provide useful and efficient query functions.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "StringCatalog"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "StringCatalog"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "StringCatalog",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringcatalog"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
   "abstract" : [
     {
@@ -890,40 +846,6 @@
   "title" : "StringChoices",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoices"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData": {
-  "abstract" : [
-    {
-      "text" : "The  guitar string tension specifications that are loaded from the bundled JSON during app initialization.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "StringData"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "StringData"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "StringData",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringdata"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
   "abstract" : [

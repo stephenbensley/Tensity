@@ -95,7 +95,7 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     }
 }
 
-/// A collection of ``GuitarString`` objects of the same type, e.g., Phosphor Bronze.
+/// A collection of ``StringChoice`` objects of the same type, e.g., Phosphor Bronze.
 class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identifiable {
     let id: String
     // Friendly name of the type.

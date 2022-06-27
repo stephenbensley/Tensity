@@ -53,6 +53,14 @@
           "tokens" : [
             {
               "kind" : "keyword",
+              "text" : "convenience"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
               "text" : "init"
             },
             {

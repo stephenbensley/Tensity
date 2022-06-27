@@ -12,13 +12,12 @@ This is my summary.
 
 - <doc:Design-Walkthrough>
 - <doc:Common-Tasks>
-- <doc:Future-Work>
 
 ### Data Access
 
 - ``StringData``
 - ``GuitarType``
-- ``GuitarString``
+- ``StringChoice``
 - ``StringType``
 - ``UserData``
 
@@ -26,7 +25,6 @@ This is my summary.
 
 - ``Guitar``
 - ``TunedString``
-- ``StringCatalog``
 - ``StringChoices``
 - ``PitchClass``
 - ``Pitch``
