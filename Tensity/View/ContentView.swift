@@ -9,7 +9,7 @@ import SwiftUI
 
 /// The main view for the Tensity app.
 struct ContentView: View {
-    @StateObject private var guitarModel = Guitar()
+    @StateObject private var guitarModel = Guitar.load() ?? Guitar()
     @Environment(\.scenePhase) private var scenePhase
     @State private var showAbout = false
     

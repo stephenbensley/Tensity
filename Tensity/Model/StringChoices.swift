@@ -15,8 +15,9 @@ class StringChoices:  RandomAccessCollection {
 
     init(forType: StringType, data: StringData) {
         if let includes = forType.includes {
-            let includedType = data.findStringType(id: includes)
-            choices += includedType.strings
+            if let includedType = data.findStringType(id: includes) {
+                choices += includedType.strings
+            }
         }
         choices += forType.strings
 
