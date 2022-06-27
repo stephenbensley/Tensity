@@ -30,7 +30,7 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
 }
 
 /// A guitar string being modeled.
-class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
+class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     // Must be unique across all string types.
     let id: String
     // Pounds per linear inch
@@ -67,7 +67,7 @@ class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
         self.wound = wound
     }
 
-    func isBetterMatch(than other: GuitarString, comparedTo gauge: GuitarString) -> Bool {
+    func isBetterMatch(than other: StringChoice, comparedTo gauge: StringChoice) -> Bool {
         if (wound == other.wound) {
             // If they're both wound or plain, choose the closest in size
             return abs(self.gauge - gauge.gauge) < abs(other.gauge - gauge.gauge)
@@ -81,11 +81,11 @@ class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
         hasher.combine(id)
     }
 
-    static func == (lhs: GuitarString, rhs: GuitarString) -> Bool {
+    static func == (lhs: StringChoice, rhs: StringChoice) -> Bool {
         lhs.id == rhs.id
     }
 
-    static func < (lhs: GuitarString, rhs: GuitarString) -> Bool {
+    static func < (lhs: StringChoice, rhs: StringChoice) -> Bool {
         if (lhs.wound == rhs.wound) {
             return rhs.wound
         } else {
@@ -104,7 +104,7 @@ class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identif
     // Another string type that this type includes, typically plain steel.
     let includes: String?
     // All available guitar strings of this type.
-    let strings: [GuitarString]
+    let strings: [StringChoice]
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)

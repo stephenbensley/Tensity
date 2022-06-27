@@ -11,7 +11,7 @@ import Foundation
 ///
 /// Wrapped in a class, so it can be shared across views.
 class StringChoices:  RandomAccessCollection {
-    private var choices: [GuitarString] = []
+    private var choices: [StringChoice] = []
 
     init(forType: StringType, data: StringData) {
         if let includes = forType.includes {
@@ -23,16 +23,16 @@ class StringChoices:  RandomAccessCollection {
         choices.sort()
     }
 
-    func find(_ stringId: String) -> GuitarString? {
+    func find(_ stringId: String) -> StringChoice? {
         choices.first { $0.id == stringId }
     }
 
-    func findClosestMatch(to gauge: GuitarString) -> GuitarString {
+    func findClosestMatch(to gauge: StringChoice) -> StringChoice {
         assert(!choices.isEmpty)
         return choices.min(by: { $0.isBetterMatch(than: $1, comparedTo: gauge) })!
     }
 
-    func findClosestMatches(to gauges: [GuitarString]) -> [GuitarString] {
+    func findClosestMatches(to gauges: [StringChoice]) -> [StringChoice] {
         gauges.map{ findClosestMatch(to: $0) }
     }
 
@@ -40,5 +40,5 @@ class StringChoices:  RandomAccessCollection {
     var count: Int { choices.count }
     var startIndex: Int { 0 }
     var endIndex: Int { count }
-    subscript(position: Int) -> GuitarString { choices[position] }
+    subscript(position: Int) -> StringChoice { choices[position] }
 }

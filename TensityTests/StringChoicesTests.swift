@@ -43,16 +43,16 @@ class StringChoicesTests: XCTestCase {
         let type = stringData.findStringType(id: "NW")
         let choices = StringChoices(forType: type, data: stringData)
 
-        var match = choices.findClosestMatch(to: GuitarString(0.020, wound: true))
+        var match = choices.findClosestMatch(to: StringChoice(0.020, wound: true))
         XCTAssertEqual(match.id, "NW020", "Didn't find exact match.")
 
-        match = choices.findClosestMatch(to: GuitarString(0.058, wound: true))
+        match = choices.findClosestMatch(to: StringChoice(0.058, wound: true))
         XCTAssertEqual(match.id, "NW059", "Didn't find bounded match.")
 
-        match = choices.findClosestMatch(to: GuitarString(0.009, wound: true))
+        match = choices.findClosestMatch(to: StringChoice(0.009, wound: true))
         XCTAssertEqual(match.id, "NW017", "Didn't find lowest match.")
 
-        match = choices.findClosestMatch(to: GuitarString(0.100, wound: true))
+        match = choices.findClosestMatch(to: StringChoice(0.100, wound: true))
         XCTAssertEqual(match.id, "NW080", "Didn't find highest match.")
     }
 }

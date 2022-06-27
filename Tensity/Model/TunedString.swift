@@ -18,7 +18,7 @@ class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
     // Pitch to which the string is tuned
     @Published var pitch: Pitch
     // Type of string being used
-    @Published var string: GuitarString
+    @Published var string: StringChoice
 
     var id: Int {
         return number
@@ -47,7 +47,7 @@ class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
         course: Int,
         length: Double,
         pitch: Pitch,
-        string: GuitarString
+        string: StringChoice
     ) {
         self.number = number
         self.course = course

@@ -156,7 +156,7 @@ class Guitar: ObservableObject {
         guitarType: GuitarType,
         scaleLength: Double,
         pitches: [Pitch],
-        strings: [GuitarString]
+        strings: [StringChoice]
     ) -> [TunedString]
     {
         let stringCount = pitches.count
