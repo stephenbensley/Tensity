@@ -30,6 +30,7 @@ class StringChoices:  RandomAccessCollection {
 
     func findClosestMatch(to gauge: StringChoice) -> StringChoice {
         assert(!choices.isEmpty)
+        // min is guaranteed to exist since the array isn't empty.
         return choices.min(by: { $0.isBetterMatch(than: $1, comparedTo: gauge) })!
     }
 

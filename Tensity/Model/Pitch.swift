@@ -51,6 +51,8 @@ struct Pitch: Codable, Hashable, Identifiable, Strideable {
     }
 
     var pitchClass: PitchClass {
+        // Since we're taking mod of notesPerOctave, it's impossible for the rawValue to be out
+        // of range.
         PitchClass(rawValue: id % Pitch.notesPerOctave)!
     }
     var octave: Int {
@@ -60,6 +62,8 @@ struct Pitch: Codable, Hashable, Identifiable, Strideable {
         assert((0...9).contains(octave))
         // Scalar for Unicode subscript zero (₀)
         let subscriptZero = 0x2080
+        // Since we've asserted the octave is a single digit, the corresponding Unicode scalar
+        // is guaranteed to be valid.
         return pitchClass.description + String(Character(UnicodeScalar(subscriptZero + octave)!))
     }
     var frequency: Double {

@@ -47,6 +47,7 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
         formatter.minimumFractionDigits = 3
         formatter.maximumFractionDigits = 6
 
+        // gauge is trusted input, so the format can't fail.
         var result = formatter.string(from: NSNumber(value: gauge))!
         result += wound ? "w" : "p"
         return result
@@ -121,12 +122,6 @@ class StringData: Codable {
 
     init(stringTypes: [StringType]) {
         self.stringTypes = stringTypes
-    }
-
-    // Only used for generating sample JSON during development; never called by the app.
-    func encode() -> String {
-        let data = try! JSONEncoder().encode(self)
-        return String(data: data, encoding: .utf8)!
     }
 
     static func load() -> StringData {

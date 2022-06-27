@@ -9,6 +9,7 @@ import Foundation
 
 extension StringData {
     func defaultStringType(_ guitarType: GuitarType) -> StringType {
+        // Unit tests validate that every GuitarType has a default StringType.
         findStringType(id: guitarType.traits.defaultStringType)!
     }
 
