@@ -20,14 +20,14 @@
 		DC84EF47286644D8009A0175 /* GuitarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF46286644D8009A0175 /* GuitarTests.swift */; };
 		DC84EF4928665AC2009A0175 /* TunedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF4828665AC2009A0175 /* TunedString.swift */; };
 		DC84EF4B28665AD1009A0175 /* StringChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF4A28665AD1009A0175 /* StringChoices.swift */; };
-		DC84EF512868C9D2009A0175 /* String Tension Specifications.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC84EF502868C9D2009A0175 /* String Tension Specifications.pdf */; };
-		DC84EF532868C9D9009A0175 /* StringData.json in Resources */ = {isa = PBXBuildFile; fileRef = DC84EF522868C9D9009A0175 /* StringData.json */; };
 		DC8BDF33284E8E3D008432CF /* TensityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BDF32284E8E3D008432CF /* TensityApp.swift */; };
 		DC8BDF35284E8E3D008432CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BDF34284E8E3D008432CF /* ContentView.swift */; };
 		DC8BDF37284E8E3E008432CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8BDF36284E8E3E008432CF /* Assets.xcassets */; };
 		DCD846EC28565964002A123E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD846EB28565964002A123E /* UserData.swift */; };
 		DCD846EF28567C23002A123E /* StringCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD846ED28565DD5002A123E /* StringCatalog.swift */; };
 		DCD846F12856956C002A123E /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD846F02856956C002A123E /* Guitar.swift */; };
+		DCDE49BB286A22C400017E3A /* String Tension Specifications.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DCDE49B9286A22C300017E3A /* String Tension Specifications.pdf */; };
+		DCDE49BC286A22C400017E3A /* StringData.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDE49BA286A22C400017E3A /* StringData.json */; };
 		DCE595E92864B90200F174B1 /* StringDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE595E82864B90200F174B1 /* StringDataTests.swift */; };
 		DCE595F02864BC9700F174B1 /* PitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE595EF2864BC9600F174B1 /* PitchTests.swift */; };
 		DCE595F82864C1E000F174B1 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = DCE595F72864C1E000F174B1 /* Documentation.docc */; };
@@ -58,8 +58,6 @@
 		DC84EF4828665AC2009A0175 /* TunedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunedString.swift; sourceTree = "<group>"; };
 		DC84EF4A28665AD1009A0175 /* StringChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringChoices.swift; sourceTree = "<group>"; };
 		DC84EF4C28667963009A0175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		DC84EF502868C9D2009A0175 /* String Tension Specifications.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "String Tension Specifications.pdf"; path = "../../../../Desktop/String Tension Specifications.pdf"; sourceTree = "<group>"; };
-		DC84EF522868C9D9009A0175 /* StringData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = StringData.json; path = ../../../../Desktop/StringData.json; sourceTree = "<group>"; };
 		DC8BDF2F284E8E3D008432CF /* Tensity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tensity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8BDF32284E8E3D008432CF /* TensityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensityApp.swift; sourceTree = "<group>"; };
 		DC8BDF34284E8E3D008432CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +65,8 @@
 		DCD846EB28565964002A123E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		DCD846ED28565DD5002A123E /* StringCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCatalog.swift; sourceTree = "<group>"; };
 		DCD846F02856956C002A123E /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		DCDE49B9286A22C300017E3A /* String Tension Specifications.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "String Tension Specifications.pdf"; sourceTree = "<group>"; };
+		DCDE49BA286A22C400017E3A /* StringData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringData.json; sourceTree = "<group>"; };
 		DCE595E62864B90200F174B1 /* TensityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TensityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE595E82864B90200F174B1 /* StringDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDataTests.swift; sourceTree = "<group>"; };
 		DCE595EF2864BC9600F174B1 /* PitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchTests.swift; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 		DC84EF4D2868C849009A0175 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DC84EF522868C9D9009A0175 /* StringData.json */,
-				DC84EF502868C9D2009A0175 /* String Tension Specifications.pdf */,
+				DCDE49B9286A22C300017E3A /* String Tension Specifications.pdf */,
+				DCDE49BA286A22C400017E3A /* StringData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -255,8 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC84EF512868C9D2009A0175 /* String Tension Specifications.pdf in Resources */,
-				DC84EF532868C9D9009A0175 /* StringData.json in Resources */,
+				DCDE49BB286A22C400017E3A /* String Tension Specifications.pdf in Resources */,
+				DCDE49BC286A22C400017E3A /* StringData.json in Resources */,
 				DC8BDF37284E8E3E008432CF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
