@@ -54,8 +54,7 @@
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Design-Walkthrough",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Future-Work"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks"
       ],
       "title" : "Getting Started"
     },
@@ -63,7 +62,7 @@
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarType",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringType",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/UserData"
       ],
@@ -73,7 +72,6 @@
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Guitar",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch",
@@ -428,17 +426,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/electricguitartraits"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Future-Work": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Future-Work",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Future Work",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/future-work"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/Guitar": {
   "abstract" : [
     {
@@ -472,40 +459,6 @@
   "title" : "Guitar",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/guitar"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
-  "abstract" : [
-    {
-      "text" : "A guitar string being modeled.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "GuitarString"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "GuitarString"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "GuitarString",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/guitarstring"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarTraits": {
   "abstract" : [
@@ -966,19 +919,10 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/sharesheetview"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringCatalog": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
   "abstract" : [
     {
-      "text" : "Wraps ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
-      "isActive" : true,
-      "type" : "reference"
-    },
-    {
-      "text" : " to provide useful and efficient query functions.",
+      "text" : "A guitar string being modeled.",
       "type" : "text"
     }
   ],
@@ -993,21 +937,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "StringCatalog"
+      "text" : "StringChoice"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringCatalog",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "StringCatalog"
+      "text" : "StringChoice"
     }
   ],
   "role" : "symbol",
-  "title" : "StringCatalog",
+  "title" : "StringChoice",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringcatalog"
+  "url" : "\/documentation\/tensity\/stringchoice"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
   "abstract" : [
@@ -1262,7 +1206,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
       "isActive" : true,
       "type" : "reference"
     },

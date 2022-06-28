@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7Tensity13StringChoicesC16findClosestMatch2toAA06GuitarB0CAG_tF",
+    "externalID" : "s:7Tensity13StringChoicesC16findClosestMatch2toAA0B6ChoiceCAG_tF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -47,8 +47,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-        "text" : "GuitarString"
+        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+        "text" : "StringChoice"
       },
       {
         "kind" : "text",
@@ -56,8 +56,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-        "text" : "GuitarString"
+        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+        "text" : "StringChoice"
       }
     ],
     "modules" : [
@@ -114,20 +114,20 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-              "text" : "GuitarString"
+              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+              "text" : "StringChoice"
             },
             {
               "kind" : "text",
               "text" : ") -> "
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-              "text" : "GuitarString"
+              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+              "text" : "StringChoice"
             }
           ]
         }
@@ -171,7 +171,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
   "abstract" : [
     {
       "text" : "A guitar string being modeled.",
@@ -189,21 +189,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "GuitarString"
+      "text" : "StringChoice"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "GuitarString"
+      "text" : "StringChoice"
     }
   ],
   "role" : "symbol",
-  "title" : "GuitarString",
+  "title" : "StringChoice",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/guitarstring"
+  "url" : "\/documentation\/tensity\/stringchoice"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
   "abstract" : [
@@ -270,8 +270,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-      "text" : "GuitarString"
+      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+      "text" : "StringChoice"
     },
     {
       "kind" : "text",
@@ -279,8 +279,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-      "text" : "GuitarString"
+      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+      "text" : "StringChoice"
     }
   ],
   "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/findClosestMatch(to:)",

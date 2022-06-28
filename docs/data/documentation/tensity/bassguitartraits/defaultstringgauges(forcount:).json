@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7Tensity16BassGuitarTraitsC19defaultStringGauges8forCountSayAA0cF0CGSi_tF",
+    "externalID" : "s:7Tensity16BassGuitarTraitsC19defaultStringGauges8forCountSayAA0F6ChoiceCGSi_tF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -64,8 +64,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-        "text" : "GuitarString"
+        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+        "text" : "StringChoice"
       },
       {
         "kind" : "text",
@@ -135,10 +135,10 @@
               "text" : ") -> ["
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-              "text" : "GuitarString"
+              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+              "text" : "StringChoice"
             },
             {
               "kind" : "text",
@@ -269,8 +269,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-      "text" : "GuitarString"
+      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+      "text" : "StringChoice"
     },
     {
       "kind" : "text",
@@ -283,40 +283,6 @@
   "title" : "defaultStringGauges(forCount:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/bassguitartraits\/defaultstringgauges(forcount:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
-  "abstract" : [
-    {
-      "text" : "A guitar string being modeled.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "GuitarString"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "GuitarString"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "GuitarString",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/guitarstring"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarTraits": {
   "abstract" : [
@@ -360,6 +326,40 @@
   "title" : "GuitarTraits",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/guitartraits"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
+  "abstract" : [
+    {
+      "text" : "A guitar string being modeled.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringChoice"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringChoice"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringChoice",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoice"
 }
 }
 }

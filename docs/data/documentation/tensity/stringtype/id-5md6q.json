@@ -179,7 +179,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
   "abstract" : [
     {
       "text" : "A guitar string being modeled.",
@@ -197,21 +197,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "GuitarString"
+      "text" : "StringChoice"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "GuitarString"
+      "text" : "StringChoice"
     }
   ],
   "role" : "symbol",
-  "title" : "GuitarString",
+  "title" : "StringChoice",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/guitarstring"
+  "url" : "\/documentation\/tensity\/stringchoice"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringType": {
   "abstract" : [
@@ -220,7 +220,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
       "isActive" : true,
       "type" : "reference"
     },

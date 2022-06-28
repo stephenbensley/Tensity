@@ -29,8 +29,11 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
     }
 }
 
-/// A guitar string being modeled.
-class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
+/// One of the guitar strings a user can choose from when configuring the guitar.
+///
+/// Conceptually, this represents an unused string, sitting on the shelf of your local
+/// music shop. Once it's strung on a guitar and brought up to tune, it becomes a ``TunedString``.
+class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     // Must be unique across all string types.
     let id: String
     // Pounds per linear inch
@@ -47,6 +50,7 @@ class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
         formatter.minimumFractionDigits = 3
         formatter.maximumFractionDigits = 6
 
+        // gauge is trusted input, so the format can't fail.
         var result = formatter.string(from: NSNumber(value: gauge))!
         result += wound ? "w" : "p"
         return result
@@ -67,7 +71,7 @@ class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
         self.wound = wound
     }
 
-    func isBetterMatch(than other: GuitarString, comparedTo gauge: GuitarString) -> Bool {
+    func isBetterMatch(than other: StringChoice, comparedTo gauge: StringChoice) -> Bool {
         if (wound == other.wound) {
             // If they're both wound or plain, choose the closest in size
             return abs(self.gauge - gauge.gauge) < abs(other.gauge - gauge.gauge)
@@ -81,11 +85,11 @@ class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
         hasher.combine(id)
     }
 
-    static func == (lhs: GuitarString, rhs: GuitarString) -> Bool {
+    static func == (lhs: StringChoice, rhs: StringChoice) -> Bool {
         lhs.id == rhs.id
     }
 
-    static func < (lhs: GuitarString, rhs: GuitarString) -> Bool {
+    static func < (lhs: StringChoice, rhs: StringChoice) -> Bool {
         if (lhs.wound == rhs.wound) {
             return rhs.wound
         } else {
@@ -94,7 +98,7 @@ class GuitarString: Codable, Comparable, Equatable, Hashable, Identifiable {
     }
 }
 
-/// A collection of ``GuitarString`` objects of the same type, e.g., Phosphor Bronze.
+/// A collection of ``StringChoice`` objects of the same type, e.g., Phosphor Bronze.
 class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identifiable {
     let id: String
     // Friendly name of the type.
@@ -104,7 +108,7 @@ class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identif
     // Another string type that this type includes, typically plain steel.
     let includes: String?
     // All available guitar strings of this type.
-    let strings: [GuitarString]
+    let strings: [StringChoice]
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
@@ -121,12 +125,6 @@ class StringData: Codable {
 
     init(stringTypes: [StringType]) {
         self.stringTypes = stringTypes
-    }
-
-    // Only used for generating sample JSON during development; never called by the app.
-    func encode() -> String {
-        let data = try! JSONEncoder().encode(self)
-        return String(data: data, encoding: .utf8)!
     }
 
     static func load() -> StringData {

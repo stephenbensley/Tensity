@@ -377,8 +377,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-      "text" : "GuitarString"
+      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+      "text" : "StringChoice"
     },
     {
       "kind" : "text",

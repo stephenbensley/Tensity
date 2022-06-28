@@ -22,7 +22,7 @@ protocol GuitarTraits {
     func defaultPitches(forCount stringCount: Int) -> [Pitch]
     var validPitches: ClosedRange<Pitch> { get }
 
-    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString]
+    func defaultStringGauges(forCount stringCount: Int) -> [StringChoice]
 }
 
 /// The ``GuitarTraits`` for an electric guitar.
@@ -101,52 +101,52 @@ class ElectricGuitarTraits: GuitarTraits {
         Pitch(.A, 1)...Pitch(.A, 4)
     }
 
-    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString] {
+    func defaultStringGauges(forCount stringCount: Int) -> [StringChoice] {
         switch stringCount {
         case 4:
             return [
-                GuitarString(0.011),
-                GuitarString(0.015),
-                GuitarString(0.019),
-                GuitarString(0.028, wound: true)
+                StringChoice(0.011),
+                StringChoice(0.015),
+                StringChoice(0.019),
+                StringChoice(0.028, wound: true)
             ]
         case 6:
             return [
-                GuitarString(0.010),
-                GuitarString(0.013),
-                GuitarString(0.017),
-                GuitarString(0.026, wound: true),
-                GuitarString(0.036, wound: true),
-                GuitarString(0.046, wound: true)
+                StringChoice(0.010),
+                StringChoice(0.013),
+                StringChoice(0.017),
+                StringChoice(0.026, wound: true),
+                StringChoice(0.036, wound: true),
+                StringChoice(0.046, wound: true)
             ]
         case 7:
             return [
-                GuitarString(0.010),
-                GuitarString(0.013),
-                GuitarString(0.017),
-                GuitarString(0.026, wound: true),
-                GuitarString(0.036, wound: true),
-                GuitarString(0.046, wound: true),
-                GuitarString(0.059, wound: true)
+                StringChoice(0.010),
+                StringChoice(0.013),
+                StringChoice(0.017),
+                StringChoice(0.026, wound: true),
+                StringChoice(0.036, wound: true),
+                StringChoice(0.046, wound: true),
+                StringChoice(0.059, wound: true)
             ]
         case 12:
             return [
-                GuitarString(0.010),
-                GuitarString(0.010),
-                GuitarString(0.013),
-                GuitarString(0.013),
-                GuitarString(0.017),
-                GuitarString(0.008),
-                GuitarString(0.026, wound: true),
-                GuitarString(0.012),
-                GuitarString(0.036, wound: true),
-                GuitarString(0.018),
-                GuitarString(0.046, wound: true),
-                GuitarString(0.026, wound: true)
+                StringChoice(0.010),
+                StringChoice(0.010),
+                StringChoice(0.013),
+                StringChoice(0.013),
+                StringChoice(0.017),
+                StringChoice(0.008),
+                StringChoice(0.026, wound: true),
+                StringChoice(0.012),
+                StringChoice(0.036, wound: true),
+                StringChoice(0.018),
+                StringChoice(0.046, wound: true),
+                StringChoice(0.026, wound: true)
             ]
         default:
             assertionFailure("Invalid string count for electric guitar.")
-            return Array(repeating: GuitarString(0.010), count: stringCount)
+            return Array(repeating: StringChoice(0.010), count: stringCount)
         }
     }
 }
@@ -218,42 +218,42 @@ class AcousticGuitarTraits: GuitarTraits {
         Pitch(.A, 1)...Pitch(.A, 4)
     }
 
-    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString] {
+    func defaultStringGauges(forCount stringCount: Int) -> [StringChoice] {
         switch stringCount {
         case 4:
             return [
-                GuitarString(0.013),
-                GuitarString(0.017),
-                GuitarString(0.024, wound: true),
-                GuitarString(0.032, wound: true)
+                StringChoice(0.013),
+                StringChoice(0.017),
+                StringChoice(0.024, wound: true),
+                StringChoice(0.032, wound: true)
             ]
         case 6:
             return [
-                GuitarString(0.012),
-                GuitarString(0.016),
-                GuitarString(0.024, wound: true),
-                GuitarString(0.032, wound: true),
-                GuitarString(0.042, wound: true),
-                GuitarString(0.053, wound: true)
+                StringChoice(0.012),
+                StringChoice(0.016),
+                StringChoice(0.024, wound: true),
+                StringChoice(0.032, wound: true),
+                StringChoice(0.042, wound: true),
+                StringChoice(0.053, wound: true)
             ]
         case 12:
             return [
-                GuitarString(0.010),
-                GuitarString(0.010),
-                GuitarString(0.014),
-                GuitarString(0.014),
-                GuitarString(0.023),
-                GuitarString(0.008),
-                GuitarString(0.030, wound: true),
-                GuitarString(0.012),
-                GuitarString(0.039, wound: true),
-                GuitarString(0.018),
-                GuitarString(0.047, wound: true),
-                GuitarString(0.027, wound: true)
+                StringChoice(0.010),
+                StringChoice(0.010),
+                StringChoice(0.014),
+                StringChoice(0.014),
+                StringChoice(0.023),
+                StringChoice(0.008),
+                StringChoice(0.030, wound: true),
+                StringChoice(0.012),
+                StringChoice(0.039, wound: true),
+                StringChoice(0.018),
+                StringChoice(0.047, wound: true),
+                StringChoice(0.027, wound: true)
             ]
         default:
             assertionFailure("Invalid string count for acoustic guitar.")
-            return Array(repeating: GuitarString(0.012), count: stringCount)
+            return Array(repeating: StringChoice(0.012), count: stringCount)
         }
     }
 }
@@ -310,26 +310,26 @@ class BassGuitarTraits: GuitarTraits {
         Pitch(.A, 0)...Pitch(.A, 3)
     }
 
-    func defaultStringGauges(forCount stringCount: Int) -> [GuitarString] {
+    func defaultStringGauges(forCount stringCount: Int) -> [StringChoice] {
         switch stringCount {
         case 4:
             return [
-                GuitarString(0.045, wound: true),
-                GuitarString(0.065, wound: true),
-                GuitarString(0.085, wound: true),
-                GuitarString(0.105, wound: true)
+                StringChoice(0.045, wound: true),
+                StringChoice(0.065, wound: true),
+                StringChoice(0.085, wound: true),
+                StringChoice(0.105, wound: true)
             ]
         case 5:
             return [
-                GuitarString(0.045, wound: true),
-                GuitarString(0.065, wound: true),
-                GuitarString(0.085, wound: true),
-                GuitarString(0.105, wound: true),
-                GuitarString(0.135, wound: true)
+                StringChoice(0.045, wound: true),
+                StringChoice(0.065, wound: true),
+                StringChoice(0.085, wound: true),
+                StringChoice(0.105, wound: true),
+                StringChoice(0.135, wound: true)
             ]
         default:
             assertionFailure("Invalid string count for electric guitar.")
-            return Array(repeating: GuitarString(0.010), count: stringCount)
+            return Array(repeating: StringChoice(0.010), count: stringCount)
         }
     }
 }

@@ -52,8 +52,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Future-Work"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks"
       ],
       "title" : "Getting Started"
     }
@@ -96,17 +95,6 @@
   "title" : "Common Tasks",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/common-tasks"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Future-Work": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Future-Work",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Future Work",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/future-work"
 }
 }
 }

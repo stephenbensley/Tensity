@@ -9,26 +9,33 @@ import Foundation
 
 /// The set of strings from which the user can choose.
 ///
-/// Wrapped in a class, so it can be shared across views.
+/// This is different from ``StringType`` because a user may be able to choose from multiple types. For example, wound strings
+/// are typically paired with plain steel strings for the higher-pitched notes.
 class StringChoices:  RandomAccessCollection {
-    private var choices: [GuitarString] = []
+    private var choices: [StringChoice] = []
 
-    init(forType: StringType, catalog: StringCatalog) {
+    init(forType: StringType, data: StringData) {
         if let includes = forType.includes {
-            let includedType = catalog.findStringType(id: includes)
-            choices += includedType.strings
+            if let includedType = data.findStringType(id: includes) {
+                choices += includedType.strings
+            }
         }
         choices += forType.strings
 
         choices.sort()
     }
 
-    func findClosestMatch(to gauge: GuitarString) -> GuitarString {
+    func find(_ stringId: String) -> StringChoice? {
+        choices.first { $0.id == stringId }
+    }
+
+    func findClosestMatch(to gauge: StringChoice) -> StringChoice {
         assert(!choices.isEmpty)
+        // min is guaranteed to exist since the array isn't empty.
         return choices.min(by: { $0.isBetterMatch(than: $1, comparedTo: gauge) })!
     }
 
-    func findClosestMatches(to gauges: [GuitarString]) -> [GuitarString] {
+    func findClosestMatches(to gauges: [StringChoice]) -> [StringChoice] {
         gauges.map{ findClosestMatch(to: $0) }
     }
 
@@ -36,5 +43,5 @@ class StringChoices:  RandomAccessCollection {
     var count: Int { choices.count }
     var startIndex: Int { 0 }
     var endIndex: Int { count }
-    subscript(position: Int) -> GuitarString { choices[position] }
+    subscript(position: Int) -> StringChoice { choices[position] }
 }

@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7Tensity11TunedStringC6stringAA06GuitarC0Cvp",
+    "externalID" : "s:7Tensity11TunedStringC6stringAA0C6ChoiceCvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -39,8 +39,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-        "text" : "GuitarString"
+        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+        "text" : "StringChoice"
       }
     ],
     "modules" : [
@@ -81,10 +81,10 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-              "text" : "GuitarString"
+              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+              "text" : "StringChoice"
             },
             {
               "kind" : "text",
@@ -148,7 +148,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
   "abstract" : [
     {
       "text" : "A guitar string being modeled.",
@@ -166,21 +166,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "GuitarString"
+      "text" : "StringChoice"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "GuitarString"
+      "text" : "StringChoice"
     }
   ],
   "role" : "symbol",
-  "title" : "GuitarString",
+  "title" : "StringChoice",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/guitarstring"
+  "url" : "\/documentation\/tensity\/stringchoice"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
   "abstract" : [
@@ -239,8 +239,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12GuitarStringC",
-      "text" : "GuitarString"
+      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
+      "text" : "StringChoice"
     }
   ],
   "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/string",

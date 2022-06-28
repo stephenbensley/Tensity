@@ -102,7 +102,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarType",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringType",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/UserData"
       ],
@@ -125,7 +125,9 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/encode()"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/defaultStringType(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(id:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/validStringTypes(_:)"
       ],
       "title" : "Instance Methods"
     },
@@ -174,40 +176,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarString": {
-  "abstract" : [
-    {
-      "text" : "A guitar string being modeled.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "GuitarString"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "GuitarString"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "GuitarString",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/guitarstring"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarType": {
   "abstract" : [
     {
@@ -241,6 +209,40 @@
   "title" : "GuitarType",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/guitartype"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
+  "abstract" : [
+    {
+      "text" : "A guitar string being modeled.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringChoice"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringChoice"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringChoice",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoice"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringData": {
   "abstract" : [
@@ -276,7 +278,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringdata"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/encode()": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/defaultStringType(_:)": {
   "abstract" : [
 
   ],
@@ -291,24 +293,88 @@
     },
     {
       "kind" : "identifier",
-      "text" : "encode"
+      "text" : "defaultStringType"
     },
     {
       "kind" : "text",
-      "text" : "() -> "
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10GuitarTypeO",
+      "text" : "GuitarType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10StringTypeC",
+      "text" : "StringType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/defaultStringType(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultStringType(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringdata\/defaultstringtype(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/findStringType(id:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "findStringType"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:SS",
       "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10StringTypeC",
+      "text" : "StringType"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/encode()",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(id:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "encode()",
+  "title" : "findStringType(id:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringdata\/encode()"
+  "url" : "\/documentation\/tensity\/stringdata\/findstringtype(id:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/init(from:)": {
   "abstract" : [
@@ -470,6 +536,53 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringdata\/stringtypes"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/validStringTypes(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validStringTypes"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10GuitarTypeO",
+      "text" : "GuitarType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Tensity10StringTypeC",
+      "text" : "StringType"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/validStringTypes(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validStringTypes(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringdata\/validstringtypes(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringType": {
   "abstract" : [
     {
@@ -477,7 +590,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/GuitarString",
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
       "isActive" : true,
       "type" : "reference"
     },
