@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "Identifiable.id",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "Must be unique across all string types.",
       "type" : "text"
     }
   ],
@@ -171,7 +163,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/id-4ycar": {
   "abstract" : [
-
+    {
+      "text" : "Must be unique across all string types.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

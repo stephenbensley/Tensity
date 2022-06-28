@@ -40,7 +40,7 @@ class StringChoicesTests: XCTestCase {
         guard let stringData = Self.stringData else {
             return
         }
-        let type = stringData.findStringType(id: "NW")!
+        let type = stringData.findStringType("NW")!
         let choices = StringChoices(forType: type, data: stringData)
 
         var match = choices.findClosestMatch(to: StringChoice(0.020, wound: true))

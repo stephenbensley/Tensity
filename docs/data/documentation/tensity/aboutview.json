@@ -119,20 +119,13 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/init()",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/init(dismiss:showSpec:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/init()"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/appVersion",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/body",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/buildNumber",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/dismiss",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/margin",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/showSpec",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/specUrl"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/body"
       ],
       "title" : "Instance Properties"
     },
@@ -222,40 +215,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/aboutview\/view-implementations"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/appVersion": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "appVersion"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/appVersion",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "appVersion",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/appversion"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/body": {
   "abstract" : [
 
@@ -298,74 +257,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/aboutview\/body"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/buildNumber": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "buildNumber"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/buildNumber",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "buildNumber",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/buildnumber"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/dismiss": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "dismiss"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI13DismissActionV",
-      "text" : "DismissAction"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/dismiss",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "dismiss",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/dismiss"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/init()": {
   "abstract" : [
 
@@ -386,176 +277,6 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/aboutview\/init()"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/init(dismiss:showSpec:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "dismiss"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI11EnvironmentV",
-      "text" : "Environment"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI13DismissActionV",
-      "text" : "DismissAction"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "showSpec"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/init(dismiss:showSpec:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(dismiss:showSpec:)",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/init(dismiss:showspec:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/margin": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "margin"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/margin",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "margin",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/margin"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/showSpec": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "showSpec"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/showSpec",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "showSpec",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/showspec"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/AboutView/specUrl": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "specUrl"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation3URLV",
-      "text" : "URL"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView\/specUrl",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "specUrl",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/aboutview\/specurl"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ContentView": {
   "abstract" : [

@@ -7,13 +7,14 @@
 
 import Foundation
 
+// Add some useful lookup functions to StringData
 extension StringData {
     func defaultStringType(_ guitarType: GuitarType) -> StringType {
         // Unit tests validate that every GuitarType has a default StringType.
-        findStringType(id: guitarType.traits.defaultStringType)!
+        findStringType(guitarType.traits.defaultStringType)!
     }
 
-    func findStringType(id: String) -> StringType? {
+    func findStringType(_ id: String) -> StringType? {
         stringTypes.first(where: { $0.id == id })
     }
 
@@ -42,7 +43,7 @@ class Guitar: ObservableObject {
     @Published var guitarType: GuitarType {
         didSet {
             // Must update stringType first; otherwise default gauges will be mapped with wrong
-            // string type with can lead to information loss.
+            // string type which can lead to information loss.
             stringType = stringData.defaultStringType(guitarType)
             stringCount = guitarType.traits.defaultStringCount
             scaleLength = guitarType.traits.defaultScaleLength
@@ -125,7 +126,6 @@ class Guitar: ObservableObject {
             scaleLength: scaleLength,
             stringChoices: validStrings
         )
-
         self.init(
             stringData: stringData,
             guitarType: guitarType,
@@ -158,7 +158,7 @@ class Guitar: ObservableObject {
             return nil
         }
 
-        guard let stringType = stringData.findStringType(id: userData.stringTypeId) else {
+        guard let stringType = stringData.findStringType(userData.stringTypeId) else {
             return nil
         }
 
@@ -214,13 +214,12 @@ class Guitar: ObservableObject {
         scaleLength: Double,
         pitches: [Pitch],
         strings: [StringChoice]
-    ) -> [TunedString]
-    {
+    ) -> [TunedString] {
         let stringCount = pitches.count
         assert(strings.count == stringCount)
         let stringsPerCourse = guitarType.traits.stringsPerCourse(forCount: stringCount)
-        var result: [TunedString] = []
 
+        var result: [TunedString] = []
         for i in 0 ..< stringCount {
             let newModel = TunedString(
                 number: i + 1,
@@ -230,7 +229,6 @@ class Guitar: ObservableObject {
                 string: strings[i])
             result.append(newModel)
         }
-
         return result
     }
 
@@ -239,8 +237,7 @@ class Guitar: ObservableObject {
         stringCount: Int,
         scaleLength: Double,
         stringChoices: StringChoices
-    ) -> [TunedString]
-    {
+    ) -> [TunedString] {
         let pitches = guitarType.traits.defaultPitches(forCount: stringCount)
         let gauges = guitarType.traits.defaultStringGauges(forCount: stringCount)
         let strings = stringChoices.findClosestMatches(to: gauges)

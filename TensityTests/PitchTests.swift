@@ -19,6 +19,10 @@ class PitchTests: XCTestCase {
 
     func testRange() throws {
         let pianoKeyboard = Pitch(.A, 0)...Pitch(.C, 8)
-        XCTAssertEqual(pianoKeyboard.count, 88, "Using Pitch to enumerate a piano keyboard should yield 88 notes.")
+        XCTAssertEqual(
+            pianoKeyboard.count,
+            88,
+            "Using Pitch to enumerate a piano keyboard should yield 88 notes."
+        )
     }
 }

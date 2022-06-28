@@ -144,16 +144,14 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/init(tunedStrings:validPitches:validStrings:typeSize:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/init(tunedStrings:validPitches:validStrings:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/body",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/scale",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/tunedStrings",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/typeSize",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/validPitches",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/validStrings"
       ],
@@ -638,7 +636,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringtensiontable\/body"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable/init(tunedStrings:validPitches:validStrings:typeSize:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable/init(tunedStrings:validPitches:validStrings:)": {
   "abstract" : [
 
   ],
@@ -709,75 +707,15 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "typeSize"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI11EnvironmentV",
-      "text" : "Environment"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI15DynamicTypeSizeO",
-      "text" : "DynamicTypeSize"
-    },
-    {
-      "kind" : "text",
-      "text" : ">)"
+      "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/init(tunedStrings:validPitches:validStrings:typeSize:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/init(tunedStrings:validPitches:validStrings:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(tunedStrings:validPitches:validStrings:typeSize:)",
+  "title" : "init(tunedStrings:validPitches:validStrings:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringtensiontable\/init(tunedstrings:validpitches:validstrings:typesize:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable/scale": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "scale"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/scale",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "scale",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringtensiontable\/scale"
+  "url" : "\/documentation\/tensity\/stringtensiontable\/init(tunedstrings:validpitches:validstrings:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable/tunedStrings": {
   "abstract" : [
@@ -816,40 +754,6 @@
   "title" : "tunedStrings",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringtensiontable\/tunedstrings"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable/typeSize": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "typeSize"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI15DynamicTypeSizeO",
-      "text" : "DynamicTypeSize"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable\/typeSize",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "typeSize",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringtensiontable\/typesize"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionTable/validPitches": {
   "abstract" : [

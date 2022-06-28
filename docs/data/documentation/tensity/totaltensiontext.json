@@ -131,7 +131,6 @@
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText\/body",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText\/totalTension",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText\/tunedStrings"
       ],
       "title" : "Instance Properties"
@@ -725,40 +724,6 @@
   "title" : "init(tunedStrings:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/totaltensiontext\/init(tunedstrings:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/TotalTensionText/totalTension": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "totalTension"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText\/totalTension",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "totalTension",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/totaltensiontext\/totaltension"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TotalTensionText/tunedStrings": {
   "abstract" : [

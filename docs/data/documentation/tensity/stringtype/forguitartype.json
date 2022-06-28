@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Which type of guitar is this type intended for.",
       "type" : "text"
     }
   ],
@@ -249,7 +249,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringType/forGuitarType": {
   "abstract" : [
-
+    {
+      "text" : "Which type of guitar is this type intended for.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

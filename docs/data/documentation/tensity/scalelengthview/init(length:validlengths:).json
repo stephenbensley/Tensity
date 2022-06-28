@@ -9,30 +9,21 @@
     "paths" : [
       [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/isBetterMatch(than:comparedTo:)"
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/init(length:validLengths:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "Tensity",
-    "externalID" : "s:7Tensity12StringChoiceC13isBetterMatch4than10comparedToSbAC_ACtF",
+    "externalID" : "s:7Tensity15ScaleLengthViewV6length12validLengthsAC7SwiftUI7BindingVySdG_SNySdGtcfc",
     "fragments" : [
       {
-        "kind" : "keyword",
-        "text" : "func"
-      },
-      {
-        "kind" : "text",
-        "text" : " "
-      },
-      {
         "kind" : "identifier",
-        "text" : "isBetterMatch"
+        "text" : "init"
       },
       {
         "kind" : "text",
@@ -40,7 +31,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "than"
+        "text" : "length"
       },
       {
         "kind" : "text",
@@ -48,16 +39,25 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-        "text" : "StringChoice"
+        "preciseIdentifier" : "s:7SwiftUI7BindingV",
+        "text" : "Binding"
       },
       {
         "kind" : "text",
-        "text" : ", "
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      },
+      {
+        "kind" : "text",
+        "text" : ">, "
       },
       {
         "kind" : "externalParam",
-        "text" : "comparedTo"
+        "text" : "validLengths"
       },
       {
         "kind" : "text",
@@ -65,17 +65,21 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-        "text" : "StringChoice"
+        "preciseIdentifier" : "s:SN",
+        "text" : "ClosedRange"
       },
       {
         "kind" : "text",
-        "text" : ") -> "
+        "text" : "<"
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      },
+      {
+        "kind" : "text",
+        "text" : ">)"
       }
     ],
     "modules" : [
@@ -84,9 +88,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Instance Method",
-    "symbolKind" : "method",
-    "title" : "isBetterMatch(than:comparedTo:)"
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(length:validLengths:)"
   },
   "primaryContentSections" : [
     {
@@ -101,15 +105,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "func"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "identifier",
-              "text" : "isBetterMatch"
+              "text" : "init"
             },
             {
               "kind" : "text",
@@ -117,60 +113,55 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "than"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "other"
+              "text" : "length"
             },
             {
               "kind" : "text",
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-              "text" : "StringChoice"
+              "preciseIdentifier" : "s:7SwiftUI7BindingV",
+              "text" : "Binding"
             },
             {
               "kind" : "text",
-              "text" : ", "
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            },
+            {
+              "kind" : "text",
+              "text" : ">, "
             },
             {
               "kind" : "externalParam",
-              "text" : "comparedTo"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "gauge"
+              "text" : "validLengths"
             },
             {
               "kind" : "text",
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-              "text" : "StringChoice"
+              "preciseIdentifier" : "s:SN",
+              "text" : "ClosedRange"
             },
             {
               "kind" : "text",
-              "text" : ") -> "
+              "text" : "<"
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            },
+            {
+              "kind" : "text",
+              "text" : ">)"
             }
           ]
         }
@@ -189,7 +180,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tensity\/stringchoice\/isbettermatch(than:comparedto:)"
+        "\/documentation\/tensity\/scalelengthview\/init(length:validlengths:)"
       ],
       "traits" : [
         {
@@ -214,17 +205,17 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView": {
   "abstract" : [
     {
-      "text" : "One of the guitar strings a user can choose from when configuring the guitar.",
+      "text" : "Allows the user to edit the guitar’s scale length.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "class"
+      "text" : "struct"
     },
     {
       "kind" : "text",
@@ -232,38 +223,30 @@
     },
     {
       "kind" : "identifier",
-      "text" : "StringChoice"
+      "text" : "ScaleLengthView"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "StringChoice"
+      "text" : "ScaleLengthView"
     }
   ],
   "role" : "symbol",
-  "title" : "StringChoice",
+  "title" : "ScaleLengthView",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringchoice"
+  "url" : "\/documentation\/tensity\/scalelengthview"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/isBetterMatch(than:comparedTo:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/init(length:validLengths:)": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
       "kind" : "identifier",
-      "text" : "isBetterMatch"
+      "text" : "init"
     },
     {
       "kind" : "text",
@@ -271,7 +254,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "than"
+      "text" : "length"
     },
     {
       "kind" : "text",
@@ -279,16 +262,25 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-      "text" : "StringChoice"
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
-      "text" : "comparedTo"
+      "text" : "validLengths"
     },
     {
       "kind" : "text",
@@ -296,25 +288,29 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-      "text" : "StringChoice"
+      "preciseIdentifier" : "s:SN",
+      "text" : "ClosedRange"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : "<"
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/isBetterMatch(than:comparedTo:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/init(length:validLengths:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "isBetterMatch(than:comparedTo:)",
+  "title" : "init(length:validLengths:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringchoice\/isbettermatch(than:comparedto:)"
+  "url" : "\/documentation\/tensity\/scalelengthview\/init(length:validlengths:)"
 }
 }
 }

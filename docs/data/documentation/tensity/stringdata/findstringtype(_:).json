@@ -9,18 +9,18 @@
     "paths" : [
       [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/isBetterMatch(than:comparedTo:)"
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(_:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Tensity",
-    "externalID" : "s:7Tensity12StringChoiceC13isBetterMatch4than10comparedToSbAC_ACtF",
+    "externalID" : "s:7Tensity10StringDataC04findB4TypeyAA0bE0CSgSSF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -32,41 +32,16 @@
       },
       {
         "kind" : "identifier",
-        "text" : "isBetterMatch"
+        "text" : "findStringType"
       },
       {
         "kind" : "text",
         "text" : "("
       },
       {
-        "kind" : "externalParam",
-        "text" : "than"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-        "text" : "StringChoice"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "comparedTo"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-        "text" : "StringChoice"
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
       },
       {
         "kind" : "text",
@@ -74,8 +49,12 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
+        "preciseIdentifier" : "s:7Tensity10StringTypeC",
+        "text" : "StringType"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
       }
     ],
     "modules" : [
@@ -86,7 +65,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "isBetterMatch(than:comparedTo:)"
+    "title" : "findStringType(_:)"
   },
   "primaryContentSections" : [
     {
@@ -109,7 +88,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "isBetterMatch"
+              "text" : "findStringType"
             },
             {
               "kind" : "text",
@@ -117,7 +96,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "than"
+              "text" : "_"
             },
             {
               "kind" : "text",
@@ -125,52 +104,30 @@
             },
             {
               "kind" : "internalParam",
-              "text" : "other"
+              "text" : "id"
             },
             {
               "kind" : "text",
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-              "text" : "StringChoice"
-            },
-            {
-              "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "comparedTo"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "gauge"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-              "text" : "StringChoice"
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
             },
             {
               "kind" : "text",
               "text" : ") -> "
             },
             {
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringType",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
+              "preciseIdentifier" : "s:7Tensity10StringTypeC",
+              "text" : "StringType"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
             }
           ]
         }
@@ -189,7 +146,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tensity\/stringchoice\/isbettermatch(than:comparedto:)"
+        "\/documentation\/tensity\/stringdata\/findstringtype(_:)"
       ],
       "traits" : [
         {
@@ -248,7 +205,41 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoice"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/isBetterMatch(than:comparedTo:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData": {
+  "abstract" : [
+    {
+      "text" : "The  guitar string tension specifications that are loaded from the bundled JSON during app initialization.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringData",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringdata"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/findStringType(_:)": {
   "abstract" : [
 
   ],
@@ -263,41 +254,16 @@
     },
     {
       "kind" : "identifier",
-      "text" : "isBetterMatch"
+      "text" : "findStringType"
     },
     {
       "kind" : "text",
       "text" : "("
     },
     {
-      "kind" : "externalParam",
-      "text" : "than"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-      "text" : "StringChoice"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "comparedTo"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity12StringChoiceC",
-      "text" : "StringChoice"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     },
     {
       "kind" : "text",
@@ -305,16 +271,63 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
+      "preciseIdentifier" : "s:7Tensity10StringTypeC",
+      "text" : "StringType"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/isBetterMatch(than:comparedTo:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "isBetterMatch(than:comparedTo:)",
+  "title" : "findStringType(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringchoice\/isbettermatch(than:comparedto:)"
+  "url" : "\/documentation\/tensity\/stringdata\/findstringtype(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringType": {
+  "abstract" : [
+    {
+      "text" : "A collection of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " objects of the same type, e.g., Phosphor Bronze.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringType",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtype"
 }
 }
 }

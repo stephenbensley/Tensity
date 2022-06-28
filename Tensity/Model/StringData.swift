@@ -34,13 +34,13 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
 /// Conceptually, this represents an unused string, sitting on the shelf of your local
 /// music shop. Once it's strung on a guitar and brought up to tune, it becomes a ``TunedString``.
 class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
-    // Must be unique across all string types.
+    /// Must be unique across all string types.
     let id: String
-    // Pounds per linear inch
+    /// Pounds per linear inch
     let unitWeight: Double
-    // String diameter in inches
+    /// String diameter in inches
     let gauge: Double
-    // True for wound strings; false for plain strings.
+    /// True for wound strings; false for plain strings.
     let wound: Bool
 
     var description: String {
@@ -71,16 +71,6 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
         self.wound = wound
     }
 
-    func isBetterMatch(than other: StringChoice, comparedTo gauge: StringChoice) -> Bool {
-        if (wound == other.wound) {
-            // If they're both wound or plain, choose the closest in size
-            return abs(self.gauge - gauge.gauge) < abs(other.gauge - gauge.gauge)
-        } else {
-            // Otherwise, prefer wound-to-wound and plain-to-plain
-            return self.wound == gauge.wound
-        }
-    }
-
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
@@ -100,14 +90,15 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
 
 /// A collection of ``StringChoice`` objects of the same type, e.g., Phosphor Bronze.
 class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identifiable {
+    /// Must be unique across all string types.
     let id: String
-    // Friendly name of the type.
+    /// Friendly name of the type.
     let description: String
-    // Which type of guitar is this type intended for.
+    /// Which type of guitar is this type intended for.
     let forGuitarType: GuitarType?
-    // Another string type that this type includes, typically plain steel.
+    /// Another string type that this type includes, typically plain steel.
     let includes: String?
-    // All available guitar strings of this type.
+    /// All available guitar strings of this type.
     let strings: [StringChoice]
 
     func hash(into hasher: inout Hasher) {

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "All available guitar strings of this type.",
       "type" : "text"
     }
   ],
@@ -215,7 +215,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringType/strings": {
   "abstract" : [
-
+    {
+      "text" : "All available guitar strings of this type.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

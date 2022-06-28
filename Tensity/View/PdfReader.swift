@@ -46,9 +46,9 @@ struct PdfView: UIViewRepresentable {
 
 /// Allows the user to read and share a PDF.
 struct PdfReader: View {
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.dismiss) private var dismiss
     let url: URL
-    @State var showShareSheet = false
+    @State private var showShareSheet = false
 
     var body: some View {
         VStack {

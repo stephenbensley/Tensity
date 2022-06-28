@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Type of string being used",
       "type" : "text"
     }
   ],
@@ -218,7 +218,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/string": {
   "abstract" : [
-
+    {
+      "text" : "Type of string being used",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

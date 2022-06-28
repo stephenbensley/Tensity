@@ -132,14 +132,13 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/init(tunedString:validPitches:validStrings:scale:editing:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/init(tunedString:validPitches:validStrings:scale:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/body",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/editing-swift.property",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/scale",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/tunedString",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/validPitches",
@@ -149,7 +148,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/Editing-swift.enum"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/Editing"
       ],
       "title" : "Enumerations"
     },
@@ -519,7 +518,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringtensionrow"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/Editing-swift.enum": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/Editing": {
   "abstract" : [
 
   ],
@@ -537,7 +536,7 @@
       "text" : "Editing"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/Editing-swift.enum",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/Editing",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -548,7 +547,7 @@
   "role" : "symbol",
   "title" : "StringTensionRow.Editing",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringtensionrow\/editing-swift.enum"
+  "url" : "\/documentation\/tensity\/stringtensionrow\/editing"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/View-Implementations": {
   "abstract" : [
@@ -603,50 +602,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringtensionrow\/body"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/editing-swift.property": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "editing"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity16StringTensionRowV",
-      "text" : "StringTensionRow"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity16StringTensionRowV7EditingO",
-      "text" : "Editing"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/editing-swift.property",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "editing",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringtensionrow\/editing-swift.property"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/init(tunedString:validPitches:validStrings:scale:editing:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/init(tunedString:validPitches:validStrings:scale:)": {
   "abstract" : [
 
   ],
@@ -734,41 +690,15 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "editing"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity16StringTensionRowV",
-      "text" : "StringTensionRow"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity16StringTensionRowV7EditingO",
-      "text" : "Editing"
-    },
-    {
-      "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/init(tunedString:validPitches:validStrings:scale:editing:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow\/init(tunedString:validPitches:validStrings:scale:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(tunedString:validPitches:validStrings:scale:editing:)",
+  "title" : "init(tunedString:validPitches:validStrings:scale:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringtensionrow\/init(tunedstring:validpitches:validstrings:scale:editing:)"
+  "url" : "\/documentation\/tensity\/stringtensionrow\/init(tunedstring:validpitches:validstrings:scale:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringTensionRow/scale": {
   "abstract" : [

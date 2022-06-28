@@ -153,15 +153,6 @@
       "title" : "Instance Methods"
     },
     {
-      "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4Freq",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/notesPerOctave",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/semitoneMultiplier"
-      ],
-      "title" : "Type Properties"
-    },
-    {
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
@@ -394,90 +385,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitch\/identifiable-implementations"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/a4": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "a4"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7Tensity5PitchV",
-      "text" : "Pitch"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "a4",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pitch\/a4"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/a4Freq": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "a4Freq"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/a4Freq",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "a4Freq",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pitch\/a4freq"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/advanced(by:)": {
   "abstract" : [
 
@@ -704,7 +611,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/id-4zbdu": {
   "abstract" : [
-
+    {
+      "text" : "Pitches are numbered starting from C0",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -855,48 +765,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitch\/init(id:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/notesPerOctave": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "notesPerOctave"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/notesPerOctave",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "notesPerOctave",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pitch\/notesperoctave"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/octave": {
   "abstract" : [
 
@@ -964,48 +832,6 @@
   "title" : "pitchClass",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitch\/pitchclass"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/semitoneMultiplier": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "semitoneMultiplier"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/semitoneMultiplier",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "semitoneMultiplier",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pitch\/semitonemultiplier"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/PitchClass": {
   "abstract" : [

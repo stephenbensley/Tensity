@@ -163,12 +163,6 @@
       "title" : "Instance Properties"
     },
     {
-      "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass\/names"
-      ],
-      "title" : "Type Properties"
-    },
-    {
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass\/Equatable-Implementations",
@@ -766,52 +760,6 @@
   "title" : "init(rawValue:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitchclass\/init(rawvalue:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/PitchClass/names": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "names"
-    },
-    {
-      "kind" : "text",
-      "text" : ": ["
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : "]"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PitchClass\/names",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "names",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pitchclass\/names"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
   "abstract" : [

@@ -19,7 +19,11 @@ class StringDataTests: XCTestCase {
 
         for type in GuitarType.allCases {
             let typeCount = stringTypes.filter { $0.forGuitarType == type }.count
-            XCTAssertGreaterThan(typeCount, 0, "There are no string types defined for \(type.description) guitar.")
+            XCTAssertGreaterThan(
+                typeCount,
+                0,
+                "There are no string types defined for \(type.description) guitar."
+            )
         }
     }
 
@@ -40,7 +44,10 @@ class StringDataTests: XCTestCase {
 
         for type in stringTypes {
             if let includes = type.includes {
-                XCTAssert(stringTypes.contains { $0.id == includes }, "String type \(type.id) includes unknown type \(includes)")
+                XCTAssert(
+                    stringTypes.contains { $0.id == includes },
+                    "String type \(type.id) includes unknown type \(includes)"
+                )
             }
         }
     }

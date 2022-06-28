@@ -9,14 +9,14 @@ import SwiftUI
 
 /// Displays the About page.
 struct AboutView: View {
-    // Used to dismiss the view when the Done button is tapped.
-    @Environment(\.dismiss) var dismiss
-    // Signals that the tension specifications pdf should be displayed.
-    @State var showSpec: Bool = false
-    // Left and right margin size.
-    let margin = 25.0
+    /// Used to dismiss the view when the Done button is tapped.
+    @Environment(\.dismiss) private var dismiss
+    /// Signals that the tension specifications pdf should be displayed.
+    @State private var showSpec: Bool = false
+    /// Left and right margin size.
+    private let margin = 25.0
 
-    var appVersion: String {
+    private var appVersion: String {
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
             return version
         } else {
@@ -24,7 +24,7 @@ struct AboutView: View {
         }
     }
 
-    var buildNumber: String {
+    private var buildNumber: String {
         if let version = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
             return version
         } else {
@@ -32,7 +32,7 @@ struct AboutView: View {
         }
     }
 
-    var specUrl: URL? {
+    private var specUrl: URL? {
         Bundle.main.url(forResource: "String Tension Specifications", withExtension: "pdf")
     }
 
