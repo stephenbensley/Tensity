@@ -128,7 +128,7 @@
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/course",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/id-9j6cs",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/id-5emnq",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/length",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/number",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/pitch",
@@ -516,7 +516,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/course": {
   "abstract" : [
-
+    {
+      "text" : "1-based course number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -602,14 +605,17 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/tunedstring\/hash(into:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/id-9j6cs": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/id-5emnq": {
   "abstract" : [
-
+    {
+      "text" : "None of the other fields is unique across instances",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "var"
+      "text" : "let"
     },
     {
       "kind" : "text",
@@ -625,16 +631,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
+      "preciseIdentifier" : "s:10Foundation4UUIDV",
+      "text" : "UUID"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/id-9j6cs",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/id-5emnq",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "id",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/tunedstring\/id-9j6cs"
+  "url" : "\/documentation\/tensity\/tunedstring\/id-5emnq"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/init(number:course:length:pitch:string:)": {
   "abstract" : [
@@ -744,7 +750,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/length": {
   "abstract" : [
-
+    {
+      "text" : "Length of the string in inches",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -778,7 +787,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/number": {
   "abstract" : [
-
+    {
+      "text" : "1-based string number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -812,7 +824,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/pitch": {
   "abstract" : [
-
+    {
+      "text" : "Pitch to which the string is tuned",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -846,7 +861,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/string": {
   "abstract" : [
-
+    {
+      "text" : "Type of string being used",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -880,7 +898,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/tension": {
   "abstract" : [
-
+    {
+      "text" : "Returns the tension in pounds.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

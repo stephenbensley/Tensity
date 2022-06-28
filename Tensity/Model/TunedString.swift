@@ -9,22 +9,20 @@ import Foundation
 
 /// Models a guitar string that has been strung and tuned.
 class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
-    // 1-based string number
+    /// None of the other fields is unique across instances
+    let id = UUID()
+    /// 1-based string number
     let number: Int
-    // 1-based course number
+    /// 1-based course number
     let course: Int
-    // Length of the string in inches
+    /// Length of the string in inches
     @Published var length: Double
-    // Pitch to which the string is tuned
+    /// Pitch to which the string is tuned
     @Published var pitch: Pitch
-    // Type of string being used
+    /// Type of string being used
     @Published var string: StringChoice
 
-    var id: Int {
-        return number
-    }
-
-    // Returns the tension in pounds.
+    /// Returns the tension in pounds.
     var tension: Double {
 
         // Formula for string tension:
@@ -58,11 +56,19 @@ class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
 
     // Hashable
     func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
+        hasher.combine(number)
+        hasher.combine(course)
+        hasher.combine(length)
+        hasher.combine(pitch)
+        hasher.combine(string)
     }
 
     // Equatable
     static func == (lhs: TunedString, rhs: TunedString) -> Bool {
-        lhs.id == rhs.id
+        (lhs.number == rhs.number) &&
+        (lhs.course == rhs.course) &&
+        (lhs.length == rhs.length) &&
+        (lhs.pitch  == rhs.pitch ) &&
+        (lhs.string == rhs.string)
     }
 }

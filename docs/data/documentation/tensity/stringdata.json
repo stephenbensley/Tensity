@@ -126,7 +126,7 @@
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/defaultStringType(_:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(id:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/validStringTypes(_:)"
       ],
       "title" : "Instance Methods"
@@ -321,7 +321,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringdata\/defaultstringtype(_:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/findStringType(id:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/findStringType(_:)": {
   "abstract" : [
 
   ],
@@ -343,14 +343,6 @@
       "text" : "("
     },
     {
-      "kind" : "externalParam",
-      "text" : "id"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
       "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:SS",
       "text" : "String"
@@ -369,12 +361,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(id:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringData\/findStringType(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "findStringType(id:)",
+  "title" : "findStringType(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringdata\/findstringtype(id:)"
+  "url" : "\/documentation\/tensity\/stringdata\/findstringtype(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringData/init(from:)": {
   "abstract" : [

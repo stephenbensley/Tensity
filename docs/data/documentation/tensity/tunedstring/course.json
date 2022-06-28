@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "1-based course number",
       "type" : "text"
     }
   ],
@@ -163,7 +163,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/course": {
   "abstract" : [
-
+    {
+      "text" : "1-based course number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

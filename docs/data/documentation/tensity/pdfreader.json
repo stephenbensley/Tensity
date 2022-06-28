@@ -119,15 +119,13 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/init(dismiss:url:showShareSheet:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/init(url:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/body",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/dismiss",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/showShareSheet",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/url"
       ],
       "title" : "Instance Properties"
@@ -362,41 +360,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pdfreader\/body"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/PdfReader/dismiss": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "dismiss"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI13DismissActionV",
-      "text" : "DismissAction"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/dismiss",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "dismiss",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pdfreader\/dismiss"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/PdfReader/init(dismiss:url:showShareSheet:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/PdfReader/init(url:)": {
   "abstract" : [
 
   ],
@@ -408,32 +372,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "dismiss"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI11EnvironmentV",
-      "text" : "Environment"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI13DismissActionV",
-      "text" : "DismissAction"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -450,66 +388,15 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "showShareSheet"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/init(dismiss:url:showShareSheet:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/init(url:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(dismiss:url:showShareSheet:)",
+  "title" : "init(url:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/pdfreader\/init(dismiss:url:showsharesheet:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/PdfReader/showShareSheet": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "showShareSheet"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader\/showShareSheet",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "showShareSheet",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pdfreader\/showsharesheet"
+  "url" : "\/documentation\/tensity\/pdfreader\/init(url:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/PdfReader/url": {
   "abstract" : [

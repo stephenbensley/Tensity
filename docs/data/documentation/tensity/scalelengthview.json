@@ -119,18 +119,14 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/init(dismiss:length:validLengths:newLength:enableDone:lengthInFocus:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/init(length:validLengths:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/body",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/dismiss",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/enableDone",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/length",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/lengthInFocus",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/newLength",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/validLengths"
       ],
       "title" : "Instance Properties"
@@ -433,75 +429,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/scalelengthview\/body"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/dismiss": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "dismiss"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI13DismissActionV",
-      "text" : "DismissAction"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/dismiss",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "dismiss",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/scalelengthview\/dismiss"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/enableDone": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "enableDone"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/enableDone",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "enableDone",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/scalelengthview\/enabledone"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/init(dismiss:length:validLengths:newLength:enableDone:lengthInFocus:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/init(length:validLengths:)": {
   "abstract" : [
 
   ],
@@ -513,32 +441,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "dismiss"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI11EnvironmentV",
-      "text" : "Environment"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI13DismissActionV",
-      "text" : "DismissAction"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -590,75 +492,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "newLength"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "enableDone"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "lengthInFocus"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI10FocusStateV",
-      "text" : "FocusState"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
       "text" : ">)"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/init(dismiss:length:validLengths:newLength:enableDone:lengthInFocus:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/init(length:validLengths:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(dismiss:length:validLengths:newLength:enableDone:lengthInFocus:)",
+  "title" : "init(length:validLengths:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/scalelengthview\/init(dismiss:length:validlengths:newlength:enabledone:lengthinfocus:)"
+  "url" : "\/documentation\/tensity\/scalelengthview\/init(length:validlengths:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/length": {
   "abstract" : [
@@ -693,74 +535,6 @@
   "title" : "length",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/scalelengthview\/length"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/lengthInFocus": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "lengthInFocus"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/lengthInFocus",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "lengthInFocus",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/scalelengthview\/lengthinfocus"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/newLength": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "newLength"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sd",
-      "text" : "Double"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ScaleLengthView\/newLength",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "newLength",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/scalelengthview\/newlength"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ScaleLengthView/validLengths": {
   "abstract" : [

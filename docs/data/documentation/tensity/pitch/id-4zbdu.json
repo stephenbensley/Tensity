@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "Identifiable.id",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "Pitches are numbered starting from C0",
       "type" : "text"
     }
   ],
@@ -180,7 +172,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/id-4zbdu": {
   "abstract" : [
-
+    {
+      "text" : "Pitches are numbered starting from C0",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

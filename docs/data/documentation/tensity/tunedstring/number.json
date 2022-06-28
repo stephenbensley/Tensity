@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "1-based string number",
       "type" : "text"
     }
   ],
@@ -163,7 +163,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/number": {
   "abstract" : [
-
+    {
+      "text" : "1-based string number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

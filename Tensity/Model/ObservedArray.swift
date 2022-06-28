@@ -18,7 +18,7 @@ class ObservedArray<T>: ObservableObject, RandomAccessCollection where T: Observ
         self.subject = subject
         
         subject.forEach({
-            let c = $0.objectWillChange.sink(receiveValue: { void in
+            let c = $0.objectWillChange.sink(receiveValue: { _ in
                 self.objectWillChange.send()
             })
 

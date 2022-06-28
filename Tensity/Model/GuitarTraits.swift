@@ -300,7 +300,7 @@ class BassGuitarTraits: GuitarTraits {
                 Pitch(.E, 1),
                 Pitch(.B, 0)]
         default:
-            assertionFailure("Invalid string count for electric guitar.")
+            assertionFailure("Invalid string count for bass guitar.")
             // Middle C seems as good a default as any.
             return Array(repeating: Pitch(.C, 4), count: stringCount)
         }
@@ -328,8 +328,8 @@ class BassGuitarTraits: GuitarTraits {
                 StringChoice(0.135, wound: true)
             ]
         default:
-            assertionFailure("Invalid string count for electric guitar.")
-            return Array(repeating: StringChoice(0.010), count: stringCount)
+            assertionFailure("Invalid string count for bass guitar.")
+            return Array(repeating: StringChoice(0.045, wound: true), count: stringCount)
         }
     }
 }

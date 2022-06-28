@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Returns the tension in pounds.",
       "type" : "text"
     }
   ],
@@ -175,7 +175,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/tension": {
   "abstract" : [
-
+    {
+      "text" : "Returns the tension in pounds.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

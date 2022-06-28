@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Pounds per linear inch",
       "type" : "text"
     }
   ],
@@ -163,7 +163,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/unitWeight": {
   "abstract" : [
-
+    {
+      "text" : "Pounds per linear inch",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

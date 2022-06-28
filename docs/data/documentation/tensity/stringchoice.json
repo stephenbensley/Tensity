@@ -524,7 +524,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/gauge": {
   "abstract" : [
-
+    {
+      "text" : "String diameter in inches",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -612,7 +615,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/id-4ycar": {
   "abstract" : [
-
+    {
+      "text" : "Must be unique across all string types.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -892,7 +898,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/unitWeight": {
   "abstract" : [
-
+    {
+      "text" : "Pounds per linear inch",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -926,7 +935,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/wound": {
   "abstract" : [
-
+    {
+      "text" : "True for wound strings; false for plain strings.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

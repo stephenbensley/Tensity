@@ -75,7 +75,7 @@ struct StringTensionRow: View {
     var validPitches: ClosedRange<Pitch>
     var validStrings: StringChoices
     var scale: Double
-    @State var editing = Editing.none
+    @State private var editing = Editing.none
 
     var body: some View {
         HStack {
@@ -148,7 +148,7 @@ struct TotalTensionText: View {
         self.tunedStrings = ObservedArray(tunedStrings)
     }
 
-    var totalTension: Double {
+    private var totalTension: Double {
         tunedStrings.reduce(0.0) { $0 + $1.tension }
     }
 
@@ -163,9 +163,9 @@ struct StringTensionTable: View {
     var tunedStrings: [TunedString]
     var validPitches: ClosedRange<Pitch>
     var validStrings: StringChoices
-    @Environment(\.dynamicTypeSize) var typeSize
+    @Environment(\.dynamicTypeSize) private var typeSize
 
-    var scale: Double {
+    private var scale: Double {
         min(max(typeSize.scaleFactor, 1.0), 1.4)
     }
 

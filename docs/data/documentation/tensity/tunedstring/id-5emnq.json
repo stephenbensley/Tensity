@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "True for wound strings; false for plain strings.",
+      "text" : "None of the other fields is unique across instances",
       "type" : "text"
     }
   ],
@@ -9,17 +9,17 @@
     "paths" : [
       [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/wound"
+    "url" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/id-5emnq"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7Tensity12StringChoiceC5woundSbvp",
+    "externalID" : "s:7Tensity11TunedStringC2id10Foundation4UUIDVvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -31,7 +31,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "wound"
+        "text" : "id"
       },
       {
         "kind" : "text",
@@ -39,8 +39,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
+        "preciseIdentifier" : "s:10Foundation4UUIDV",
+        "text" : "UUID"
       }
     ],
     "modules" : [
@@ -51,7 +51,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "wound"
+    "title" : "id"
   },
   "primaryContentSections" : [
     {
@@ -74,7 +74,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "wound"
+              "text" : "id"
             },
             {
               "kind" : "text",
@@ -82,8 +82,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
+              "preciseIdentifier" : "s:10Foundation4UUIDV",
+              "text" : "UUID"
             }
           ]
         }
@@ -102,7 +102,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tensity\/stringchoice\/wound"
+        "\/documentation\/tensity\/tunedstring\/id-5emnq"
       ],
       "traits" : [
         {
@@ -127,10 +127,10 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
   "abstract" : [
     {
-      "text" : "One of the guitar strings a user can choose from when configuring the guitar.",
+      "text" : "Models a guitar string that has been strung and tuned.",
       "type" : "text"
     }
   ],
@@ -145,26 +145,26 @@
     },
     {
       "kind" : "identifier",
-      "text" : "StringChoice"
+      "text" : "TunedString"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "StringChoice"
+      "text" : "TunedString"
     }
   ],
   "role" : "symbol",
-  "title" : "StringChoice",
+  "title" : "TunedString",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringchoice"
+  "url" : "\/documentation\/tensity\/tunedstring"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/wound": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/id-5emnq": {
   "abstract" : [
     {
-      "text" : "True for wound strings; false for plain strings.",
+      "text" : "None of the other fields is unique across instances",
       "type" : "text"
     }
   ],
@@ -179,7 +179,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "wound"
+      "text" : "id"
     },
     {
       "kind" : "text",
@@ -187,16 +187,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
+      "preciseIdentifier" : "s:10Foundation4UUIDV",
+      "text" : "UUID"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/wound",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TunedString\/id-5emnq",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "wound",
+  "title" : "id",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringchoice\/wound"
+  "url" : "\/documentation\/tensity\/tunedstring\/id-5emnq"
 }
 }
 }

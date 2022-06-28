@@ -169,7 +169,7 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/init(isActive:title:selection:options:footer:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/init(title:selection:options:footer:)"
       ],
       "title" : "Initializers"
     },
@@ -177,7 +177,6 @@
       "identifiers" : [
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/body",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/footer",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/isActive",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/options",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/selection",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/title"
@@ -414,7 +413,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/navpicker\/footer"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/NavPicker/init(isActive:title:selection:options:footer:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/NavPicker/init(title:selection:options:footer:)": {
   "abstract" : [
 
   ],
@@ -426,23 +425,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "isActive"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -520,46 +502,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/init(isActive:title:selection:options:footer:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/init(title:selection:options:footer:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(isActive:title:selection:options:footer:)",
+  "title" : "init(title:selection:options:footer:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/navpicker\/init(isactive:title:selection:options:footer:)"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/NavPicker/isActive": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "isActive"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/NavPicker\/isActive",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "isActive",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/navpicker\/isactive"
+  "url" : "\/documentation\/tensity\/navpicker\/init(title:selection:options:footer:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/NavPicker/options": {
   "abstract" : [

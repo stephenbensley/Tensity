@@ -24,7 +24,7 @@ enum PitchClass: Int {
     case Asharp
     case B
 
-    static let names = ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "A♯", "B"]
+    private static let names = ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "A♯", "B"]
 
     var description: String {
         PitchClass.names[rawValue]
@@ -33,15 +33,15 @@ enum PitchClass: Int {
 
 /// Represents a musical pitch, which consists of a ``PitchClass`` and an octave.
 struct Pitch: Codable, Hashable, Identifiable, Strideable {
-    // Pitches are numbered starting from C0
+    /// Pitches are numbered starting from C0
     let id: Int
 
-    static let notesPerOctave = 12
+    private static let notesPerOctave = 12
     // In standard pitch, A4 corresponds to 440 Hz
-    static let a4 = Pitch(PitchClass.A, 4)
-    static let a4Freq = 440.0
+    private static let a4 = Pitch(PitchClass.A, 4)
+    private static let a4Freq = 440.0
     // Amount pitch changes with each semitone.
-    static let semitoneMultiplier = pow(2.0, 1.0/12.0)
+    private static let semitoneMultiplier = pow(2.0, 1.0/12.0)
 
     init(id: Int) {
         self.id = id

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Another string type that this type includes, typically plain steel.",
       "type" : "text"
     }
   ],
@@ -214,7 +214,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringType/includes": {
   "abstract" : [
-
+    {
+      "text" : "Another string type that this type includes, typically plain steel.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "CustomStringConvertible.description",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "Friendly name of the type.",
       "type" : "text"
     }
   ],
@@ -214,7 +206,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringType/description": {
   "abstract" : [
-
+    {
+      "text" : "Friendly name of the type.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Pitch to which the string is tuned",
       "type" : "text"
     }
   ],
@@ -261,7 +261,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString/pitch": {
   "abstract" : [
-
+    {
+      "text" : "Pitch to which the string is tuned",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

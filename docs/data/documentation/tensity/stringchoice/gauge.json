@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "String diameter in inches",
       "type" : "text"
     }
   ],
@@ -163,7 +163,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/gauge": {
   "abstract" : [
-
+    {
+      "text" : "String diameter in inches",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
