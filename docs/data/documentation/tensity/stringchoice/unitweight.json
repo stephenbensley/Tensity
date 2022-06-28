@@ -116,7 +116,7 @@
 "doc://com.stephenbensley.Tensity/documentation/Tensity": {
   "abstract" : [
     {
-      "text" : "This is my summary.",
+      "text" : "Tensity is an iOS app that calculates the string tension for a guitar.",
       "type" : "text"
     }
   ],
@@ -130,7 +130,7 @@
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
   "abstract" : [
     {
-      "text" : "A guitar string being modeled.",
+      "text" : "One of the guitar strings a user can choose from when configuring the guitar.",
       "type" : "text"
     }
   ],

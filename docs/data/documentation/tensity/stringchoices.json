@@ -88,7 +88,24 @@
         {
           "inlineContent" : [
             {
-              "text" : "Wrapped in a class, so it can be shared across views.",
+              "text" : "This is different from ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringType",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " because a user may be able to choose from multiple types. For example, wound strings",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "are typically paired with plain steel strings for the higher-pitched notes.",
               "type" : "text"
             }
           ],
@@ -209,7 +226,7 @@
 "doc://com.stephenbensley.Tensity/documentation/Tensity": {
   "abstract" : [
     {
-      "text" : "This is my summary.",
+      "text" : "Tensity is an iOS app that calculates the string tension for a guitar.",
       "type" : "text"
     }
   ],
@@ -372,6 +389,40 @@
   "title" : "PitchClass",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitchclass"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
+  "abstract" : [
+    {
+      "text" : "One of the guitar strings a user can choose from when configuring the guitar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringChoice"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringChoice"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringChoice",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoice"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices": {
   "abstract" : [
@@ -795,6 +846,49 @@
   "title" : "subscript(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoices\/subscript(_:)-8bbb7"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringType": {
+  "abstract" : [
+    {
+      "text" : "A collection of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " objects of the same type, e.g., Phosphor Bronze.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringType",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringtype"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/TunedString": {
   "abstract" : [
