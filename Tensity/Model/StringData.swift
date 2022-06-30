@@ -80,7 +80,7 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     }
 
     static func < (lhs: StringChoice, rhs: StringChoice) -> Bool {
-        if (lhs.wound == rhs.wound) {
+        if (lhs.wound != rhs.wound) {
             return rhs.wound
         } else {
             return lhs.gauge < rhs.gauge
