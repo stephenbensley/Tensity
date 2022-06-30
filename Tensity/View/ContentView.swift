@@ -46,7 +46,7 @@ struct ContentView: View {
                         HStack {
                             Text("Scale Length")
                             Spacer()
-                            Text(guitarModel.scaleLength, format: .number)
+                            Text(guitarModel.scaleLength.formatted() + " inches")
                                 .foregroundColor(Color.secondary)
                         }
                     }
