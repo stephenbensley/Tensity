@@ -47,12 +47,14 @@ where SelectionType: CustomStringConvertible & Equatable & Hashable {
                     }
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        selection = choice
-                        // Add a slight delay, so the user can see the new item checked.
-                        DispatchQueue.main.asyncAfter(
-                            deadline: .now() + 0.25) {
-                                isActive = false
-                            }
+                        if (selection != choice) {
+                            selection = choice
+                            // Add a slight delay, so the user can see the new item checked.
+                            DispatchQueue.main.asyncAfter(
+                                deadline: .now() + 0.25) {
+                                    isActive = false
+                                }
+                        }
                     }
                 }
             } footer: {
