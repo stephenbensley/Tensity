@@ -64,10 +64,10 @@ extension DynamicTypeSize {
 /// Defines the characteristics of each column in the ``StringTensionTable``
 struct StringTensionColumn {
     static let courseWidth = 20.0
-    // 38 + padding of 5 on each side.
-    static let noteWidth = 48.0
-    // 68.3 + padding of 5 on each side.
-    static let gaugeWidth = 78.3
+    // 32 + padding of 7.5 on each side.
+    static let noteWidth = 47.0
+    // 68.3 + padding of 7.5 on each side.
+    static let gaugeWidth = 83.3
     static let tensionWidth = 62.0
 }
 
