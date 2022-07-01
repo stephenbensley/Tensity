@@ -17,19 +17,11 @@ struct AboutView: View {
     private let margin = 25.0
 
     private var appVersion: String {
-        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            return version
-        } else {
-            return "0.0.0"
-        }
+        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.0.0"
     }
 
     private var buildNumber: String {
-        if let version = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
-            return version
-        } else {
-            return "0"
-        }
+        Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "0"
     }
 
     private var specUrl: URL? {

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// @ScaledMetric is too coarse to preserve the table formatting, so we compute a more precise
+// scale factor.
 extension DynamicTypeSize {
     var scaleFactor: Double {
         var numerator: Int = 0
@@ -45,26 +47,33 @@ extension DynamicTypeSize {
     }
 }
 
-// Text widths with default system fault and .semibold
+// We need to know the max width of each column, so that the table doesn't relayout everytime a
+// value changes. Theoretically, we could compute this dynamically at run-time, but since the
+// options don't change. It was simpler to compute the values offline and provide them as
+// constants.
+//
+// Text widths with default system font and .semibold:
 // Symbol    20
 // Note      38
 // G♯4       32
 // Gauge     52
-// 0.0095    58
-// 0.088w    61
+// 0.0095p   68.3
 // 888.8     48
 // Tension:  62
 
 /// Defines the characteristics of each column in the ``StringTensionTable``
 struct StringTensionColumn {
     static let courseWidth = 20.0
-    static let noteWidth = 52.0
-    static let gaugeWidth = 81.0
+    // 38 + padding of 5 on each side.
+    static let noteWidth = 48.0
+    // 68.3 + padding of 5 on each side.
+    static let gaugeWidth = 78.3
     static let tensionWidth = 62.0
 }
 
 /// Presents the information for a ``TunedString`` in the ``StringTensionTable``
 struct StringTensionRow: View {
+    // Which column in the row is being edited?
     enum Editing {
         case none
         case note
@@ -123,6 +132,9 @@ struct StringTensionRow: View {
                 }
             }
             .pickerStyle(.wheel)
+            // There is a weird bug where the wheel picker doesn't redraw if the user changes
+            // string type while the row is expanded. I never figured this out. Changing the
+            // .id everytime forces SwiftUI to always redraw.
             .id(UUID())
 
         case .gauge:
@@ -166,7 +178,8 @@ struct StringTensionTable: View {
     @Environment(\.dynamicTypeSize) private var typeSize
 
     private var scale: Double {
-        min(max(typeSize.scaleFactor, 1.0), 1.4)
+        // We'll scale up as the font increases, but there's no need to scale down.
+        max(typeSize.scaleFactor, 1.0)
     }
 
     var body: some View {

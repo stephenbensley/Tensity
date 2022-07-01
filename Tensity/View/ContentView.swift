@@ -9,8 +9,10 @@ import SwiftUI
 
 /// The main view for the Tensity app.
 struct ContentView: View {
+    // Either load the user's saved settings or revert to defaults.
     @StateObject private var guitarModel = Guitar.load() ?? Guitar()
     @Environment(\.scenePhase) private var scenePhase
+    // Signals to show the About page.
     @State private var showAbout = false
     
     var body: some View {
@@ -20,7 +22,7 @@ struct ContentView: View {
                     NavPicker(
                         title: "Guitar Type",
                         selection: $guitarModel.guitarType,
-                        options: GuitarType.allCases,
+                        options: guitarModel.validGuitarTypes,
                         footer: """
                                 Changing the guitar type will revert all other fields to the \
                                 default values for the new type.
@@ -30,7 +32,7 @@ struct ContentView: View {
                     NavPicker(
                         title: "Number of Strings",
                         selection: $guitarModel.stringCount,
-                        options: guitarModel.guitarType.traits.validStringCounts,
+                        options: guitarModel.validStringCounts,
                         footer: """
                                 Changing the number of strings will revert the tuning and string \
                                 gauges to the default values for the new string count.
@@ -84,7 +86,9 @@ struct ContentView: View {
         .sheet(isPresented: $showAbout) {
             AboutView()
         }
+        // Table runs out of room if the text gets too large
         .dynamicTypeSize(.xSmall ..< .accessibility1)
+        // Table looks silly and is hard to read if the screen gets too wide
         .frame(maxWidth: 500)
     }
 }
