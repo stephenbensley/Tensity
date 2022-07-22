@@ -72,8 +72,10 @@ struct ContentView: View {
             }
             .navigationTitle("String Tension")
             .toolbar {
-                Button("About") {
+                Button {
                     showAbout = true
+                } label: {
+                   Image(systemName: "ellipsis.circle")
                 }
             }
         }
