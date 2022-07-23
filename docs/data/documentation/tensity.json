@@ -267,6 +267,12 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable_Previews"
       ],
       "title" : "View Previews"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem"
+      ],
+      "title" : "Structures"
     }
   ],
   "variants" : [
@@ -404,6 +410,37 @@
   "title" : "AcousticGuitarTraits",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/acousticguitartraits"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ActionItem"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ActionItem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ActionItem",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/BassGuitarTraits": {
   "abstract" : [

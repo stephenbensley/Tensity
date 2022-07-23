@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2A61E8288B393A0050F004 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A61E7288B393A0050F004 /* ShareSheetView.swift */; };
 		DC6296C0285A7A7500A6161C /* StringTensionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6296BF285A7A7500A6161C /* StringTensionTable.swift */; };
 		DC6BF179284FE72B0071459D /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6BF178284FE72B0071459D /* Pitch.swift */; };
 		DC6BF199285257590071459D /* StringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6BF17A28514DCC0071459D /* StringData.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC2A61E7288B393A0050F004 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
 		DC6296BF285A7A7500A6161C /* StringTensionTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTensionTable.swift; sourceTree = "<group>"; };
 		DC6BF178284FE72B0071459D /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
 		DC6BF17A28514DCC0071459D /* StringData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringData.swift; sourceTree = "<group>"; };
@@ -162,8 +164,9 @@
 				DC8BDF34284E8E3D008432CF /* ContentView.swift */,
 				DC6FC6B3285D1DF900B8F2A4 /* NavPicker.swift */,
 				DC6FC6B9285E889400B8F2A4 /* PdfReader.swift */,
-				DC6296BF285A7A7500A6161C /* StringTensionTable.swift */,
 				DC6FC6B5285D39D400B8F2A4 /* ScaleLengthView.swift */,
+				DC2A61E7288B393A0050F004 /* ShareSheetView.swift */,
+				DC6296BF285A7A7500A6161C /* StringTensionTable.swift */,
 				DC8BDF32284E8E3D008432CF /* TensityApp.swift */,
 			);
 			path = View;
@@ -274,6 +277,7 @@
 			files = (
 				DCD846F12856956C002A123E /* Guitar.swift in Sources */,
 				DC6FC6BC285F8DA600B8F2A4 /* GuitarTraits.swift in Sources */,
+				DC2A61E8288B393A0050F004 /* ShareSheetView.swift in Sources */,
 				DC6BF199285257590071459D /* StringData.swift in Sources */,
 				DC84EF4928665AC2009A0175 /* TunedString.swift in Sources */,
 				DC6FC6BE28610FCC00B8F2A4 /* ObservedArray.swift in Sources */,
@@ -433,7 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6X2P4HJBQW;
 				ENABLE_PREVIEWS = YES;
@@ -447,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenbensley.Tensity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -462,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6X2P4HJBQW;
 				ENABLE_PREVIEWS = YES;
@@ -476,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenbensley.Tensity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

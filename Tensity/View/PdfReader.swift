@@ -8,23 +8,6 @@
 import PDFKit
 import SwiftUI
 
-/// Wraps UIKit's UIActivityViewController to display a share sheet.
-struct ShareSheetView: UIViewControllerRepresentable {
-    let url: URL
-
-    func makeUIViewController(context: Context) -> UIActivityViewController {
-        let items = [url]
-        return UIActivityViewController(activityItems: items, applicationActivities: nil)
-    }
-
-    func updateUIViewController(
-        _ uiViewController: UIActivityViewController,
-        context: Context
-    ) { }
-
-    typealias UIViewControllerType = UIActivityViewController
-}
-
 /// Wrapper around UIKit's PDFView
 struct PdfView: UIViewRepresentable {
     let url: URL
