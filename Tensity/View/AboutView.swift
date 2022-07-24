@@ -62,7 +62,7 @@ struct AboutView: View {
                VStack(alignment: .leading) {
                   Text("Tensity")
                      .font(.title)
-                  Text("© 2022 Stephen E. Bensley\nVersion \(appVersion), build \(buildNumber)")
+                  Text("Version \(appVersion), build \(buildNumber)\n© 2022 Stephen E. Bensley")
                      .font(.footnote)
                }
             }
