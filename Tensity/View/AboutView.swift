@@ -7,11 +7,15 @@
 
 import SwiftUI
 
-// Displays an action item on the About page.
+/// Displays an action item on the About page.
 struct ActionItem: View {
+   /// SF Symbol to display on the left margin
    var leftSymbol: String
+   /// Text describing the action
    var text: String
+   /// SF Symbol to display on the right margin
    var rightSymbol: String
+   /// Action to take when user taps on item
    var action: () -> Void
 
    var body: some View {

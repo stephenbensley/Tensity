@@ -64,6 +64,7 @@ bass).
 - ``StringTensionRow``
 - ``TotalTensionText``
 - ``AboutView``
+- ``ActionItem``
 - ``PdfReader``
 - ``PdfView``
 - ``ShareSheetView``

@@ -134,6 +134,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionRow",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/TotalTensionText",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/AboutView",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfReader",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/PdfView",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ShareSheetView"
@@ -231,6 +232,40 @@
   "title" : "AboutView",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/aboutview"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem": {
+  "abstract" : [
+    {
+      "text" : "Displays an action item on the About page.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ActionItem"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ActionItem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ActionItem",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ContentView": {
   "abstract" : [

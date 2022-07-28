@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "SF Symbol to display on the left margin",
       "type" : "text"
     }
   ],
@@ -129,7 +129,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem": {
   "abstract" : [
-
+    {
+      "text" : "Displays an action item on the About page.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +163,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/leftSymbol": {
   "abstract" : [
-
+    {
+      "text" : "SF Symbol to display on the left margin",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

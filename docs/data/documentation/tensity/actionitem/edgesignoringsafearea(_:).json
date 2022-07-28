@@ -260,7 +260,10 @@
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem": {
   "abstract" : [
-
+    {
+      "text" : "Displays an action item on the About page.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
