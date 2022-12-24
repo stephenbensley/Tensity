@@ -82,6 +82,13 @@
         "introducedAt" : "13.4",
         "name" : "iOS",
         "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
       }
     ],
     "role" : "symbol",
@@ -166,7 +173,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [

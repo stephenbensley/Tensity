@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -51,7 +45,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/allSatisfy(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/compactMap(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/compare(_:_:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/contains(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/contains(_:)-60ory",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/contains(where:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/elementsEqual(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/elementsEqual(_:by:)",
@@ -392,7 +386,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/observedarray\/compare(_:_:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ObservedArray/contains(_:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ObservedArray/contains(_:)-60ory": {
   "abstract" : [
 
   ],
@@ -467,12 +461,12 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/contains(_:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ObservedArray\/contains(_:)-60ory",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "contains(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/observedarray\/contains(_:)"
+  "url" : "\/documentation\/tensity\/observedarray\/contains(_:)-60ory"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ObservedArray/contains(where:)": {
   "abstract" : [

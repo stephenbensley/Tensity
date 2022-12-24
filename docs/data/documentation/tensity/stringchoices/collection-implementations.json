@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -53,6 +47,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/dropFirst(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/firstIndex(of:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/firstIndex(where:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/firstRange(of:)-9n1oj",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/formIndex(_:offsetBy:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/formIndex(_:offsetBy:limitedBy:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/formIndex(after:)",
@@ -65,9 +60,12 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/prefix(while:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/randomElement()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/randomElement(using:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/ranges(of:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/split(maxSplits:omittingEmptySubsequences:whereSeparator:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/split(separator:maxSplits:omittingEmptySubsequences:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/suffix(from:)"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/suffix(from:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/trimmingPrefix(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/trimmingPrefix(while:)"
       ],
       "title" : "Instance Methods"
     },
@@ -556,6 +554,116 @@
   "title" : "firstIndex(where:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoices\/firstindex(where:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/firstRange(of:)-9n1oj": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Element",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Equatable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "firstRange"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "of"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sn",
+      "text" : "Range"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Index"
+    },
+    {
+      "kind" : "text",
+      "text" : ">?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/firstRange(of:)-9n1oj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "firstRange(of:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoices\/firstrange(of:)-9n1oj"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/formIndex(_:offsetBy:)": {
   "abstract" : [
@@ -1478,6 +1586,116 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoices\/randomelement(using:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/ranges(of:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Element",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Equatable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ranges"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "of"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sn",
+      "text" : "Range"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Index"
+    },
+    {
+      "kind" : "text",
+      "text" : ">]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/ranges(of:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ranges(of:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoices\/ranges(of:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/split(maxSplits:omittingEmptySubsequences:whereSeparator:)": {
   "abstract" : [
 
@@ -1991,6 +2209,185 @@
   "title" : "suffix(from:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoices\/suffix(from:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/trimmingPrefix(_:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Element",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Equatable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "trimmingPrefix"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SubSequence"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/trimmingPrefix(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "trimmingPrefix(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoices\/trimmingprefix(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/trimmingPrefix(while:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "trimmingPrefix"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "while"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SubSequence"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoices\/trimmingPrefix(while:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "trimmingPrefix(while:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/stringchoices\/trimmingprefix(while:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoices/underestimatedCount-683lw": {
   "abstract" : [

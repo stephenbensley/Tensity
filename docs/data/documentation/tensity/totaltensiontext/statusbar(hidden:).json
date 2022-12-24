@@ -87,8 +87,10 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "13.0",
         "name" : "iOS",
+        "renamed" : "statusBarHidden(_:)",
         "unavailable" : false
       }
     ],
@@ -166,7 +168,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -314,6 +316,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",

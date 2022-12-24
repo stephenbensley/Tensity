@@ -14,7 +14,7 @@ rm -Rf doccarchive
 xcodebuild docbuild \
 	-scheme Tensity \
 	-derivedDataPath ./doccarchive \
-	-destination 'platform=iOS Simulator,name=iPhone 13'
+	-destination 'platform=iOS Simulator,name=iPhone 14'
 ARCHIVE=$(find doccarchive -type d -name '*.doccarchive')
 
 # Convert the archive to a static website

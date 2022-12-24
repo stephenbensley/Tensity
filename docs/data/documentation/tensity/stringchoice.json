@@ -132,7 +132,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -186,8 +186,6 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/-Implementations",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/-Implementations",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/Comparable-Implementations",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/Equatable-Implementations",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/Identifiable-Implementations"
@@ -315,17 +313,6 @@
   "title" : "StringChoice",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringchoice"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringChoice\/-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : " Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/stringchoice\/-implementations"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice/==(_:_:)": {
   "abstract" : [

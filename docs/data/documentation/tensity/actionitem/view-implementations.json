@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -57,6 +51,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityAction(named:_:)-4sjd2",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityAction(named:_:)-60led",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityAction(named:_:)-8c50g",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityActions(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityActivationPoint(_:)-28omx",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityActivationPoint(_:)-97xt4",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityAddTraits(_:)",
@@ -135,16 +130,17 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alert(isPresented:error:actions:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alert(isPresented:error:actions:message:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alert(item:content:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-8dq5u",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-9bckz",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-3fpa0",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-7c6vh",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/allowsHitTesting(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/allowsTightening(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/anchorPreference(key:value:transform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/animation(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/animation(_:value:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/aspectRatio(_:contentMode:)-1t566",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/aspectRatio(_:contentMode:)-3gao0",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/aspectRatio(_:contentMode:)-8o659",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/autocapitalization(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/autocorrectionDisabled(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/background(_:alignment:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/background(_:ignoresSafeAreaEdges:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/background(_:in:fillStyle:)-1paiz",
@@ -154,12 +150,16 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/background(in:fillStyle:)-6m1d8",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/background(in:fillStyle:)-7kkq1",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/backgroundPreferenceValue(_:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/backgroundPreferenceValue(_:alignment:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/backgroundStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/badge(_:)-2hstr",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/badge(_:)-2tjo",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/badge(_:)-47vw0",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/badge(_:)-6r5qh",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/baselineOffset(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/blendMode(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/blur(radius:opaque:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/bold(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/border(_:width:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/brightness(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/buttonBorderShape(_:)",
@@ -186,8 +186,11 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/containerShape(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contentShape(_:_:eoFill:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contentShape(_:eoFill:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contentTransition(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contextMenu(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contextMenu(forSelectionType:menu:primaryAction:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contextMenu(menuItems:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contextMenu(menuItems:preview:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contrast(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/controlGroupStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/controlSize(_:)",
@@ -195,10 +198,15 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/cornerRadius(_:antialiased:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/datePickerStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/defaultAppStorage(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/defersSystemGestures(on:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/deleteDisabled(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/disableAutocorrection(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/disabled(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/disclosureGroupStyle(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/draggable(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/draggable(_:preview:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/drawingGroup(opaque:colorMode:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/dropDestination(for:action:isTargeted:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/dynamicTypeSize(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/edgesIgnoringSafeArea(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/environment(_:_:)",
@@ -211,25 +219,42 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fileImporter(isPresented:allowedContentTypes:onCompletion:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fileMover(isPresented:file:onCompletion:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fileMover(isPresented:files:onCompletion:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/findDisabled(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/findNavigator(isPresented:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fixedSize()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fixedSize(horizontal:vertical:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/flipsForRightToLeftLayoutDirection(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focused(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focused(_:equals:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneValue(_:_:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedValue(_:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedObject(_:)-5k3my",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedObject(_:)-7vxh0",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneObject(_:)-1mv0k",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneObject(_:)-1x56w",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneValue(_:_:)-6iq1a",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneValue(_:_:)-9jxtb",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedValue(_:_:)-65b0e",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedValue(_:_:)-8i61a",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/font(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fontDesign(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fontWeight(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fontWidth(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/foregroundColor(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/foregroundStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/foregroundStyle(_:_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/foregroundStyle(_:_:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/formStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/frame()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/frame(minWidth:idealWidth:maxWidth:minHeight:idealHeight:maxHeight:alignment:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/frame(width:height:alignment:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fullScreenCover(isPresented:onDismiss:content:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fullScreenCover(item:onDismiss:content:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gaugeStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gesture(_:including:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/grayscale(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridCellAnchor(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridCellColumns(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridCellUnsizedAxes(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridColumnAlignment(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/groupBoxStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/handlesExternalEvents(preferring:allowing:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/headerProminence(_:)",
@@ -244,17 +269,23 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/ignoresSafeArea(_:edges:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/imageScale(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/indexViewStyle(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/interactionActivityTrackingTag(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/interactiveDismissDisabled(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/italic(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/itemProvider(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/kerning(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/keyboardShortcut(_:)-5kzk7",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/keyboardShortcut(_:)-hpi9",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/keyboardShortcut(_:modifiers:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/keyboardShortcut(_:modifiers:localization:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/keyboardType(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/labelStyle(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/labeledContentStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/labelsHidden()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/layoutPriority(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/layoutValue(key:value:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/lineLimit(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/lineLimit(_:reservesSpace:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/lineSpacing(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/listItemTint(_:)-701ik",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/listItemTint(_:)-8xqog",
@@ -270,9 +301,11 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/mask(alignment:_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/matchedGeometryEffect(id:in:properties:anchor:isSource:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/menuIndicator(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/menuOrder(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/menuStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/minimumScaleFactor(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/modifier(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/monospaced(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/monospacedDigit()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/moveDisabled(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/multilineTextAlignment(_:)",
@@ -288,6 +321,18 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationBarTitle(_:displayMode:)-806s1",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationBarTitle(_:displayMode:)-8radr",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationBarTitleDisplayMode(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDestination(for:destination:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDestination(isPresented:destination:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:)-354im",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:)-5cacx",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-42ihx",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-45l6f",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-9pxqq",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-qi4r",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationSplitViewColumnWidth(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationSplitViewColumnWidth(min:ideal:max:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationSplitViewStyle(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationTitle(_:)-1w0ff",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationTitle(_:)-1xrnk",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationTitle(_:)-2yqjq",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationTitle(_:)-5jgub",
@@ -298,6 +343,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onAppear(perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onChange(of:perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onContinueUserActivity(_:perform:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onContinuousHover(coordinateSpace:perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onDisappear(perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onDrag(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onDrag(_:preview:)",
@@ -316,6 +362,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onPreferenceChange(_:perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onReceive(_:perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onSubmit(of:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onTapGesture(count:coordinateSpace:perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onTapGesture(count:perform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/opacity(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/overlay(_:alignment:)",
@@ -323,9 +370,11 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/overlay(_:in:fillStyle:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/overlay(alignment:content:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/overlayPreferenceValue(_:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/overlayPreferenceValue(_:alignment:_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/padding(_:)-7k1un",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/padding(_:)-9inq2",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/padding(_:)-95vny",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/padding(_:_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/persistentSystemOverlays(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/pickerStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/popover(isPresented:attachmentAnchor:arrowEdge:content:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/popover(item:attachmentAnchor:arrowEdge:content:)",
@@ -333,6 +382,9 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/position(x:y:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/preference(key:value:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/preferredColorScheme(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/presentationDetents(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/presentationDetents(_:selection:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/presentationDragIndicator(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/previewContext(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/previewDevice(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/previewDisplayName(_:)",
@@ -343,24 +395,41 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/projectionEffect(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/redacted(reason:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/refreshable(action:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/renameAction(_:)-4zudq",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/renameAction(_:)-7pfjg",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/replaceDisabled(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/rotation3DEffect(_:axis:anchor:anchorZ:perspective:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/rotationEffect(_:anchor:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-6dsc0",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-6uosp",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-34x7m",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-6qka5",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/saturation(_:)",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaleEffect(_:anchor:)-2c4r8",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaleEffect(_:anchor:)-7mpkt",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaleEffect(_:anchor:)-8cgia",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaleEffect(x:y:anchor:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaledToFill()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaledToFit()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scenePadding(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scenePadding(_:edges:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollContentBackground(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollDisabled(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollDismissesKeyboard(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollIndicators(_:axes:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchCompletion(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchScopes(_:scopes:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchSuggestions(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchSuggestions(_:for:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:placement:prompt:)-1vvfe",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:placement:prompt:)-29jx0",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:placement:prompt:)-9ut97",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:placement:prompt:suggestions:)-6vjjw",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:placement:prompt:suggestions:)-8rnj7",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:placement:prompt:suggestions:)-99ftw",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:placement:prompt:token:)-1urth",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:placement:prompt:token:)-2vyhj",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:placement:prompt:token:)-8fcws",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-47oig",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-75zkg",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-8hrqe",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/shadow(color:radius:x:y:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/sheet(isPresented:onDismiss:content:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/sheet(item:onDismiss:content:)",
@@ -370,6 +439,8 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/speechAnnouncementsQueued(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/speechSpellsOutCharacters(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/statusBar(hidden:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/statusBarHidden(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/strikethrough(_:pattern:color:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/submitLabel(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/submitScope(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/swipeActions(edge:allowsFullSwipe:content:)",
@@ -377,6 +448,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/symbolVariant(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tabItem(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tabViewStyle(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tableStyle(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tag(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/task(id:priority:_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/task(priority:_:)",
@@ -387,9 +459,16 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/textSelection(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tint(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toggleStyle(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbar(_:for:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbar(content:)-2otx9",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbar(content:)-562sh",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbar(id:content:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarBackground(_:for:)-1h5f5",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarBackground(_:for:)-8p2ol",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarColorScheme(_:for:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarRole(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarTitleMenu(content:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tracking(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/transaction(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/transformAnchorPreference(key:value:transform:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/transformEffect(_:)",
@@ -397,6 +476,7 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/transformPreference(_:_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/transition(_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/truncationMode(_:)",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/underline(_:pattern:color:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/unredacted()",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/userActivity(_:element:_:)",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/userActivity(_:isActive:_:)",
@@ -1800,6 +1880,64 @@
   "title" : "accessibilityAction(named:_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/accessibilityaction(named:_:)-8c50g"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/accessibilityActions(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityActions"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/accessibilityActions(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityActions(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/accessibilityactions(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/accessibilityActivationPoint(_:)-28omx": {
   "abstract" : [
@@ -9012,7 +9150,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/alert(item:content:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/alignmentGuide(_:computeValue:)-8dq5u": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/alignmentGuide(_:computeValue:)-3fpa0": {
   "abstract" : [
 
   ],
@@ -9061,7 +9199,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -9082,14 +9220,14 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-8dq5u",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-3fpa0",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "alignmentGuide(_:computeValue:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/alignmentguide(_:computevalue:)-8dq5u"
+  "url" : "\/documentation\/tensity\/actionitem\/alignmentguide(_:computevalue:)-3fpa0"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/alignmentGuide(_:computeValue:)-9bckz": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/alignmentGuide(_:computeValue:)-7c6vh": {
   "abstract" : [
 
   ],
@@ -9138,7 +9276,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -9159,12 +9297,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-9bckz",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/alignmentGuide(_:computeValue:)-7c6vh",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "alignmentGuide(_:computeValue:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/alignmentguide(_:computevalue:)-9bckz"
+  "url" : "\/documentation\/tensity\/actionitem\/alignmentguide(_:computevalue:)-7c6vh"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/allowsHitTesting(_:)": {
   "abstract" : [
@@ -9612,7 +9750,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/aspectratio(_:contentmode:)-1t566"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/aspectRatio(_:contentMode:)-3gao0": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/aspectRatio(_:contentMode:)-8o659": {
   "abstract" : [
 
   ],
@@ -9635,7 +9773,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -9673,12 +9811,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/aspectRatio(_:contentMode:)-3gao0",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/aspectRatio(_:contentMode:)-8o659",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "aspectRatio(_:contentMode:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/aspectratio(_:contentmode:)-3gao0"
+  "url" : "\/documentation\/tensity\/actionitem\/aspectratio(_:contentmode:)-8o659"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/autocapitalization(_:)": {
   "abstract" : [
@@ -9731,6 +9869,57 @@
   "title" : "autocapitalization(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/autocapitalization(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/autocorrectionDisabled(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "autocorrectionDisabled"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/autocorrectionDisabled(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "autocorrectionDisabled(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/autocorrectiondisabled(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/background(_:alignment:)": {
   "abstract" : [
@@ -10497,6 +10686,171 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/backgroundpreferencevalue(_:_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/backgroundPreferenceValue(_:alignment:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "backgroundPreferenceValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "alignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9AlignmentV",
+      "text" : "Alignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ", ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/backgroundPreferenceValue(_:alignment:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "backgroundPreferenceValue(_:alignment:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/backgroundpreferencevalue(_:alignment:_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/backgroundStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "backgroundStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/backgroundStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "backgroundStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/backgroundstyle(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/badge(_:)-2hstr": {
   "abstract" : [
 
@@ -10708,6 +11062,57 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/badge(_:)-6r5qh"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/baselineOffset(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "baselineOffset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/baselineOffset(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "baselineOffset(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/baselineoffset(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/blendMode(_:)": {
   "abstract" : [
 
@@ -10790,7 +11195,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -10834,6 +11239,57 @@
   "title" : "blur(radius:opaque:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/blur(radius:opaque:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/bold(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bold"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/bold(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bold(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/bold(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/border(_:width:)": {
   "abstract" : [
@@ -10882,7 +11338,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -13470,6 +13926,57 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/contentshape(_:eofill:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/contentTransition(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentTransition"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI17ContentTransitionV",
+      "text" : "ContentTransition"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contentTransition(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentTransition(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/contenttransition(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/contextMenu(_:)": {
   "abstract" : [
 
@@ -13538,6 +14045,147 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/contextmenu(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/contextMenu(forSelectionType:menu:primaryAction:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contextMenu"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "M"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forSelectionType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "menu"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sh",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "M"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "primaryAction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sh",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contextMenu(forSelectionType:menu:primaryAction:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextMenu(forSelectionType:menu:primaryAction:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/contextmenu(forselectiontype:menu:primaryaction:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/contextMenu(menuItems:)": {
   "abstract" : [
 
@@ -13603,6 +14251,96 @@
   "title" : "contextMenu(menuItems:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/contextmenu(menuitems:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/contextMenu(menuItems:preview:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contextMenu"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "M"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "P"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "menuItems"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "M"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "preview"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "P"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/contextMenu(menuItems:preview:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextMenu(menuItems:preview:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/contextmenu(menuitems:preview:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/contrast(_:)": {
   "abstract" : [
@@ -13853,7 +14591,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -14007,6 +14745,74 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/defaultappstorage(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/defersSystemGestures(on:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defersSystemGestures"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "on"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+      "text" : "Edge"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/defersSystemGestures(on:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defersSystemGestures(on:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/deferssystemgestures(on:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/deleteDisabled(_:)": {
   "abstract" : [
 
@@ -14062,6 +14868,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -14160,6 +14967,204 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/disabled(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/disclosureGroupStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "disclosureGroupStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/disclosureGroupStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "disclosureGroupStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/disclosuregroupstyle(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/draggable(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "draggable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/draggable(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "draggable(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/draggable(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/draggable(_:preview:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "draggable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "preview"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/draggable(_:preview:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "draggable(_:preview:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/draggable(_:preview:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/drawingGroup(opaque:colorMode:)": {
   "abstract" : [
 
@@ -14235,6 +15240,132 @@
   "title" : "drawingGroup(opaque:colorMode:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/drawinggroup(opaque:colormode:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/dropDestination(for:action:isTargeted:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dropDestination"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "action"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGPoint",
+      "text" : "CGPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isTargeted"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/dropDestination(for:action:isTargeted:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dropDestination(for:action:isTargeted:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/dropdestination(for:action:istargeted:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/dynamicTypeSize(_:)": {
   "abstract" : [
@@ -15676,6 +16807,125 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/filemover(ispresented:files:oncompletion:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/findDisabled(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "findDisabled"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/findDisabled(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "findDisabled(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/finddisabled(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/findNavigator(isPresented:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "findNavigator"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isPresented"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/findNavigator(isPresented:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "findNavigator(isPresented:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/findnavigator(ispresented:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/fixedSize()": {
   "abstract" : [
 
@@ -16006,7 +17256,323 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/focused(_:equals:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedSceneValue(_:_:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedObject(_:)-5k3my": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusedObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedObject(_:)-5k3my",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "focusedObject(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/focusedobject(_:)-5k3my"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedObject(_:)-7vxh0": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusedObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedObject(_:)-7vxh0",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "focusedObject(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/focusedobject(_:)-7vxh0"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedSceneObject(_:)-1mv0k": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusedSceneObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneObject(_:)-1mv0k",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "focusedSceneObject(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/focusedsceneobject(_:)-1mv0k"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedSceneObject(_:)-1x56w": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusedSceneObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneObject(_:)-1x56w",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "focusedSceneObject(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/focusedsceneobject(_:)-1x56w"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedSceneValue(_:_:)-6iq1a": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusedSceneValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s15WritableKeyPathC",
+      "text" : "WritableKeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI13FocusedValuesV",
+      "text" : "FocusedValues"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>, "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneValue(_:_:)-6iq1a",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "focusedSceneValue(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/focusedscenevalue(_:_:)-6iq1a"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedSceneValue(_:_:)-9jxtb": {
   "abstract" : [
 
   ],
@@ -16083,14 +17649,98 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneValue(_:_:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedSceneValue(_:_:)-9jxtb",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "focusedSceneValue(_:_:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/focusedscenevalue(_:_:)"
+  "url" : "\/documentation\/tensity\/actionitem\/focusedscenevalue(_:_:)-9jxtb"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedValue(_:_:)": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedValue(_:_:)-65b0e": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "focusedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s15WritableKeyPathC",
+      "text" : "WritableKeyPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI13FocusedValuesV",
+      "text" : "FocusedValues"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>, "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedValue(_:_:)-65b0e",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "focusedValue(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/focusedvalue(_:_:)-65b0e"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/focusedValue(_:_:)-8i61a": {
   "abstract" : [
 
   ],
@@ -16167,12 +17817,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedValue(_:_:)",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/focusedValue(_:_:)-8i61a",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "focusedValue(_:_:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/focusedvalue(_:_:)"
+  "url" : "\/documentation\/tensity\/actionitem\/focusedvalue(_:_:)-8i61a"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/font(_:)": {
   "abstract" : [
@@ -16224,6 +17874,186 @@
   "title" : "font(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/font(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/fontDesign(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fontDesign"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4FontV",
+      "text" : "Font"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4FontV6DesignO",
+      "text" : "Design"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fontDesign(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fontDesign(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/fontdesign(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/fontWeight(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fontWeight"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4FontV",
+      "text" : "Font"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4FontV6WeightV",
+      "text" : "Weight"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fontWeight(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fontWeight(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/fontweight(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/fontWidth(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fontWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4FontV",
+      "text" : "Font"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4FontV5WidthV",
+      "text" : "Width"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/fontWidth(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fontWidth(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/fontwidth(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/foregroundColor(_:)": {
   "abstract" : [
@@ -16498,6 +18328,64 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/foregroundstyle(_:_:_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/formStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "formStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/formStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "formStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/formstyle(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/frame()": {
   "abstract" : [
 
@@ -16572,7 +18460,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16589,7 +18477,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16606,7 +18494,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16623,7 +18511,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16640,7 +18528,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16657,7 +18545,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16733,7 +18621,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -16750,7 +18638,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -17028,6 +18916,64 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/fullscreencover(item:ondismiss:content:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/gaugeStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gaugeStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gaugeStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gaugeStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/gaugestyle(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/gesture(_:including:)": {
   "abstract" : [
 
@@ -17153,6 +19099,219 @@
   "title" : "grayscale(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/grayscale(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/gridCellAnchor(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gridCellAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9UnitPointV",
+      "text" : "UnitPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridCellAnchor(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gridCellAnchor(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/gridcellanchor(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/gridCellColumns(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gridCellColumns"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridCellColumns(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gridCellColumns(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/gridcellcolumns(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/gridCellUnsizedAxes(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gridCellUnsizedAxes"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4AxisO",
+      "text" : "Axis"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4AxisO3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridCellUnsizedAxes(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gridCellUnsizedAxes(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/gridcellunsizedaxes(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/gridColumnAlignment(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gridColumnAlignment"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI19HorizontalAlignmentV",
+      "text" : "HorizontalAlignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/gridColumnAlignment(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gridColumnAlignment(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/gridcolumnalignment(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/groupBoxStyle(_:)": {
   "abstract" : [
@@ -17989,6 +20148,57 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/indexviewstyle(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/interactionActivityTrackingTag(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "interactionActivityTrackingTag"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/interactionActivityTrackingTag(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "interactionActivityTrackingTag(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/interactionactivitytrackingtag(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/interactiveDismissDisabled(_:)": {
   "abstract" : [
 
@@ -18039,6 +20249,57 @@
   "title" : "interactiveDismissDisabled(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/interactivedismissdisabled(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/italic(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "italic"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/italic(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "italic(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/italic(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/itemProvider(_:)": {
   "abstract" : [
@@ -18099,6 +20360,57 @@
   "title" : "itemProvider(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/itemprovider(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/kerning(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kerning"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/kerning(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "kerning(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/kerning(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/keyboardShortcut(_:)-5kzk7": {
   "abstract" : [
@@ -18473,6 +20785,64 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/labelstyle(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/labeledContentStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "labeledContentStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/labeledContentStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "labeledContentStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/labeledcontentstyle(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/labelsHidden()": {
   "abstract" : [
 
@@ -18566,6 +20936,96 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/layoutpriority(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/layoutValue(key:value:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "layoutValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "key"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/layoutValue(key:value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "layoutValue(key:value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/layoutvalue(key:value:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/lineLimit(_:)": {
   "abstract" : [
 
@@ -18617,6 +21077,74 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/linelimit(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/lineLimit(_:reservesSpace:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lineLimit"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "reservesSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/lineLimit(_:reservesSpace:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lineLimit(_:reservesSpace:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/linelimit(_:reservesspace:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/lineSpacing(_:)": {
   "abstract" : [
 
@@ -18640,7 +21168,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -19615,6 +22143,57 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/menuindicator(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/menuOrder(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "menuOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9MenuOrderV",
+      "text" : "MenuOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/menuOrder(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "menuOrder(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/menuorder(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/menuStyle(_:)": {
   "abstract" : [
 
@@ -19696,7 +22275,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -19793,6 +22372,57 @@
   "title" : "modifier(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/modifier(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/monospaced(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "monospaced"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/monospaced(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "monospaced(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/monospaced(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/monospacedDigit()": {
   "abstract" : [
@@ -19993,6 +22623,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -20729,6 +23360,967 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/navigationbartitledisplaymode(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDestination(for:destination:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDestination"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "destination"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDestination(for:destination:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDestination(for:destination:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdestination(for:destination:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDestination(isPresented:destination:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDestination"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isPresented"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "destination"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDestination(isPresented:destination:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDestination(isPresented:destination:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdestination(ispresented:destination:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDocument(_:)-354im": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:)-354im",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdocument(_:)-354im"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDocument(_:)-5cacx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:)-5cacx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdocument(_:)-5cacx"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDocument(_:preview:)-42ihx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "preview"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI12SharePreviewV",
+      "text" : "SharePreview"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-42ihx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:preview:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdocument(_:preview:)-42ihx"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDocument(_:preview:)-45l6f": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "preview"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI12SharePreviewV",
+      "text" : "SharePreview"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-45l6f",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:preview:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdocument(_:preview:)-45l6f"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDocument(_:preview:)-9pxqq": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "I1"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "I2"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "preview"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI12SharePreviewV",
+      "text" : "SharePreview"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I1"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "I2"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-9pxqq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:preview:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdocument(_:preview:)-9pxqq"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationDocument(_:preview:)-qi4r": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "preview"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI12SharePreviewV",
+      "text" : "SharePreview"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationDocument(_:preview:)-qi4r",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:preview:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationdocument(_:preview:)-qi4r"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationSplitViewColumnWidth(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationSplitViewColumnWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationSplitViewColumnWidth(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationSplitViewColumnWidth(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationsplitviewcolumnwidth(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationSplitViewColumnWidth(min:ideal:max:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationSplitViewColumnWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "min"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ideal"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "max"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationSplitViewColumnWidth(min:ideal:max:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationSplitViewColumnWidth(min:ideal:max:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationsplitviewcolumnwidth(min:ideal:max:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationSplitViewStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationSplitViewStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationSplitViewStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationSplitViewStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationsplitviewstyle(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationTitle(_:)-1w0ff": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/navigationTitle(_:)-1w0ff",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationTitle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/navigationtitle(_:)-1w0ff"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/navigationTitle(_:)-1xrnk": {
   "abstract" : [
 
@@ -20951,6 +24543,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -21087,7 +24680,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -21104,7 +24697,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -21349,6 +24942,91 @@
   "title" : "onContinueUserActivity(_:perform:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/oncontinueuseractivity(_:perform:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/onContinuousHover(coordinateSpace:perform:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onContinuousHover"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI15CoordinateSpaceO",
+      "text" : "CoordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10HoverPhaseO",
+      "text" : "HoverPhase"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onContinuousHover(coordinateSpace:perform:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onContinuousHover(coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/oncontinuoushover(coordinatespace:perform:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/onDisappear(perform:)": {
   "abstract" : [
@@ -22268,7 +25946,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -22388,7 +26066,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -22973,6 +26651,108 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/onsubmit(of:_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/onTapGesture(count:coordinateSpace:perform:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onTapGesture"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "count"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI15CoordinateSpaceO",
+      "text" : "CoordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGPoint",
+      "text" : "CGPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/onTapGesture(count:coordinateSpace:perform:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onTapGesture(count:coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/ontapgesture(count:coordinatespace:perform:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/onTapGesture(count:perform:)": {
   "abstract" : [
 
@@ -23532,6 +27312,113 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/overlaypreferencevalue(_:_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/overlayPreferenceValue(_:alignment:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "overlayPreferenceValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "alignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9AlignmentV",
+      "text" : "Alignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ", ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "K"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/overlayPreferenceValue(_:alignment:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "overlayPreferenceValue(_:alignment:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/overlaypreferencevalue(_:alignment:_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/padding(_:)-7k1un": {
   "abstract" : [
 
@@ -23583,7 +27470,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/padding(_:)-7k1un"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/padding(_:)-9inq2": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/padding(_:)-95vny": {
   "abstract" : [
 
   ],
@@ -23606,7 +27493,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -23627,12 +27514,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/padding(_:)-9inq2",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/padding(_:)-95vny",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "padding(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/padding(_:)-9inq2"
+  "url" : "\/documentation\/tensity\/actionitem\/padding(_:)-95vny"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/padding(_:_:)": {
   "abstract" : [
@@ -23675,7 +27562,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -23702,6 +27589,57 @@
   "title" : "padding(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/padding(_:_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/persistentSystemOverlays(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "persistentSystemOverlays"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/persistentSystemOverlays(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "persistentSystemOverlays(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/persistentsystemoverlays(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/pickerStyle(_:)": {
   "abstract" : [
@@ -24110,7 +28048,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -24127,7 +28065,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -24295,6 +28233,203 @@
   "title" : "preferredColorScheme(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/preferredcolorscheme(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/presentationDetents(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "presentationDetents"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sh",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18PresentationDetentV",
+      "text" : "PresentationDetent"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/presentationDetents(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "presentationDetents(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/presentationdetents(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/presentationDetents(_:selection:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "presentationDetents"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sh",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18PresentationDetentV",
+      "text" : "PresentationDetent"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "selection"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18PresentationDetentV",
+      "text" : "PresentationDetent"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/presentationDetents(_:selection:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "presentationDetents(_:selection:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/presentationdetents(_:selection:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/presentationDragIndicator(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "presentationDragIndicator"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/presentationDragIndicator(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "presentationDragIndicator(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/presentationdragindicator(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/previewContext(_:)": {
   "abstract" : [
@@ -24844,6 +28979,177 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/refreshable(action:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/renameAction(_:)-4zudq": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "renameAction"
+    },
+    {
+      "kind" : "text",
+      "text" : "(() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/renameAction(_:)-4zudq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "renameAction(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/renameaction(_:)-4zudq"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/renameAction(_:)-7pfjg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "renameAction"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10FocusStateV",
+      "text" : "FocusState"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ">."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10FocusStateV7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/renameAction(_:)-7pfjg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "renameAction(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/renameaction(_:)-7pfjg"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/replaceDisabled(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "replaceDisabled"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/replaceDisabled(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "replaceDisabled(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/replacedisabled(_:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/rotation3DEffect(_:axis:anchor:anchorZ:perspective:)": {
   "abstract" : [
 
@@ -24888,7 +29194,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -24901,7 +29207,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -24914,7 +29220,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -24948,7 +29254,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -24965,7 +29271,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -25061,7 +29367,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/rotationeffect(_:anchor:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/safeAreaInset(edge:alignment:spacing:content:)-6dsc0": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/safeAreaInset(edge:alignment:spacing:content:)-34x7m": {
   "abstract" : [
 
   ],
@@ -25134,7 +29440,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -25171,14 +29477,14 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-6dsc0",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-34x7m",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "safeAreaInset(edge:alignment:spacing:content:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/safeareainset(edge:alignment:spacing:content:)-6dsc0"
+  "url" : "\/documentation\/tensity\/actionitem\/safeareainset(edge:alignment:spacing:content:)-34x7m"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/safeAreaInset(edge:alignment:spacing:content:)-6uosp": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/safeAreaInset(edge:alignment:spacing:content:)-6qka5": {
   "abstract" : [
 
   ],
@@ -25251,7 +29557,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -25288,12 +29594,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-6uosp",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/safeAreaInset(edge:alignment:spacing:content:)-6qka5",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "safeAreaInset(edge:alignment:spacing:content:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/safeareainset(edge:alignment:spacing:content:)-6uosp"
+  "url" : "\/documentation\/tensity\/actionitem\/safeareainset(edge:alignment:spacing:content:)-6qka5"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/saturation(_:)": {
   "abstract" : [
@@ -25346,7 +29652,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/saturation(_:)"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scaleEffect(_:anchor:)-2c4r8": {
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scaleEffect(_:anchor:)-7mpkt": {
   "abstract" : [
 
   ],
@@ -25369,7 +29675,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -25407,12 +29713,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaleEffect(_:anchor:)-2c4r8",
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scaleEffect(_:anchor:)-7mpkt",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scaleEffect(_:anchor:)",
   "type" : "topic",
-  "url" : "\/documentation\/tensity\/actionitem\/scaleeffect(_:anchor:)-2c4r8"
+  "url" : "\/documentation\/tensity\/actionitem\/scaleeffect(_:anchor:)-7mpkt"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scaleEffect(_:anchor:)-8cgia": {
   "abstract" : [
@@ -25513,7 +29819,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -25530,7 +29836,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -25719,6 +30025,313 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/scenepadding(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scenePadding(_:edges:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scenePadding"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI12ScenePaddingV",
+      "text" : "ScenePadding"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "edges"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+      "text" : "Edge"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scenePadding(_:edges:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scenePadding(_:edges:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/scenepadding(_:edges:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scrollContentBackground(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollContentBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollContentBackground(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollContentBackground(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/scrollcontentbackground(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scrollDisabled(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollDisabled"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollDisabled(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollDisabled(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/scrolldisabled(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scrollDismissesKeyboard(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollDismissesKeyboard"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI27ScrollDismissesKeyboardModeV",
+      "text" : "ScrollDismissesKeyboardMode"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollDismissesKeyboard(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollDismissesKeyboard(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/scrolldismisseskeyboard(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/scrollIndicators(_:axes:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollIndicators"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI25ScrollIndicatorVisibilityV",
+      "text" : "ScrollIndicatorVisibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "axes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4AxisO",
+      "text" : "Axis"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4AxisO3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/scrollIndicators(_:axes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollIndicators(_:axes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/scrollindicators(_:axes:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchCompletion(_:)": {
   "abstract" : [
 
@@ -25769,6 +30382,232 @@
   "title" : "searchCompletion(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/searchcompletion(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchScopes(_:scopes:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchScopes"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "scopes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchScopes(_:scopes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchScopes(_:scopes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchscopes(_:scopes:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchSuggestions(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchSuggestions"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchSuggestions(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchSuggestions(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchsuggestions(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchSuggestions(_:for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchSuggestions"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI26SearchSuggestionsPlacementV",
+      "text" : "SearchSuggestionsPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI26SearchSuggestionsPlacementV3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchSuggestions(_:for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchSuggestions(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchsuggestions(_:for:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:placement:prompt:)-1vvfe": {
   "abstract" : [
@@ -26087,6 +30926,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -26213,6 +31053,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -26339,6 +31180,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -26468,6 +31310,1145 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/searchable(text:placement:prompt:suggestions:)-99ftw"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:tokens:placement:prompt:token:)-1urth": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "text"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "placement"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI20SearchFieldPlacementV",
+      "text" : "SearchFieldPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "prompt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:placement:prompt:token:)-1urth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchable(text:tokens:placement:prompt:token:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchable(text:tokens:placement:prompt:token:)-1urth"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:tokens:placement:prompt:token:)-2vyhj": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "text"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "placement"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI20SearchFieldPlacementV",
+      "text" : "SearchFieldPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "prompt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:placement:prompt:token:)-2vyhj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchable(text:tokens:placement:prompt:token:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchable(text:tokens:placement:prompt:token:)-2vyhj"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:tokens:placement:prompt:token:)-8fcws": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "text"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "placement"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI20SearchFieldPlacementV",
+      "text" : "SearchFieldPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "prompt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+      "text" : "LocalizedStringKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:placement:prompt:token:)-8fcws",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchable(text:tokens:placement:prompt:token:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchable(text:tokens:placement:prompt:token:)-8fcws"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-47oig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "text"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "suggestedTokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "placement"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI20SearchFieldPlacementV",
+      "text" : "SearchFieldPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "prompt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-47oig",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchable(text:tokens:suggestedTokens:placement:prompt:token:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-47oig"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-75zkg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "text"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "suggestedTokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "placement"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI20SearchFieldPlacementV",
+      "text" : "SearchFieldPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "prompt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+      "text" : "LocalizedStringKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-75zkg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchable(text:tokens:suggestedTokens:placement:prompt:token:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-75zkg"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-8hrqe": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "text"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "suggestedTokens"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "placement"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI20SearchFieldPlacementV",
+      "text" : "SearchFieldPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "prompt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "token"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-8hrqe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchable(text:tokens:suggestedTokens:placement:prompt:token:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-8hrqe"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/shadow(color:radius:x:y:)": {
   "abstract" : [
 
@@ -26516,7 +32497,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -26533,7 +32514,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -26550,7 +32531,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -27094,6 +33075,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -27148,6 +33130,160 @@
   "title" : "statusBar(hidden:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/statusbar(hidden:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/statusBarHidden(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "statusBarHidden"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/statusBarHidden(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "statusBarHidden(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/statusbarhidden(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/strikethrough(_:pattern:color:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "strikethrough"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pattern"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV9LineStyleV",
+      "text" : "LineStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV9LineStyleV7PatternV",
+      "text" : "Pattern"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "color"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI5ColorV",
+      "text" : "Color"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/strikethrough(_:pattern:color:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "strikethrough(_:pattern:color:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/strikethrough(_:pattern:color:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/submitLabel(_:)": {
   "abstract" : [
@@ -27568,6 +33704,64 @@
   "title" : "tabViewStyle(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/tabviewstyle(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/tableStyle(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tableStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tableStyle(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tableStyle(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/tablestyle(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/tag(_:)": {
   "abstract" : [
@@ -28190,6 +34384,74 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/togglestyle(_:)"
 },
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbar(_:for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbar"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbar(_:for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbar(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/toolbar(_:for:)"
+},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbar(content:)-2otx9": {
   "abstract" : [
 
@@ -28404,6 +34666,385 @@
   "title" : "toolbar(id:content:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/toolbar(id:content:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbarBackground(_:for:)-1h5f5": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarBackground(_:for:)-1h5f5",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarBackground(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/toolbarbackground(_:for:)-1h5f5"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbarBackground(_:for:)-8p2ol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarBackground(_:for:)-8p2ol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarBackground(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/toolbarbackground(_:for:)-8p2ol"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbarColorScheme(_:for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarColorScheme"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11ColorSchemeO",
+      "text" : "ColorScheme"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarColorScheme(_:for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarColorScheme(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/toolbarcolorscheme(_:for:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbarRole(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarRole"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11ToolbarRoleV",
+      "text" : "ToolbarRole"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarRole(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarRole(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/toolbarrole(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/toolbarTitleMenu(content:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarTitleMenu"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "C"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/toolbarTitleMenu(content:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarTitleMenu(content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/toolbartitlemenu(content:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/tracking(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tracking"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/tracking(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tracking(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/tracking(_:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/transaction(_:)": {
   "abstract" : [
@@ -29000,6 +35641,109 @@
   "title" : "truncationMode(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/actionitem\/truncationmode(_:)"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/underline(_:pattern:color:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "underline"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pattern"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV9LineStyleV",
+      "text" : "LineStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV9LineStyleV7PatternV",
+      "text" : "Pattern"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "color"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI5ColorV",
+      "text" : "Color"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/ActionItem\/underline(_:pattern:color:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "underline(_:pattern:color:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/actionitem\/underline(_:pattern:color:)"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/ActionItem/unredacted()": {
   "abstract" : [

@@ -26,6 +26,8 @@ bass).
 ## Topics
 
 ### Getting Started
+### Privacy
+### Contact
 
 - <doc:Common-Tasks>
 

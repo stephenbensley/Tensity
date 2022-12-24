@@ -13,6 +13,17 @@
       "type" : "text"
     }
   ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use toolbar(.hidden)",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -79,21 +90,27 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "13.0",
+        "message" : "Use toolbar(.hidden)",
         "name" : "iOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "13.0",
+        "message" : "Use toolbar(.hidden)",
         "name" : "tvOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "6.0",
+        "message" : "Use toolbar(.hidden)",
         "name" : "watchOS",
         "unavailable" : false
       }
@@ -180,7 +197,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -289,6 +306,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",

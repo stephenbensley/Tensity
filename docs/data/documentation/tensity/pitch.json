@@ -106,7 +106,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -155,8 +155,6 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Comparable-Implementations",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Equatable-Implementations",
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/Identifiable-Implementations"
@@ -340,17 +338,6 @@
   "title" : "Pitch",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/pitch"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Pitch\/-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : " Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/pitch\/-implementations"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/Pitch/Comparable-Implementations": {
   "abstract" : [
