@@ -52,6 +52,16 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Privacy"
+      ],
+      "title" : "Getting Started"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
@@ -79,6 +89,42 @@
   "title" : "Tensity",
   "type" : "topic",
   "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Common-Tasks": {
+  "abstract" : [
+    {
+      "text" : "Instructions for some common updates to the app.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Common Tasks",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/common-tasks"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Privacy": {
+  "abstract" : [
+    {
+      "text" : "Tensity does not collect, transmit, or share any information, personal or otherwise. The app engages",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "in no ad targeting, data mining, or other activities that may compromise your privacy.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Privacy",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Privacy",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/privacy"
 }
 }
 }

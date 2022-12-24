@@ -206,9 +206,11 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks"
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Privacy",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Contact"
       ],
-      "title" : "Contact"
+      "title" : "Getting Started"
     },
     {
       "identifiers" : [
@@ -268,14 +270,6 @@
         "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/StringTensionTable_Previews"
       ],
       "title" : "View Previews"
-    },
-    {
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Contact",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Privacy"
-      ],
-      "title" : "Articles"
     }
   ],
   "variants" : [

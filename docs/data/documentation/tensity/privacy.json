@@ -43,6 +43,16 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
+        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Contact"
+      ],
+      "title" : "Getting Started"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
@@ -70,6 +80,63 @@
   "title" : "Tensity",
   "type" : "topic",
   "url" : "\/documentation\/tensity"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Common-Tasks": {
+  "abstract" : [
+    {
+      "text" : "Instructions for some common updates to the app.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Common-Tasks",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Common Tasks",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/common-tasks"
+},
+"doc://com.stephenbensley.Tensity/documentation/Tensity/Contact": {
+  "abstract" : [
+    {
+      "text" : "Please contact ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "mailto:stephen.e.bensley@gmail.com",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " with any bug reports, feature requests, or",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "other feedback.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Contact",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Contact",
+  "type" : "topic",
+  "url" : "\/documentation\/tensity\/contact"
+},
+"mailto:stephen.e.bensley@gmail.com": {
+  "identifier" : "mailto:stephen.e.bensley@gmail.com",
+  "title" : "me",
+  "titleInlineContent" : [
+    {
+      "text" : "me",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "mailto:stephen.e.bensley@gmail.com"
 }
 }
 }

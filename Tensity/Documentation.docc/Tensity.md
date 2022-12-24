@@ -26,10 +26,10 @@ bass).
 ## Topics
 
 ### Getting Started
-### Privacy
-### Contact
 
 - <doc:Common-Tasks>
+- <doc:Privacy>
+- <doc:Contact>
 
 ### Data Access
 

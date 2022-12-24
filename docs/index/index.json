@@ -4,12 +4,22 @@
       {
         "children" : [
           {
-            "title" : "Contact",
+            "title" : "Getting Started",
             "type" : "groupMarker"
           },
           {
             "path" : "\/documentation\/tensity\/common-tasks",
             "title" : "Common Tasks",
+            "type" : "article"
+          },
+          {
+            "path" : "\/documentation\/tensity\/privacy",
+            "title" : "Privacy",
+            "type" : "article"
+          },
+          {
+            "path" : "\/documentation\/tensity\/contact",
+            "title" : "Contact",
             "type" : "article"
           },
           {
@@ -28642,20 +28652,6 @@
             "path" : "\/documentation\/tensity\/stringtensiontable_previews",
             "title" : "StringTensionTable_Previews",
             "type" : "struct"
-          },
-          {
-            "title" : "Articles",
-            "type" : "groupMarker"
-          },
-          {
-            "path" : "\/documentation\/tensity\/contact",
-            "title" : "Contact",
-            "type" : "article"
-          },
-          {
-            "path" : "\/documentation\/tensity\/privacy",
-            "title" : "Privacy",
-            "type" : "article"
           }
         ],
         "path" : "\/documentation\/tensity",
