@@ -13,16 +13,6 @@
             "type" : "article"
           },
           {
-            "path" : "\/documentation\/tensity\/privacy",
-            "title" : "Privacy",
-            "type" : "article"
-          },
-          {
-            "path" : "\/documentation\/tensity\/contact",
-            "title" : "Contact",
-            "type" : "article"
-          },
-          {
             "title" : "Data Access",
             "type" : "groupMarker"
           },

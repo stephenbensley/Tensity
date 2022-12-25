@@ -236,16 +236,6 @@
   "sections" : [
 
   ],
-  "seeAlsoSections" : [
-    {
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Privacy",
-        "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Contact"
-      ],
-      "title" : "Getting Started"
-    }
-  ],
   "variants" : [
     {
       "paths" : [
@@ -273,37 +263,6 @@
   "title" : "Tensity",
   "type" : "topic",
   "url" : "\/documentation\/tensity"
-},
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Contact": {
-  "abstract" : [
-    {
-      "text" : "Please contact ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "mailto:stephen.e.bensley@gmail.com",
-      "isActive" : true,
-      "type" : "reference"
-    },
-    {
-      "text" : " with any bug reports, feature requests, or",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "other feedback.",
-      "type" : "text"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Contact",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "Contact",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/contact"
 },
 "doc://com.stephenbensley.Tensity/documentation/Tensity/GuitarTraits": {
   "abstract" : [
@@ -421,28 +380,6 @@
   "type" : "topic",
   "url" : "\/documentation\/tensity\/guitartype"
 },
-"doc://com.stephenbensley.Tensity/documentation/Tensity/Privacy": {
-  "abstract" : [
-    {
-      "text" : "Tensity does not collect, transmit, or share any information, personal or otherwise. The app engages",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "in no ad targeting, data mining, or other activities that may compromise your privacy.",
-      "type" : "text"
-    }
-  ],
-  "identifier" : "doc:\/\/com.stephenbensley.Tensity\/documentation\/Tensity\/Privacy",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "Privacy",
-  "type" : "topic",
-  "url" : "\/documentation\/tensity\/privacy"
-},
 "doc://com.stephenbensley.Tensity/documentation/Tensity/StringChoice": {
   "abstract" : [
     {
@@ -519,18 +456,6 @@
   "title" : "StringType",
   "type" : "topic",
   "url" : "\/documentation\/tensity\/stringtype"
-},
-"mailto:stephen.e.bensley@gmail.com": {
-  "identifier" : "mailto:stephen.e.bensley@gmail.com",
-  "title" : "me",
-  "titleInlineContent" : [
-    {
-      "text" : "me",
-      "type" : "text"
-    }
-  ],
-  "type" : "link",
-  "url" : "mailto:stephen.e.bensley@gmail.com"
 }
 }
 }

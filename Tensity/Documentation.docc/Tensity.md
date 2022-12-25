@@ -28,8 +28,6 @@ bass).
 ### Getting Started
 
 - <doc:Common-Tasks>
-- <doc:Privacy>
-- <doc:Contact>
 
 ### Data Access
 
