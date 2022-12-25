@@ -1,0 +1,3 @@
+Screen_55   1242x2208  iPhone 8 Plus
+Screen_65   1284x2778  iPhone 13 Pro Max
+Screen_129  2048x2732  iPad Pro (12.0-inch) (6th generation)
