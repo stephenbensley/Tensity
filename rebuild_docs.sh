@@ -28,4 +28,4 @@ rm -Rf docs
 mv docs.new docs
 
 # Update the index.html at root with our custom page
-cp -f index.html.src docs/index.html
+cp -f Pages/* docs/
