@@ -77,7 +77,7 @@ struct AboutView: View {
                   text: "Read the privacy policy",
                   rightSymbol: "link"
                ) {
-                  if let url = URL(string: "https://www.stephenbensley.com/privacy_tensity") {
+                  if let url = URL(string: "https://stephenbensley.github.io/Tensity/privacy.html") {
                      openURL(url)
                   }
                }
@@ -160,7 +160,7 @@ struct AboutView: View {
                   text: "Contact the developer",
                   rightSymbol: "link"
                ) {
-                  if let url = URL(string: "https://www.stephenbensley.com/contact") {
+                  if let url = URL(string: "https://stephenbensley.github.io/Tensity/contact.html") {
                      openURL(url)
                   }
                }
