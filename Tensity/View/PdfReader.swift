@@ -8,7 +8,7 @@
 import PDFKit
 import SwiftUI
 
-/// Wrapper around UIKit's PDFView
+// Wrapper around UIKit's PDFView
 struct PdfView: UIViewRepresentable {
     let url: URL
 
@@ -27,7 +27,7 @@ struct PdfView: UIViewRepresentable {
     ) { }
 }
 
-/// Allows the user to read and share a PDF.
+// Allows the user to read and share a PDF.
 struct PdfReader: View {
     @Environment(\.dismiss) private var dismiss
     let url: URL

@@ -7,22 +7,22 @@
 
 import Foundation
 
-/// Models a guitar string that has been strung and tuned.
+// Models a guitar string that has been strung and tuned.
 class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
-    /// None of the other fields is unique across instances
+    // None of the other fields is unique across instances
     let id = UUID()
-    /// 1-based string number
+    // 1-based string number
     let number: Int
-    /// 1-based course number
+    // 1-based course number
     let course: Int
-    /// Length of the string in inches
+    // Length of the string in inches
     @Published var length: Double
-    /// Pitch to which the string is tuned
+    // Pitch to which the string is tuned
     @Published var pitch: Pitch
-    /// Type of string being used
+    // Type of string being used
     @Published var string: StringChoice
 
-    /// Returns the tension in pounds.
+    // Returns the tension in pounds.
     var tension: Double {
 
         // Formula for string tension:

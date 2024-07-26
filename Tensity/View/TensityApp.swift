@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// The main entry point for the Tensity app.
+// The main entry point for the Tensity app.
 @main
 struct TensityApp: App {
     var body: some Scene {

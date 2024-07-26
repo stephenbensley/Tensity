@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// A picker that displays a navigation link to a list of options, which are shown in a new sheet on the navigation stack.
+// A picker that displays a navigation link to a list of options, which are shown in a new sheet on the navigation stack.
 struct NavPicker<SelectionType>: View
 where SelectionType: CustomStringConvertible & Equatable & Hashable {
     @State private var isActive = false

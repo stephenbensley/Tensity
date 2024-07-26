@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-/// Displays an action item on the About page.
+// Displays an action item on the About page.
 struct ActionItem: View {
-   /// SF Symbol to display on the left margin
+   // SF Symbol to display on the left margin
    var leftSymbol: String
-   /// Text describing the action
+   // Text describing the action
    var text: String
-   /// SF Symbol to display on the right margin
+   // SF Symbol to display on the right margin
    var rightSymbol: String
-   /// Action to take when user taps on item
+   // Action to take when user taps on item
    var action: () -> Void
 
    var body: some View {
@@ -32,17 +32,17 @@ struct ActionItem: View {
    }
 }
 
-/// Displays the About page.
+// Displays the About page.
 struct AboutView: View {
-   /// Used to dismiss the view when the Done button is tapped.
+   // Used to dismiss the view when the Done button is tapped.
    @Environment(\.dismiss) private var dismiss
-   /// Used to follow various web links.
+   // Used to follow various web links.
    @Environment(\.openURL) private var openURL
-   /// Signals that the tension specifications pdf should be displayed.
+   // Signals that the tension specifications pdf should be displayed.
    @State private var showSpec: Bool = false
-   /// Signals that the sheet to share the app should be displayed.
+   // Signals that the sheet to share the app should be displayed.
    @State private var showShareApp: Bool = false
-   /// Base URL for this app on the App Store
+   // Base URL for this app on the App Store
    private let appUrl = "https://apps.apple.com/us/app/tensity/id1631745251"
 
    private var appVersion: String {

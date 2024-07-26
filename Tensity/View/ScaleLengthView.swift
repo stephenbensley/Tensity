@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// Allows the user to edit the guitar's scale length.
+// Allows the user to edit the guitar's scale length.
 struct ScaleLengthView: View {
     @Environment(\.dismiss) private var dismiss
     @Binding var length: Double

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// The main view for the Tensity app.
+// The main view for the Tensity app.
 struct ContentView: View {
     // Either load the user's saved settings or revert to defaults.
     @StateObject private var guitarModel = Guitar.load() ?? Guitar()

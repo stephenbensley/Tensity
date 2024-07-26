@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// A  protocol that exposes the static characteristics of a ``GuitarType``.
+// A  protocol that exposes the static characteristics of a ``GuitarType``.
 protocol GuitarTraits {
     var defaultStringCount: Int { get }
     var validStringCounts: [Int] { get }
@@ -25,7 +25,7 @@ protocol GuitarTraits {
     func defaultStringGauges(forCount stringCount: Int) -> [StringChoice]
 }
 
-/// The ``GuitarTraits`` for an electric guitar.
+// The ``GuitarTraits`` for an electric guitar.
 class ElectricGuitarTraits: GuitarTraits {
     var defaultStringCount: Int {
         6
@@ -151,7 +151,7 @@ class ElectricGuitarTraits: GuitarTraits {
     }
 }
 
-/// The ``GuitarTraits`` for an acoustic guitar.
+// The ``GuitarTraits`` for an acoustic guitar.
 class AcousticGuitarTraits: GuitarTraits {
     var defaultStringCount: Int {
         6
@@ -258,7 +258,7 @@ class AcousticGuitarTraits: GuitarTraits {
     }
 }
 
-/// The ``GuitarTraits`` for a bass guitar.
+// The ``GuitarTraits`` for a bass guitar.
 class BassGuitarTraits: GuitarTraits {
     var defaultStringCount: Int {
         4
