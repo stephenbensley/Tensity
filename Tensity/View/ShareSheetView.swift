@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// Wraps UIKit's UIActivityViewController to display a share sheet.
+// Wraps UIKit's UIActivityViewController to display a share sheet.
 struct ShareSheetView: UIViewControllerRepresentable {
     let url: URL
 

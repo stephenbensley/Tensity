@@ -36,7 +36,7 @@ extension StringData {
 //                \    |     /
 //                tunedStrings
 
-/// This is the main entry point into the app model. It represents the guitar whose string tension is to be calculated.
+// This is the main entry point into the app model. It represents the guitar whose string tension is to be calculated.
 class Guitar: ObservableObject {
     private var stringData: StringData
 

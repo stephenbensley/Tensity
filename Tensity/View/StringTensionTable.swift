@@ -61,7 +61,7 @@ extension DynamicTypeSize {
 // 888.8     48
 // Tension:  62
 
-/// Defines the characteristics of each column in the ``StringTensionTable``
+// Defines the characteristics of each column in the ``StringTensionTable``
 struct StringTensionColumn {
     static let courseWidth = 20.0
     // 32 + padding of 7.5 on each side.
@@ -71,7 +71,7 @@ struct StringTensionColumn {
     static let tensionWidth = 62.0
 }
 
-/// Presents the information for a ``TunedString`` in the ``StringTensionTable``
+// Presents the information for a ``TunedString`` in the ``StringTensionTable``
 struct StringTensionRow: View {
     // Which column in the row is being edited?
     enum Editing {
@@ -152,7 +152,7 @@ struct StringTensionRow: View {
     }
 }
 
-/// Computes and displays the total tension of all the strings in the ``StringTensionTable``
+// Computes and displays the total tension of all the strings in the ``StringTensionTable``
 struct TotalTensionText: View {
     @ObservedObject var tunedStrings: ObservedArray<TunedString>
 
@@ -169,8 +169,8 @@ struct TotalTensionText: View {
     }
 }
 
-/// Displays the table of guitar strings, consisting of a header, a row for each ``TunedString``, and summary row with
-/// the ``TotalTensionText``.
+// Displays the table of guitar strings, consisting of a header, a row for each ``TunedString``, and summary row with
+// the ``TotalTensionText``.
 struct StringTensionTable: View {
     var tunedStrings: [TunedString]
     var validPitches: ClosedRange<Pitch>

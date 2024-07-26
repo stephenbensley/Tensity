@@ -7,9 +7,9 @@
 
 import Foundation
 
-/// Represents the twelve notes in an octave.
-///
-/// In scientific pitch notation, the octave starts with C, so it's convenient for C to have a rawValue of zero.
+// Represents the twelve notes in an octave.
+//
+// In scientific pitch notation, the octave starts with C, so it's convenient for C to have a rawValue of zero.
 enum PitchClass: Int {
     case C
     case Csharp
@@ -31,9 +31,9 @@ enum PitchClass: Int {
     }
 }
 
-/// Represents a musical pitch, which consists of a ``PitchClass`` and an octave.
+// Represents a musical pitch, which consists of a ``PitchClass`` and an octave.
 struct Pitch: Codable, Hashable, Identifiable, Strideable {
-    /// Pitches are numbered starting from C0
+    // Pitches are numbered starting from C0
     let id: Int
 
     private static let notesPerOctave = 12

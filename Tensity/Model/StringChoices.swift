@@ -19,10 +19,10 @@ extension StringChoice {
     }
 }
 
-/// The set of strings from which the user can choose.
-///
-/// This is different from ``StringType`` because a user may be able to choose from multiple types. For example, wound strings
-/// are typically paired with plain steel strings for the higher-pitched notes.
+// The set of strings from which the user can choose.
+//
+// This is different from ``StringType`` because a user may be able to choose from multiple types. For example, wound strings
+// are typically paired with plain steel strings for the higher-pitched notes.
 class StringChoices:  RandomAccessCollection {
     private var choices: [StringChoice] = []
 

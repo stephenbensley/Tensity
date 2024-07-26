@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// User settings that are persisted across app invocations.
+// User settings that are persisted across app invocations.
 struct UserData: Codable {
     var guitarTypeId: Int
     var stringCount: Int

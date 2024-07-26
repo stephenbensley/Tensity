@@ -8,8 +8,8 @@
 import Combine
 import Foundation
 
-/// Wraps an array of ObservableObjects to provide a consolidated change notification when any of
-/// the objects has changed.
+// Wraps an array of ObservableObjects to provide a consolidated change notification when any of
+// the objects has changed.
 class ObservedArray<T>: ObservableObject, RandomAccessCollection where T: ObservableObject {
     private let subject: [T]
     private var cancellables = Set<AnyCancellable>()
