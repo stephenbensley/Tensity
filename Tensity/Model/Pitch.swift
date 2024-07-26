@@ -31,7 +31,7 @@ enum PitchClass: Int {
     }
 }
 
-// Represents a musical pitch, which consists of a ``PitchClass`` and an octave.
+// Represents a musical pitch, which consists of a PitchClass and an octave.
 struct Pitch: Codable, Hashable, Identifiable, Strideable {
     // Pitches are numbered starting from C0
     let id: Int

@@ -32,7 +32,7 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
 // One of the guitar strings a user can choose from when configuring the guitar.
 //
 // Conceptually, this represents an unused string, sitting on the shelf of your local
-// music shop. Once it's strung on a guitar and brought up to tune, it becomes a ``TunedString``.
+// music shop. Once it's strung on a guitar and brought up to tune, it becomes a TunedString.
 class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     // Must be unique across all string types.
     let id: String
@@ -88,7 +88,7 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     }
 }
 
-// A collection of ``StringChoice`` objects of the same type, e.g., Phosphor Bronze.
+// A collection of StringChoice objects of the same type, e.g., Phosphor Bronze.
 class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identifiable {
     // Must be unique across all string types.
     let id: String
