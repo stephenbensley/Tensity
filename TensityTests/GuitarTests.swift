@@ -10,7 +10,7 @@ import XCTest
 
 class GuitarTests: XCTestCase {
     func testLoadAllDefaults() throws {
-        let guitar = Guitar()
+        let guitar = Guitar.create()
         for guitarType in guitar.validGuitarTypes {
             guitar.guitarType = guitarType
             for stringCount in guitar.validStringCounts {

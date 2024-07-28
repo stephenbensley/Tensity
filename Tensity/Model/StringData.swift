@@ -13,9 +13,7 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
     case acoustic
     case bass
 
-    var id: Int {
-        rawValue
-    }
+    var id: Int { rawValue }
 
     var description: String {
         switch self {
@@ -33,7 +31,7 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
 //
 // Conceptually, this represents an unused string, sitting on the shelf of your local
 // music shop. Once it's strung on a guitar and brought up to tune, it becomes a TunedString.
-class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
+final class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
     // Must be unique across all string types.
     let id: String
     // Pounds per linear inch
@@ -71,9 +69,7 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
         self.wound = wound
     }
 
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
+    func hash(into hasher: inout Hasher) { hasher.combine(id) }
 
     static func == (lhs: StringChoice, rhs: StringChoice) -> Bool {
         lhs.id == rhs.id
@@ -89,7 +85,7 @@ class StringChoice: Codable, Comparable, Equatable, Hashable, Identifiable {
 }
 
 // A collection of StringChoice objects of the same type, e.g., Phosphor Bronze.
-class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identifiable {
+final class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identifiable {
     // Must be unique across all string types.
     let id: String
     // Friendly name of the type.
@@ -101,35 +97,33 @@ class StringType: Codable, CustomStringConvertible, Equatable, Hashable, Identif
     // All available guitar strings of this type.
     let strings: [StringChoice]
 
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
+    func hash(into hasher: inout Hasher) { hasher.combine(id) }
 
     static func == (lhs: StringType, rhs: StringType) -> Bool {
         lhs.id == rhs.id
     }
 }
 
-// The  guitar string tension specifications that are loaded from the bundled JSON during app initialization.
-class StringData: Codable {
+// The  guitar string tension specifications that are loaded from the bundled JSON during app
+// initialization.
+final class StringData: Codable {
     let stringTypes: [StringType]
 
-    init(stringTypes: [StringType]) {
-        self.stringTypes = stringTypes
-    }
-
-    static func load() -> StringData {
-        guard let url = Bundle.main.url(forResource: "StringData", withExtension: "json") else {
-            fatalError("Failed to locate StringData.json in bundle.")
+    static func create(forResource: String, withExtension: String) -> StringData? {
+        guard let url = Bundle.main.url(
+            forResource: forResource,
+            withExtension: withExtension
+        ) else {
+            return nil
         }
 
         guard let data = try? Data(contentsOf: url) else {
-            fatalError("Failed to load StringData.json from bundle.")
+            return nil
         }
 
         let decoder = JSONDecoder()
         guard let StringData = try? decoder.decode(StringData.self, from: data) else {
-            fatalError("Failed to decode StringData.json from bundle.")
+            return nil
         }
 
         return StringData

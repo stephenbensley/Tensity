@@ -13,7 +13,7 @@ extension StringData {
         // Unit tests validate that every GuitarType has a default StringType.
         findStringType(guitarType.traits.defaultStringType)!
     }
-
+    
     func findStringType(_ id: String) -> StringType? {
         stringTypes.first(where: { $0.id == id })
     }
@@ -23,230 +23,149 @@ extension StringData {
     }
 }
 
-//
-// There is a complex dependency graph amongst the model's published properties:
-//
-//                 guitarType
-//                     |
-//               --------------
-//              /      |       \
-//    stringType   scaleLength  stringCount
-//              \      |       /
-//      validStrings   |    defaultGauges
-//                \    |     /
-//                tunedStrings
-
-// This is the main entry point into the app model. It represents the guitar whose string tension is to be calculated.
-class Guitar: ObservableObject {
-    private var stringData: StringData
-
-    @Published var guitarType: GuitarType {
+// This is the main entry point into the app model. It represents the guitar whose string tension
+// is to be calculated.
+@Observable
+final class Guitar {
+    private let stringData: StringData
+    
+    var guitarType: GuitarType {
         didSet {
-            // Must update stringType first; otherwise default gauges will be mapped with wrong
-            // string type which can lead to information loss.
-            stringType = stringData.defaultStringType(guitarType)
-            stringCount = guitarType.traits.defaultStringCount
-            scaleLength = guitarType.traits.defaultScaleLength
-        }
-    }
-    var validGuitarTypes: [GuitarType] {
-        GuitarType.allCases
-    }
-
-    @Published var stringCount: Int {
-        didSet {
-            tunedStrings = Self.buildDefaultTunedStrings(
-                guitarType: guitarType,
-                stringCount: stringCount,
-                scaleLength: scaleLength,
-                stringChoices: validStrings
+            // On guitar type change, we preserve nothing, so rebuild tuned strings from defaults.
+            tunedStrings = Self.buildTunedStrings(
+                stringData: stringData,
+                guitarType: guitarType
             )
         }
     }
-    var validStringCounts: [Int] {
-        guitarType.traits.validStringCounts
-    }
-
-    // Scale length of the guitar in inches.
-    @Published var scaleLength: Double {
-        didSet {
-            tunedStrings.forEach { $0.length = scaleLength }
+    var validGuitarTypes: [GuitarType] { GuitarType.allCases }
+    
+    var stringCount: Int {
+        get { tunedStrings.count }
+        set {
+            // On string count change, we preserve guitar type, scale length, and string type.
+            tunedStrings = Self.buildTunedStrings(
+                guitarType: guitarType,
+                stringCount: newValue,
+                scaleLength: scaleLength,
+                validStrings: validStrings
+            )
         }
     }
-    var validScaleLengths: ClosedRange<Double> {
-        guitarType.traits.validScaleLengths
+    var validStringCounts: [Int] { guitarType.traits.validStringCounts }
+    
+    // Scale length of the guitar in inches. This gets propagated to tuned strings.
+    var scaleLength: Double {
+        get { tunedStrings.first!.length }
+        set { tunedStrings.forEach { $0.length = newValue } }
     }
-
-    @Published var stringType: StringType {
-        didSet {
-            validStrings = StringChoices(forType: stringType, data: stringData)
-            tunedStrings.forEach { $0.string = validStrings.findClosestMatch(to: $0.string) }
+    var validScaleLengths: ClosedRange<Double> { guitarType.traits.validScaleLengths }
+    
+    // String type gets propagated to tuned strings.
+    var stringType: StringType {
+        get {
+            tunedStrings.first!.validStrings.baseType
+        }
+        set {
+            let validStrings = StringChoices(forType: newValue, data: stringData)
+            tunedStrings.forEach { $0.validStrings = validStrings }
         }
     }
-    var validStringTypes: [StringType] {
-        stringData.validStringTypes(guitarType)
-    }
+    var validStringTypes: [StringType] { stringData.validStringTypes(guitarType) }
+     
+    var tunedStrings: [TunedString]
+    var validStrings: StringChoices { tunedStrings.first!.validStrings }
 
-    var validPitches: ClosedRange<Pitch> {
-        guitarType.traits.validPitches
-    }
-    var validStrings: StringChoices
-
-    @Published var tunedStrings: [TunedString]
-
-    private init(
+    var tension: Double { tunedStrings.reduce(0.0) { $0 + $1.tension } }
+    
+    init(
         stringData: StringData,
         guitarType: GuitarType,
         stringCount: Int,
         scaleLength: Double,
-        stringType: StringType,
         validStrings: StringChoices,
-        tunedStrings: [TunedString]
+        pitches: [Pitch],
+        strings: [StringChoice]
     ) {
         self.stringData = stringData
         self.guitarType = guitarType
-        self.stringCount = stringCount
-        self.scaleLength = scaleLength
-        self.stringType = stringType
-        self.validStrings = validStrings
-        self.tunedStrings = tunedStrings
+        self.tunedStrings = Self.buildTunedStrings(
+            guitarType: guitarType,
+            stringCount: stringCount,
+            scaleLength: scaleLength,
+            validStrings: validStrings,
+            pitches: pitches,
+            strings: strings
+        )
     }
-
-    convenience init() {
-        // Load all the defaults.
-        let stringData = StringData.load()
-        let guitarType = GuitarType.electric
+    
+    init(stringData: StringData) {
+        self.stringData = stringData
+        self.guitarType = .electric
+        self.tunedStrings = Self.buildTunedStrings(stringData: stringData, guitarType: .electric)
+    }
+    
+    // Each buildTunedStrings function defaults fewer parameters than its predecessor.
+    
+    static func buildTunedStrings(
+        stringData: StringData,
+        guitarType: GuitarType
+    ) -> [TunedString] {
         let stringCount = guitarType.traits.defaultStringCount
         let scaleLength = guitarType.traits.defaultScaleLength
         let stringType = stringData.defaultStringType(guitarType)
         let validStrings = StringChoices(forType: stringType, data: stringData)
-        let tunedStrings = Self.buildDefaultTunedStrings(
+        
+        return buildTunedStrings(
             guitarType: guitarType,
             stringCount: stringCount,
             scaleLength: scaleLength,
-            stringChoices: validStrings
-        )
-        self.init(
-            stringData: stringData,
-            guitarType: guitarType,
-            stringCount: stringCount,
-            scaleLength: scaleLength,
-            stringType: stringType,
-            validStrings: validStrings,
-            tunedStrings: tunedStrings
+            validStrings: validStrings
         )
     }
-
-    static func load() -> Guitar? {
-        guard let userData = UserData.load() else {
-            return nil
-        }
-
-        let stringData = StringData.load()
-
-        guard let guitarType = GuitarType(rawValue: userData.guitarTypeId) else {
-            return nil
-        }
-
-        let stringCount = userData.stringCount
-        guard guitarType.traits.validStringCounts.contains(stringCount) else {
-            return nil
-        }
-
-        let scaleLength = userData.scaleLength
-        guard guitarType.traits.validScaleLengths.contains(scaleLength) else {
-            return nil
-        }
-
-        guard let stringType = stringData.findStringType(userData.stringTypeId) else {
-            return nil
-        }
-
-        guard userData.pitchIds.count == stringCount else {
-            return nil
-        }
-        let pitches = userData.pitchIds.map { Pitch(id: $0) }
-        guard !pitches.contains(where: { !guitarType.traits.validPitches.contains($0) }) else {
-            return nil
-        }
-
-        let validStrings = StringChoices(forType: stringType, data: stringData)
-
-        guard userData.stringIds.count == stringCount else {
-            return nil
-        }
-        let strings = userData.stringIds.compactMap { validStrings.find($0) }
-        guard strings.count == stringCount else {
-            return nil
-        }
-
-        let tunedStrings = buildTunedStrings(
-            guitarType: guitarType,
-            scaleLength: scaleLength,
-            pitches: pitches,
-            strings: strings
-        )
-
-        return Guitar(
-            stringData: stringData,
-            guitarType: guitarType,
-            stringCount: stringCount,
-            scaleLength: scaleLength,
-            stringType: stringType,
-            validStrings: validStrings,
-            tunedStrings: tunedStrings
-        )
-    }
-
-    func save() {
-        UserData(
-            guitarTypeId: guitarType.rawValue,
-            stringCount: stringCount,
-            scaleLength: scaleLength,
-            stringTypeId: stringType.id,
-            pitchIds: tunedStrings.map({ $0.pitch.id }),
-            stringIds: tunedStrings.map({ $0.string.id })
-        ).save()
-    }
-
-    private static func buildTunedStrings(
-        guitarType: GuitarType,
-        scaleLength: Double,
-        pitches: [Pitch],
-        strings: [StringChoice]
-    ) -> [TunedString] {
-        let stringCount = pitches.count
-        assert(strings.count == stringCount)
-        let stringsPerCourse = guitarType.traits.stringsPerCourse(forCount: stringCount)
-
-        var result: [TunedString] = []
-        for i in 0 ..< stringCount {
-            let newModel = TunedString(
-                number: i + 1,
-                course: (i / stringsPerCourse) + 1,
-                length: scaleLength,
-                pitch: pitches[i],
-                string: strings[i])
-            result.append(newModel)
-        }
-        return result
-    }
-
-    private static func buildDefaultTunedStrings(
+    
+    static func buildTunedStrings(
         guitarType: GuitarType,
         stringCount: Int,
         scaleLength: Double,
-        stringChoices: StringChoices
+        validStrings: StringChoices
     ) -> [TunedString] {
         let pitches = guitarType.traits.defaultPitches(forCount: stringCount)
         let gauges = guitarType.traits.defaultStringGauges(forCount: stringCount)
-        let strings = stringChoices.findClosestMatches(to: gauges)
-
+        let strings = validStrings.findClosestMatches(to: gauges)
+        
         return buildTunedStrings(
             guitarType: guitarType,
+            stringCount: stringCount,
             scaleLength: scaleLength,
+            validStrings: validStrings,
             pitches: pitches,
             strings: strings
         )
+    }
+    
+    // Builds a set of TunedStrings for the current guitar configuration.
+    static func buildTunedStrings(
+        guitarType: GuitarType,
+        stringCount: Int,
+        scaleLength: Double,
+        validStrings: StringChoices,
+        pitches: [Pitch],
+        strings: [StringChoice]
+    ) -> [TunedString] {
+        let stringsPerCourse = guitarType.traits.stringsPerCourse(forCount: stringCount)
+        let validPitches = guitarType.traits.validPitches
+        
+        return (0..<stringCount).map {
+            TunedString(
+                number: $0 + 1,
+                course: ($0 / stringsPerCourse) + 1,
+                length: scaleLength,
+                pitch: pitches[$0],
+                validPitches: validPitches,
+                string: strings[$0],
+                validStrings: validStrings
+            )
+        }
     }
 }
