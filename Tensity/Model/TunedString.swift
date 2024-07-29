@@ -9,7 +9,7 @@ import Foundation
 
 // Models a guitar string that has been strung and tuned.
 @Observable
-class TunedString: Equatable, Hashable, Identifiable {
+class TunedString: Identifiable {
     // None of the other fields is unique across instances
     let id = UUID()
     // 1-based string number
@@ -65,23 +65,5 @@ class TunedString: Equatable, Hashable, Identifiable {
         self.validPitches = validPitches
         self.string = string
         self.validStrings = validStrings
-    }
-
-    // Hashable
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(number)
-        hasher.combine(course)
-        hasher.combine(length)
-        hasher.combine(pitch)
-        hasher.combine(string)
-    }
-
-    // Equatable
-    static func == (lhs: TunedString, rhs: TunedString) -> Bool {
-        (lhs.number == rhs.number) &&
-        (lhs.course == rhs.course) &&
-        (lhs.length == rhs.length) &&
-        (lhs.pitch  == rhs.pitch ) &&
-        (lhs.string == rhs.string)
     }
 }

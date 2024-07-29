@@ -13,7 +13,7 @@ enum GuitarType: Int, CaseIterable, Codable, CustomStringConvertible, Identifiab
     case acoustic
     case bass
 
-    var id: Int { rawValue }
+    var id: Self { self }
 
     var description: String {
         switch self {

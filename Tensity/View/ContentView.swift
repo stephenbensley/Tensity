@@ -24,18 +24,18 @@ struct ContentView: View {
             Form {
                 Section {
                     Picker("Guitar Type", selection: $appModel.guitarType) {
-                        ForEach(appModel.validGuitarTypes, id: \.self) { item in
-                             Text(item.description)
+                        ForEach(appModel.validGuitarTypes) { guitarType in
+                            Text(guitarType.description)
                         }
                     }
                     Picker("Number of Strings", selection: $appModel.stringCount) {
-                        ForEach(appModel.validStringCounts, id: \.self) {
-                            Text($0.description)
+                        ForEach(appModel.validStringCounts, id: \.self) { stringCount in
+                            Text(stringCount.description)
                         }
                     }
                     Picker("String Type", selection: $appModel.stringType) {
-                        ForEach(appModel.validStringTypes, id: \.self) {
-                            Text($0.description)
+                        ForEach(appModel.validStringTypes) { stringType in
+                            Text(stringType.description).tag(stringType)
                         }
                     }
                     VStack {
