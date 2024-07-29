@@ -17,7 +17,7 @@ extension StringData {
     func findStringType(_ id: String) -> StringType? {
         stringTypes.first(where: { $0.id == id })
     }
-
+    
     func validStringTypes(_ guitarType: GuitarType) -> [StringType] {
         stringTypes.filter { $0.forGuitarType == guitarType }
     }
@@ -54,14 +54,14 @@ final class Guitar {
     }
     var validStringCounts: [Int] { guitarType.traits.validStringCounts }
     
-    // Scale length of the guitar in inches. This gets propagated to tuned strings.
+    // Scale length of the guitar in inches. This gets propagated to all tuned strings.
     var scaleLength: Double {
         get { tunedStrings.first!.length }
         set { tunedStrings.forEach { $0.length = newValue } }
     }
     var validScaleLengths: ClosedRange<Double> { guitarType.traits.validScaleLengths }
     
-    // String type gets propagated to tuned strings.
+    // String type gets propagated to all tuned strings.
     var stringType: StringType {
         get {
             tunedStrings.first!.validStrings.baseType
@@ -72,10 +72,11 @@ final class Guitar {
         }
     }
     var validStringTypes: [StringType] { stringData.validStringTypes(guitarType) }
-     
-    var tunedStrings: [TunedString]
+    
     var validStrings: StringChoices { tunedStrings.first!.validStrings }
-
+    
+    var tunedStrings: [TunedString]
+    
     var tension: Double { tunedStrings.reduce(0.0) { $0 + $1.tension } }
     
     init(
@@ -144,7 +145,6 @@ final class Guitar {
         )
     }
     
-    // Builds a set of TunedStrings for the current guitar configuration.
     static func buildTunedStrings(
         guitarType: GuitarType,
         stringCount: Int,

@@ -30,14 +30,13 @@ final class StringChoices:  RandomAccessCollection {
 
     init(forType type: StringType, data: StringData) {
         self.baseType = type
-        self.choices = type.strings
         
+        self.choices = type.strings
         if let includes = type.includes {
             if let includedType = data.findStringType(includes) {
                 choices += includedType.strings
             }
         }
-
         choices.sort()
     }
 
