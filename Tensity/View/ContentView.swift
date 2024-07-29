@@ -15,7 +15,7 @@ struct ContentView: View {
     @State private var appModel = Guitar.create()
     
     // The string tension table gets hard to read if we let it get too wide.
-    @ScaledMetric private var maxWidth = 400
+    @ScaledMetric private var maxWidth = 500
     
     var body: some View {
         @Bindable var appModel = appModel
@@ -63,6 +63,7 @@ struct ContentView: View {
             .toolbar {
                 NavigationLink {
                     AboutView()
+                        .frame(maxWidth: maxWidth)
                 } label: {
                     Label("About", systemImage: "ellipsis.circle")
                 }
