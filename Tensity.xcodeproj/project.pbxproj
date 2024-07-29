@@ -7,29 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC2A61E8288B393A0050F004 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A61E7288B393A0050F004 /* ShareSheetView.swift */; };
-		DC6296C0285A7A7500A6161C /* StringTensionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6296BF285A7A7500A6161C /* StringTensionTable.swift */; };
 		DC6BF179284FE72B0071459D /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6BF178284FE72B0071459D /* Pitch.swift */; };
 		DC6BF199285257590071459D /* StringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6BF17A28514DCC0071459D /* StringData.swift */; };
-		DC6FC6B4285D1DF900B8F2A4 /* NavPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6B3285D1DF900B8F2A4 /* NavPicker.swift */; };
-		DC6FC6B6285D39D400B8F2A4 /* ScaleLengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6B5285D39D400B8F2A4 /* ScaleLengthView.swift */; };
-		DC6FC6B8285E3FD000B8F2A4 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6B7285E3FD000B8F2A4 /* AboutView.swift */; };
-		DC6FC6BA285E889400B8F2A4 /* PdfReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6B9285E889400B8F2A4 /* PdfReader.swift */; };
 		DC6FC6BC285F8DA600B8F2A4 /* GuitarTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6BB285F8DA500B8F2A4 /* GuitarTraits.swift */; };
-		DC6FC6BE28610FCC00B8F2A4 /* ObservedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6BD28610FCC00B8F2A4 /* ObservedArray.swift */; };
 		DC84EF45286642E6009A0175 /* StringChoicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF44286642E6009A0175 /* StringChoicesTests.swift */; };
 		DC84EF47286644D8009A0175 /* GuitarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF46286644D8009A0175 /* GuitarTests.swift */; };
 		DC84EF4928665AC2009A0175 /* TunedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF4828665AC2009A0175 /* TunedString.swift */; };
 		DC84EF4B28665AD1009A0175 /* StringChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF4A28665AD1009A0175 /* StringChoices.swift */; };
 		DC8BDF33284E8E3D008432CF /* TensityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BDF32284E8E3D008432CF /* TensityApp.swift */; };
-		DC8BDF35284E8E3D008432CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BDF34284E8E3D008432CF /* ContentView.swift */; };
 		DC8BDF37284E8E3E008432CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8BDF36284E8E3E008432CF /* Assets.xcassets */; };
-		DCD846EC28565964002A123E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD846EB28565964002A123E /* UserData.swift */; };
+		DCBCA2592C553EE10090CF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBCA2582C553EE10090CF03 /* ContentView.swift */; };
+		DCBCA25A2C55575C0090CF03 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6B7285E3FD000B8F2A4 /* AboutView.swift */; };
+		DCBCA25F2C56836F0090CF03 /* StringTensionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6296BF285A7A7500A6161C /* StringTensionTable.swift */; };
 		DCD846F12856956C002A123E /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD846F02856956C002A123E /* Guitar.swift */; };
 		DCDE49BB286A22C400017E3A /* String Tension Specifications.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DCDE49B9286A22C300017E3A /* String Tension Specifications.pdf */; };
 		DCDE49BC286A22C400017E3A /* StringData.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDE49BA286A22C400017E3A /* StringData.json */; };
 		DCE595E92864B90200F174B1 /* StringDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE595E82864B90200F174B1 /* StringDataTests.swift */; };
 		DCE595F02864BC9700F174B1 /* PitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE595EF2864BC9600F174B1 /* PitchTests.swift */; };
+		DCFC6C682C546672009BCA00 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC6C672C546672009BCA00 /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,16 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC2A61E7288B393A0050F004 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
 		DC6296BF285A7A7500A6161C /* StringTensionTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTensionTable.swift; sourceTree = "<group>"; };
 		DC6BF178284FE72B0071459D /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
 		DC6BF17A28514DCC0071459D /* StringData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringData.swift; sourceTree = "<group>"; };
-		DC6FC6B3285D1DF900B8F2A4 /* NavPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavPicker.swift; sourceTree = "<group>"; };
-		DC6FC6B5285D39D400B8F2A4 /* ScaleLengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleLengthView.swift; sourceTree = "<group>"; };
 		DC6FC6B7285E3FD000B8F2A4 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		DC6FC6B9285E889400B8F2A4 /* PdfReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfReader.swift; sourceTree = "<group>"; };
 		DC6FC6BB285F8DA500B8F2A4 /* GuitarTraits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTraits.swift; sourceTree = "<group>"; };
-		DC6FC6BD28610FCC00B8F2A4 /* ObservedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedArray.swift; sourceTree = "<group>"; };
 		DC84EF44286642E6009A0175 /* StringChoicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringChoicesTests.swift; sourceTree = "<group>"; };
 		DC84EF46286644D8009A0175 /* GuitarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTests.swift; sourceTree = "<group>"; };
 		DC84EF4828665AC2009A0175 /* TunedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunedString.swift; sourceTree = "<group>"; };
@@ -60,15 +50,15 @@
 		DC84EF4C28667963009A0175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DC8BDF2F284E8E3D008432CF /* Tensity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tensity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8BDF32284E8E3D008432CF /* TensityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensityApp.swift; sourceTree = "<group>"; };
-		DC8BDF34284E8E3D008432CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC8BDF36284E8E3E008432CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCD846EB28565964002A123E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		DCBCA2582C553EE10090CF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCD846F02856956C002A123E /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
 		DCDE49B9286A22C300017E3A /* String Tension Specifications.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "String Tension Specifications.pdf"; sourceTree = "<group>"; };
 		DCDE49BA286A22C400017E3A /* StringData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringData.json; sourceTree = "<group>"; };
 		DCE595E62864B90200F174B1 /* TensityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TensityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE595E82864B90200F174B1 /* StringDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDataTests.swift; sourceTree = "<group>"; };
 		DCE595EF2864BC9600F174B1 /* PitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchTests.swift; sourceTree = "<group>"; };
+		DCFC6C672C546672009BCA00 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +123,10 @@
 			children = (
 				DCD846F02856956C002A123E /* Guitar.swift */,
 				DC6FC6BB285F8DA500B8F2A4 /* GuitarTraits.swift */,
-				DC6FC6BD28610FCC00B8F2A4 /* ObservedArray.swift */,
 				DC6BF178284FE72B0071459D /* Pitch.swift */,
-				DC6BF17A28514DCC0071459D /* StringData.swift */,
-				DCD846EB28565964002A123E /* UserData.swift */,
-				DC84EF4828665AC2009A0175 /* TunedString.swift */,
 				DC84EF4A28665AD1009A0175 /* StringChoices.swift */,
+				DC6BF17A28514DCC0071459D /* StringData.swift */,
+				DC84EF4828665AC2009A0175 /* TunedString.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,11 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				DC6FC6B7285E3FD000B8F2A4 /* AboutView.swift */,
-				DC8BDF34284E8E3D008432CF /* ContentView.swift */,
-				DC6FC6B3285D1DF900B8F2A4 /* NavPicker.swift */,
-				DC6FC6B9285E889400B8F2A4 /* PdfReader.swift */,
-				DC6FC6B5285D39D400B8F2A4 /* ScaleLengthView.swift */,
-				DC2A61E7288B393A0050F004 /* ShareSheetView.swift */,
+				DCFC6C672C546672009BCA00 /* AppModel.swift */,
+				DCBCA2582C553EE10090CF03 /* ContentView.swift */,
 				DC6296BF285A7A7500A6161C /* StringTensionTable.swift */,
 				DC8BDF32284E8E3D008432CF /* TensityApp.swift */,
 			);
@@ -272,21 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBCA25F2C56836F0090CF03 /* StringTensionTable.swift in Sources */,
 				DCD846F12856956C002A123E /* Guitar.swift in Sources */,
 				DC6FC6BC285F8DA600B8F2A4 /* GuitarTraits.swift in Sources */,
-				DC2A61E8288B393A0050F004 /* ShareSheetView.swift in Sources */,
+				DCBCA2592C553EE10090CF03 /* ContentView.swift in Sources */,
 				DC6BF199285257590071459D /* StringData.swift in Sources */,
+				DCBCA25A2C55575C0090CF03 /* AboutView.swift in Sources */,
 				DC84EF4928665AC2009A0175 /* TunedString.swift in Sources */,
-				DC6FC6BE28610FCC00B8F2A4 /* ObservedArray.swift in Sources */,
 				DC6BF179284FE72B0071459D /* Pitch.swift in Sources */,
-				DC6FC6B8285E3FD000B8F2A4 /* AboutView.swift in Sources */,
 				DC84EF4B28665AD1009A0175 /* StringChoices.swift in Sources */,
-				DC6FC6B6285D39D400B8F2A4 /* ScaleLengthView.swift in Sources */,
-				DC8BDF35284E8E3D008432CF /* ContentView.swift in Sources */,
-				DC6FC6B4285D1DF900B8F2A4 /* NavPicker.swift in Sources */,
-				DC6296C0285A7A7500A6161C /* StringTensionTable.swift in Sources */,
-				DC6FC6BA285E889400B8F2A4 /* PdfReader.swift in Sources */,
-				DCD846EC28565964002A123E /* UserData.swift in Sources */,
+				DCFC6C682C546672009BCA00 /* AppModel.swift in Sources */,
 				DC8BDF33284E8E3D008432CF /* TensityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6X2P4HJBQW;
 				ENABLE_PREVIEWS = YES;
@@ -445,11 +425,12 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.7;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenbensley.Tensity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -464,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6X2P4HJBQW;
 				ENABLE_PREVIEWS = YES;
@@ -474,11 +455,12 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.7;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenbensley.Tensity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -495,6 +477,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6X2P4HJBQW;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenbensley.TensityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +496,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6X2P4HJBQW;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenbensley.TensityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,96 +7,75 @@
 
 import SwiftUI
 
-// The main view for the Tensity app.
 struct ContentView: View {
-    // Either load the user's saved settings or revert to defaults.
-    @StateObject private var guitarModel = Guitar.load() ?? Guitar()
+    // Used to trigger saving state when app goes inactive.
     @Environment(\.scenePhase) private var scenePhase
-    // Signals to show the About page.
-    @State private var showAbout = false
+    
+    // Persistent app model.
+    @State private var appModel = Guitar.create()
+    
+    // The string tension table gets hard to read if we let it get too wide.
+    @ScaledMetric private var maxWidth = 400
     
     var body: some View {
-        NavigationView {
+        @Bindable var appModel = appModel
+         
+        NavigationStack {
             Form {
                 Section {
-                    NavPicker(
-                        title: "Guitar Type",
-                        selection: $guitarModel.guitarType,
-                        options: guitarModel.validGuitarTypes,
-                        footer: """
-                                Changing the guitar type will revert all other fields to the \
-                                default values for the new type.
-                                """
-                    )
-                    
-                    NavPicker(
-                        title: "Number of Strings",
-                        selection: $guitarModel.stringCount,
-                        options: guitarModel.validStringCounts,
-                        footer: """
-                                Changing the number of strings will revert the tuning and string \
-                                gauges to the default values for the new string count.
-                                """
-                    )
-                    
-                    NavigationLink {
-                        ScaleLengthView(
-                            length: $guitarModel.scaleLength,
-                            validLengths: guitarModel.validScaleLengths
-                        )
-                    } label: {
-                        HStack {
-                            Text("Scale Length")
-                            Spacer()
-                            Text(guitarModel.scaleLength.formatted() + " inches")
-                                .foregroundColor(Color.secondary)
+                    Picker("Guitar Type", selection: $appModel.guitarType) {
+                        ForEach(appModel.validGuitarTypes) { guitarType in
+                            Text(guitarType.description)
                         }
                     }
-                    
-                    NavPicker(
-                        title: "String Type",
-                        selection: $guitarModel.stringType,
-                        options: guitarModel.validStringTypes,
-                        footer: """
-                                Changing the string type may cause some strings to change to the \
-                                closest available gauge in the new type.
-                                """
-                    )
+                    Picker("Number of Strings", selection: $appModel.stringCount) {
+                        ForEach(appModel.validStringCounts, id: \.self) { stringCount in
+                            Text(stringCount.description)
+                        }
+                    }
+                    Picker("String Type", selection: $appModel.stringType) {
+                        ForEach(appModel.validStringTypes) { stringType in
+                            Text(stringType.description).tag(stringType)
+                        }
+                    }
+                    VStack {
+                        LabeledContent("Scale Length") {
+                            Text(appModel.scaleLength.formatted() + " inches")
+                        }
+                        Slider(
+                            value: $appModel.scaleLength,
+                            in: appModel.validScaleLengths,
+                            step: 0.125
+                        ) {
+                            Text("Scale Length")
+                        } minimumValueLabel: {
+                            Text(appModel.validScaleLengths.lowerBound.formatted())
+                        } maximumValueLabel: {
+                            Text(appModel.validScaleLengths.upperBound.formatted())
+                        }
+                    }
                 }
                 
-                StringTensionTable(
-                    tunedStrings: guitarModel.tunedStrings,
-                    validPitches: guitarModel.validPitches,
-                    validStrings: guitarModel.validStrings
-                )
+                StringTensionTable()
             }
             .navigationTitle("String Tension")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                Button {
-                    showAbout = true
+                NavigationLink {
+                    AboutView()
                 } label: {
-                   Image(systemName: "ellipsis.circle")
+                    Label("About", systemImage: "ellipsis.circle")
                 }
             }
-        }
-        .onChange(of: scenePhase) { phase in
-            if phase == .inactive {
-                guitarModel.save()
+            .frame(maxWidth: maxWidth)
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .inactive { appModel.save() }
             }
+            .appModel(appModel)
         }
-        .navigationViewStyle(StackNavigationViewStyle())
-        .sheet(isPresented: $showAbout) {
-            AboutView()
-        }
-        // Table runs out of room if the text gets too large
-        .dynamicTypeSize(.xSmall ..< .accessibility1)
-        // Table looks silly and is hard to read if the screen gets too wide
-        .frame(maxWidth: 500)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

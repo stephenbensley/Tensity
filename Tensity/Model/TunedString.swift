@@ -8,7 +8,8 @@
 import Foundation
 
 // Models a guitar string that has been strung and tuned.
-class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
+@Observable
+class TunedString: Identifiable {
     // None of the other fields is unique across instances
     let id = UUID()
     // 1-based string number
@@ -16,12 +17,20 @@ class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
     // 1-based course number
     let course: Int
     // Length of the string in inches
-    @Published var length: Double
+    var length: Double
     // Pitch to which the string is tuned
-    @Published var pitch: Pitch
+    var pitch: Pitch
+    // Allowed pitch range for the string
+    let validPitches: ClosedRange<Pitch>
     // Type of string being used
-    @Published var string: StringChoice
-
+    var string: StringChoice
+    // Set of strings the player can choose from.
+    var validStrings: StringChoices {
+        didSet {
+            string = validStrings.findClosestMatch(to: string)
+        }
+    }
+    
     // Returns the tension in pounds.
     var tension: Double {
 
@@ -45,30 +54,16 @@ class TunedString: Equatable, Hashable, Identifiable, ObservableObject {
         course: Int,
         length: Double,
         pitch: Pitch,
-        string: StringChoice
+        validPitches: ClosedRange<Pitch>,
+        string: StringChoice,
+        validStrings: StringChoices
     ) {
         self.number = number
         self.course = course
         self.length = length
         self.pitch = pitch
+        self.validPitches = validPitches
         self.string = string
-    }
-
-    // Hashable
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(number)
-        hasher.combine(course)
-        hasher.combine(length)
-        hasher.combine(pitch)
-        hasher.combine(string)
-    }
-
-    // Equatable
-    static func == (lhs: TunedString, rhs: TunedString) -> Bool {
-        (lhs.number == rhs.number) &&
-        (lhs.course == rhs.course) &&
-        (lhs.length == rhs.length) &&
-        (lhs.pitch  == rhs.pitch ) &&
-        (lhs.string == rhs.string)
+        self.validStrings = validStrings
     }
 }

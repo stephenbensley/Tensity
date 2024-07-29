@@ -11,46 +11,28 @@ import Foundation
 protocol GuitarTraits {
     var defaultStringCount: Int { get }
     var validStringCounts: [Int] { get }
+    var defaultScaleLength: Double { get }
+    var validScaleLengths: ClosedRange<Double> { get }
+    var defaultStringType: String { get }
+    var validPitches: ClosedRange<Pitch> { get }
 
     func stringsPerCourse(forCount stringCount: Int) -> Int
 
-    var defaultScaleLength: Double { get }
-    var validScaleLengths: ClosedRange<Double> { get }
-
-    var defaultStringType: String { get }
-
     func defaultPitches(forCount stringCount: Int) -> [Pitch]
-    var validPitches: ClosedRange<Pitch> { get }
-
     func defaultStringGauges(forCount stringCount: Int) -> [StringChoice]
 }
 
 // The GuitarTraits for an electric guitar.
-class ElectricGuitarTraits: GuitarTraits {
-    var defaultStringCount: Int {
-        6
-    }
+final class ElectricGuitarTraits: GuitarTraits {
+    let defaultStringCount: Int = 6
+    let validStringCounts: [Int] = [4, 6, 7, 12]
+    let defaultScaleLength: Double = 25.5
+    let validScaleLengths: ClosedRange<Double> = 20.0...30.0
+    let defaultStringType: String = "NW"
+    let validPitches: ClosedRange<Pitch> = Pitch(.A, 1)...Pitch(.A, 4)
 
-    var validStringCounts: [Int] {
-        [4, 6, 7, 12]
-    }
-
-    func stringsPerCourse(forCount stringCount: Int) -> Int {
-        (stringCount == 12) ? 2 : 1
-    }
-
-    var defaultScaleLength: Double {
-        25.5
-    }
-
-    var validScaleLengths: ClosedRange<Double> {
-        20.0...30.0
-    }
-
-    var defaultStringType: String {
-        return "NW"
-    }
-
+    func stringsPerCourse(forCount stringCount: Int) -> Int { (stringCount == 12) ? 2 : 1 }
+    
     func defaultPitches(forCount stringCount: Int) -> [Pitch] {
         switch stringCount {
         case 4:
@@ -95,10 +77,6 @@ class ElectricGuitarTraits: GuitarTraits {
             // Middle C seems as good a default as any.
             return Array(repeating: Pitch(.C, 4), count: stringCount)
         }
-    }
-
-    var validPitches: ClosedRange<Pitch> {
-        Pitch(.A, 1)...Pitch(.A, 4)
     }
 
     func defaultStringGauges(forCount stringCount: Int) -> [StringChoice] {
@@ -152,30 +130,15 @@ class ElectricGuitarTraits: GuitarTraits {
 }
 
 // The GuitarTraits for an acoustic guitar.
-class AcousticGuitarTraits: GuitarTraits {
-    var defaultStringCount: Int {
-        6
-    }
-
-    var validStringCounts: [Int] {
-        [4, 6, 12]
-    }
-
-    func stringsPerCourse(forCount stringCount: Int) -> Int {
-        (stringCount == 12) ? 2 : 1
-    }
-
-    var defaultScaleLength: Double {
-        25.5
-    }
-
-    var validScaleLengths: ClosedRange<Double> {
-        20.0...30.0
-    }
-
-    var defaultStringType: String {
-        return "PB"
-    }
+final class AcousticGuitarTraits: GuitarTraits {
+    let defaultStringCount: Int = 6
+    let validStringCounts: [Int] = [4, 6, 12]
+    let defaultScaleLength: Double = 25.5
+    let validScaleLengths: ClosedRange<Double> = 20.0...30.0
+    let defaultStringType: String = "PB"
+    let validPitches: ClosedRange<Pitch> = Pitch(.A, 1)...Pitch(.A, 4)
+    
+    func stringsPerCourse(forCount stringCount: Int) -> Int { (stringCount == 12) ? 2 : 1 }
 
     func defaultPitches(forCount stringCount: Int) -> [Pitch] {
         switch stringCount {
@@ -212,10 +175,6 @@ class AcousticGuitarTraits: GuitarTraits {
             // Middle C seems as good a default as any.
             return Array(repeating: Pitch(.C, 4), count: stringCount)
         }
-    }
-
-    var validPitches: ClosedRange<Pitch> {
-        Pitch(.A, 1)...Pitch(.A, 4)
     }
 
     func defaultStringGauges(forCount stringCount: Int) -> [StringChoice] {
@@ -259,30 +218,15 @@ class AcousticGuitarTraits: GuitarTraits {
 }
 
 // The GuitarTraits for a bass guitar.
-class BassGuitarTraits: GuitarTraits {
-    var defaultStringCount: Int {
-        4
-    }
+final class BassGuitarTraits: GuitarTraits {
+    let defaultStringCount: Int = 4
+    let validStringCounts: [Int] = [4, 5]
+    let defaultScaleLength: Double = 34.0
+    let validScaleLengths: ClosedRange<Double> = 30.0...40.0
+    let defaultStringType: String = "XLB"
+    let validPitches: ClosedRange<Pitch> = Pitch(.A, 0)...Pitch(.A, 3)
 
-    var validStringCounts: [Int] {
-        [4, 5]
-    }
-
-    func stringsPerCourse(forCount stringCount: Int) -> Int {
-        1
-    }
-
-    var defaultScaleLength: Double {
-        34.0
-    }
-
-    var validScaleLengths: ClosedRange<Double> {
-        30.0...40.0
-    }
-
-    var defaultStringType: String {
-        return "XLB"
-    }
+    func stringsPerCourse(forCount stringCount: Int) -> Int { 1 }
 
     func defaultPitches(forCount stringCount: Int) -> [Pitch] {
         switch stringCount {
@@ -304,10 +248,6 @@ class BassGuitarTraits: GuitarTraits {
             // Middle C seems as good a default as any.
             return Array(repeating: Pitch(.C, 4), count: stringCount)
         }
-    }
-
-    var validPitches: ClosedRange<Pitch> {
-        Pitch(.A, 0)...Pitch(.A, 3)
     }
 
     func defaultStringGauges(forCount stringCount: Int) -> [StringChoice] {

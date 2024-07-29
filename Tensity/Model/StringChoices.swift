@@ -11,29 +11,32 @@ extension StringChoice {
     func isBetterMatch(than other: StringChoice, comparedTo gauge: StringChoice) -> Bool {
         if (wound == other.wound) {
             // If they're both wound or plain, choose the closest in size
-            return abs(self.gauge - gauge.gauge) < abs(other.gauge - gauge.gauge)
+            abs(self.gauge - gauge.gauge) < abs(other.gauge - gauge.gauge)
         } else {
             // Otherwise, prefer wound-to-wound and plain-to-plain
-            return self.wound == gauge.wound
+            self.wound == gauge.wound
         }
     }
 }
 
 // The set of strings from which the user can choose.
 //
-// This is different from StringType because a user may be able to choose from multiple types. For example, wound strings
-// are typically paired with plain steel strings for the higher-pitched notes.
-class StringChoices:  RandomAccessCollection {
-    private var choices: [StringChoice] = []
+// This is different from StringType because a user may be able to choose from multiple types.
+// For example, wound strings are typically paired with plain steel strings for the higher-pitched
+// notes.
+final class StringChoices:  RandomAccessCollection {
+    let baseType: StringType
+    private var choices: [StringChoice]
 
-    init(forType: StringType, data: StringData) {
-        if let includes = forType.includes {
+    init(forType type: StringType, data: StringData) {
+        self.baseType = type
+        
+        self.choices = type.strings
+        if let includes = type.includes {
             if let includedType = data.findStringType(includes) {
                 choices += includedType.strings
             }
         }
-        choices += forType.strings
-
         choices.sort()
     }
 

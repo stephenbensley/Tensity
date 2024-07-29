@@ -5,7 +5,7 @@ class StringDataTests: XCTestCase {
     static var stringData: StringData? = nil
 
     override class func setUp() {
-        stringData = StringData.load()
+        stringData = StringData.create()
     }
 
     override class func tearDown() {
