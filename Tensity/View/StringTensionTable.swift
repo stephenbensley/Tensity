@@ -48,13 +48,11 @@ struct StringTensionTable: View {
     
     var body: some View {
         Grid {
-            GridRow {
+            GridRow(alignment: .bottom) {
                 Color.clear
                     .gridCellUnsizedAxes([.horizontal, .vertical])
                 Text("Note ")
-                    .gridCellAnchor(.bottomTrailing)
                 Text("Gauge    ")
-                    .gridCellAnchor(.bottomTrailing)
                 VStack {
                     Text("Tension")
                     Text("(lbs.)")
