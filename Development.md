@@ -4,8 +4,6 @@ Tensity is implemented in Swift and uses the SwiftUI framework. It follows a sta
 
 The guitar string specifications are stored in a read-only [JSON file](Tensity/Resources/StringData.json) that's bundled with the app. [StringData](Tensity/Model/StringData.swift) is the root object responsible for loading this file and providing the data to the rest of the app.
 
-[UserData](Tensity/Model/UserData.swift) handles loading and saving the user's settings to UserDefaults.
-
 [Guitar](Tensity/Model/Guitar.swift) is the main entry point into the model. It maintains an array of [TunedString](Tensity/Model/TunedString.swift) objects corresponding to each string on the instrument.
 
 The [GuitarTraits](Tensity/Model/GuitarTraits.swift) protocol provides the interface for defining instrument types. There is an implementation of the protocol for each type supported by the app (i.e., electric, acoustic, and bass). 
