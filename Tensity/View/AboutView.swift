@@ -7,45 +7,48 @@
 
 import SwiftUI
 import QuickLook
+import UtiliKit
+
+struct TensityInfo: AboutInfo {
+    var appStoreId: Int = 1631745251
+    var copyright: String = "© 2024 Stephen E. Bensley"
+    var description: String = ""
+    var gitHubAccount: String = "stephenbensley"
+    var gitHubRepo: String = "Tensity"
+}
 
 // Displays the About page.
 struct AboutView: View {
-    // Lots of URLs for all the content we link
-    let contactUrl = URL(string: "https://github.com/stephenbensley")!
+    // URLs for the content we link
     let daddarioUrl = URL(string: "http://www.daddario.com")!
-    let licenseUrl = URL(string: "https://github.com/stephenbensley/Tensity/blob/main/LICENSE")!
-    let privacyUrl = URL(string: "https://stephenbensley.github.io/Tensity/privacy.html")!
-    let reviewUrl = URL(string: "https://apps.apple.com/us/app/id1631745251?action=write-review")!
-    let shareUrl = URL(string: "https://apps.apple.com/us/app/id1631745251")!
-    let sourceUrl = URL(string: "https://github.com/stephenbensley/Tensity")!
     let specUrl = Bundle.main.url(forResource: "String Tension Specifications", withExtension: "pdf")!
-
+    let info: TensityInfo
     // Trigger QuickLook
     @State private var previewUrl: URL?
     
-    private var appVersion: String {
-        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.0.0"
+    init(info: TensityInfo) {
+        self.info = info
     }
-    private var buildNumber: String {
-        Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "0"
-    }
-    
+
     var body: some View {
         NavigationStack {
             Form {
-                HStack {
-                    Image("tensity_76x76")
+                HStack(alignment: .center) {
+                    info.icon
+                        .resizable()
+                        .frame(width: 64, height: 64)
+                        .cornerRadius(10)
                         .padding(.trailing, 5)
                     VStack(alignment: .leading) {
-                        Text("Tensity")
+                        Text(info.name)
                             .font(.title)
-                        Text("Version \(appVersion), build \(buildNumber)\n© 2024 Stephen E. Bensley")
+                        Text("Version \(info.version)\n\(info.copyright)")
                             .font(.footnote)
                     }
                 }
                 
                 Section {
-                    Link(destination: privacyUrl) {
+                    Link(destination: info.privacyPolicy) {
                         Label("Read the privacy policy", systemImage: "hand.raised")
                     }
                 } header: {
@@ -70,10 +73,10 @@ struct AboutView: View {
                 .textCase(nil)
                 
                 Section {
-                    Link(destination: licenseUrl) {
+                    Link(destination: info.license) {
                         Label("Read the license", systemImage: "doc.plaintext")
                     }
-                    Link(destination: sourceUrl) {
+                    Link(destination: info.sourceCode) {
                         Label("Download the source code", systemImage: "icloud.and.arrow.down")
                     }
                 } header: {
@@ -85,13 +88,13 @@ struct AboutView: View {
                 .textCase(nil)
                 
                 Section {
-                    Link(destination: reviewUrl) {
+                    Link(destination: info.writeReview) {
                         Label("Rate this app", systemImage: "star")
                     }
-                    ShareLink(item: shareUrl) {
+                    ShareLink(item: info.share) {
                         Label("Share this app", systemImage:  "square.and.arrow.up")
                     }
-                    Link(destination: contactUrl) {
+                    Link(destination: info.contact) {
                         Label("Contact the developer", systemImage: "mail")
                     }
                  }
@@ -104,5 +107,5 @@ struct AboutView: View {
 }
 
 #Preview {
-    AboutView()
+    AboutView(info: TensityInfo())
 }

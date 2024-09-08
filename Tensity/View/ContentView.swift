@@ -19,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         @Bindable var appModel = appModel
-         
+        
         NavigationStack {
             Form {
                 Section {
@@ -62,7 +62,7 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 NavigationLink {
-                    AboutView()
+                    AboutView(info: TensityInfo())
                         .frame(maxWidth: maxWidth)
                 } label: {
                     Label("About", systemImage: "ellipsis.circle")

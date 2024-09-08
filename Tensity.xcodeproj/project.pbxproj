@@ -10,6 +10,7 @@
 		DC6BF179284FE72B0071459D /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6BF178284FE72B0071459D /* Pitch.swift */; };
 		DC6BF199285257590071459D /* StringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6BF17A28514DCC0071459D /* StringData.swift */; };
 		DC6FC6BC285F8DA600B8F2A4 /* GuitarTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FC6BB285F8DA500B8F2A4 /* GuitarTraits.swift */; };
+		DC8411CC2C8D279E005E5341 /* UtiliKit in Frameworks */ = {isa = PBXBuildFile; productRef = DC8411CB2C8D279E005E5341 /* UtiliKit */; };
 		DC84EF45286642E6009A0175 /* StringChoicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF44286642E6009A0175 /* StringChoicesTests.swift */; };
 		DC84EF47286644D8009A0175 /* GuitarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF46286644D8009A0175 /* GuitarTests.swift */; };
 		DC84EF4928665AC2009A0175 /* TunedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EF4828665AC2009A0175 /* TunedString.swift */; };
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8411CC2C8D279E005E5341 /* UtiliKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +172,9 @@
 			dependencies = (
 			);
 			name = Tensity;
+			packageProductDependencies = (
+				DC8411CB2C8D279E005E5341 /* UtiliKit */,
+			);
 			productName = StringTensionCalculator;
 			productReference = DC8BDF2F284E8E3D008432CF /* Tensity.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +226,7 @@
 			);
 			mainGroup = DC8BDF26284E8E3D008432CF;
 			packageReferences = (
+				DC8411CA2C8D279E005E5341 /* XCRemoteSwiftPackageReference "UtiliKit" */,
 			);
 			productRefGroup = DC8BDF30284E8E3D008432CF /* Products */;
 			projectDirPath = "";
@@ -538,6 +544,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC8411CA2C8D279E005E5341 /* XCRemoteSwiftPackageReference "UtiliKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephenbensley/UtiliKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC8411CB2C8D279E005E5341 /* UtiliKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC8411CA2C8D279E005E5341 /* XCRemoteSwiftPackageReference "UtiliKit" */;
+			productName = UtiliKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC8BDF27284E8E3D008432CF /* Project object */;
 }
