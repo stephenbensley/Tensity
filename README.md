@@ -28,7 +28,7 @@ If you're interested in making changes, read the [Design Overview](Development.m
 
 ### Dependencies
 
-None
+The app depends on one Swift Packages (developed by me): [UtiliKit](https://github.com/stephenbensley/UtiliKit). This should be resolved automatically when you open and build the project.
 
 ### Targets
 
