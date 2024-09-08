@@ -62,7 +62,7 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 NavigationLink {
-                    AboutView(info: TensityInfo())
+                    AboutView()
                         .frame(maxWidth: maxWidth)
                 } label: {
                     Label("About", systemImage: "ellipsis.circle")

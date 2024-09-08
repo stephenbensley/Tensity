@@ -10,11 +10,11 @@ import QuickLook
 import UtiliKit
 
 struct TensityInfo: AboutInfo {
-    var appStoreId: Int = 1631745251
-    var copyright: String = "© 2024 Stephen E. Bensley"
-    var description: String = ""
-    var gitHubAccount: String = "stephenbensley"
-    var gitHubRepo: String = "Tensity"
+    let appStoreId: Int = 1631745251
+    let copyright: String = "© 2024 Stephen E. Bensley"
+    let description: String = ""
+    let gitHubAccount: String = "stephenbensley"
+    let gitHubRepo: String = "Tensity"
 }
 
 // Displays the About page.
@@ -22,14 +22,10 @@ struct AboutView: View {
     // URLs for the content we link
     let daddarioUrl = URL(string: "http://www.daddario.com")!
     let specUrl = Bundle.main.url(forResource: "String Tension Specifications", withExtension: "pdf")!
-    let info: TensityInfo
+    let info = TensityInfo()
     // Trigger QuickLook
     @State private var previewUrl: URL?
     
-    init(info: TensityInfo) {
-        self.info = info
-    }
-
     var body: some View {
         NavigationStack {
             Form {
@@ -107,5 +103,5 @@ struct AboutView: View {
 }
 
 #Preview {
-    AboutView(info: TensityInfo())
+    AboutView()
 }
