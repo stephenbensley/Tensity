@@ -11,7 +11,7 @@ import QuickLook
 // Displays the About page.
 struct AboutView: View {
     // Lots of URLs for all the content we link
-    let contactUrl = URL(string: "https://stephenbensley.github.io/Tensity/contact.html")!
+    let contactUrl = URL(string: "https://github.com/stephenbensley")!
     let daddarioUrl = URL(string: "http://www.daddario.com")!
     let licenseUrl = URL(string: "https://github.com/stephenbensley/Tensity/blob/main/LICENSE")!
     let privacyUrl = URL(string: "https://stephenbensley.github.io/Tensity/privacy.html")!
