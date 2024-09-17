@@ -101,22 +101,3 @@ extension Guitar {
         UserDefaults.standard.set(data, forKey: "AppModel")
     }
 }
-
-// Allow app model to be passed through the environment
-
-private struct AppModelKey: EnvironmentKey {
-    static let defaultValue = Guitar.create()
-}
-
-extension EnvironmentValues {
-    var appModel: Guitar {
-        get { self[AppModelKey.self] }
-        set { self[AppModelKey.self] = newValue }
-    }
-}
-
-extension View {
-    func appModel(_ value: Guitar) -> some View {
-        environment(\.appModel, value)
-    }
-}

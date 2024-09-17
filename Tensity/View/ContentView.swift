@@ -18,8 +18,6 @@ struct ContentView: View {
     @ScaledMetric private var maxWidth = 500
     
     var body: some View {
-        @Bindable var appModel = appModel
-        
         NavigationStack {
             Form {
                 Section {
@@ -72,7 +70,7 @@ struct ContentView: View {
             .onChange(of: scenePhase) { _, phase in
                 if phase == .inactive { appModel.save() }
             }
-            .appModel(appModel)
+            .environment(appModel)
         }
     }
 }
