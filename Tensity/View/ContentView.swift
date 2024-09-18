@@ -54,7 +54,7 @@ struct ContentView: View {
                     }
                 }
                 
-                StringTensionTable()
+                StringTensionTable(appModel: appModel)
             }
             .navigationTitle("String Tension")
             .navigationBarTitleDisplayMode(.inline)
@@ -70,7 +70,6 @@ struct ContentView: View {
             .onChange(of: scenePhase) { _, phase in
                 if phase == .inactive { appModel.save() }
             }
-            .environment(appModel)
         }
     }
 }

@@ -44,8 +44,12 @@ struct StringTensionRow: View {
 // Displays the table of guitar strings, consisting of a header, a row for each TunedString, and
 // a summary row with the total tension.
 struct StringTensionTable: View {
-    @Environment(Guitar.self) private var appModel
+    @State private var appModel: Guitar
     
+    init(appModel: Guitar) {
+        self.appModel = appModel
+    }
+
     var body: some View {
         Grid {
             GridRow(alignment: .bottom) {
@@ -80,6 +84,6 @@ struct StringTensionTable: View {
 
 #Preview {
     Form {
-        StringTensionTable()
+        StringTensionTable(appModel: Guitar.create())
     }
 }
