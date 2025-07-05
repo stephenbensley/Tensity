@@ -2,6 +2,9 @@
 
 # Tensity
 
+> [!WARNING]  
+> All my apps have been removed from Apple's App Store. Only the source code is available.
+
 Tensity is an iOS app that calculates the string tension for a guitar.
 
 ### Installation
